@@ -5,33 +5,25 @@
  :datasource "Heine1982"
  :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Jara is a variety of Central Boni spoken for the most part by residents of the town of Mangai in North-eastern Kenya. It was the object of a dialect study by Bernd Heine published in 1982."
- :schemata {:aspect [:Habitual  :Progressive],
-            :cliticClass [:Ablative :Causative :Comitative :Focus :Goal :Medial :Passive :Reflexive :Ventive],
-            :cliticType [:DervSuff :Proclitic],
-            :conjClass [:Prefix :Suffix1 :Suffix2 :Suffix3 :Suffix4 :SuffixClass],
-            :formType [:Affix :Suffix],
-            :gender [:Common :Fem :Masc],
-            :mood [:SubjunctivepdgmLex :Subjunctivepolarity],
-            :number [:Common :Plural :Singular :_NA],
-            :person [:Person1 :Person2 :Person3 :_NA],
-            :polarity [:Affirmative :Negative :_NA],
-            :pos [:Pronoun :Verb],
-            :proClass [:Focus :Independent :Object :PossessiveSuff :SubjPrefV :SubjSuffV],
-            :tam [:Imperative :Imperfect :Infinitive :Perfect :Present],
-            :vmorphClass [:AspectSuff :Clitics :NegationAffix :SUBJMARKERIMPERF :SUBJMARKERPERF :SubjMarkers :VNoun :VSTEMImperf :VSTEMPerf]
-            :pdgmType [:Finite :PRO :VOther]}
+:schemata {:aspect [:Habitual :Progressive],
+           :cliticClass [:Ablative :Causative :Comitative :Focus :Goal :Medial :Passive :Reflexive :Ventive],
+           :cliticType [:DervSuff :Proclitic],
+           :conjClass [:Prefix :Suffix1 :Suffix2 :Suffix3 :Suffix4 :SuffixClass],
+           :formType [:Affix :Suffix],
+           :gender [:Common :Fem :Masc],
+           :mood [:SubjunctivepdgmLex :Subjunctivepolarity],
+           :number [:Common :Plural :Singular :_NA],
+           :person [:Person1 :Person2 :Person3 :_NA],
+           :polarity [:Affirmative :Negative :_NA],
+           :pos [:Pronoun :Verb],
+           :proClass [:Focus :Independent :Object :PossessiveSuff :SubjPrefV :SubjSuffV],
+           :tam [:Imperative :Imperfect :Infinitive :Perfect :Present],
+           :vmorphClass [:Finite :AspectSuff :Clitics :NegationAffix :SUBJMARKERIMPERF :SUBJMARKERPERF :SubjMarkers :VNoun :VSTEMImperf :VSTEMPerf]
+           }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:aspect :cliticClass :case :derivedStem :mood :polarity :pos :proClass :tam],
           :inflClass [:conjClass :cliticType],
           :otherClass []}
- :morphemes{:PPOSSSUFF {:gloss "[x]", :lemma "[y]"},
-            :PRO {:gloss "[x]", :lemma "[y]"},
-            :SUBJMARKER {:gloss "[x]", :lemma "[y]"},
-            :SUBJMARKERIMPERF {:gloss "[x]", :lemma "[y]"},
-            :SUBJMARKERPERF {:gloss "[x]", :lemma "[y]"},
-            :VASPECTAFF {:gloss "[x]", :lemma "[y]"},
-            :VCLITICS {:gloss "[x]", :lemma "[y]"},
-            :VNEGAFFIX {:gloss "[x]", :lemma "[y]"}}
  :lexemes{:ooy-3 {:conjClass :Suffix1, :gloss "see", :lemma "ark-", :pos :Verb},
           :kar-iy {:conjClass :Suffix3, :gloss "cook (tr.)", :lemma "kar-iy-", :pos :Verb},
           :erah {:conjClass :Prefix, :gloss "say", :lemma "- erah-", :pos :Verb},
@@ -67,1655 +59,1642 @@
           :ooy-1 {:conjClass :Suffix1, :gloss "call", :lemma "haa-wa’-", :pos :Verb},
           :ooy-2 {:conjClass :Suffix1, :gloss "cry", :lemma "ooi-", :pos :Verb},
           :ooy {:gloss "[x]", :lemma "[y]"}}
- :lxterms [
-           {:label "boni_J-VJaraSuff2AffImperf-obed"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :lexeme :obed,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘ob-əd’-a"],
-                    [:Singular :Person2 :Common "á-‘ob-ət-ta"],
-                    [:Singular :Person3 :Masc "á-‘ob-əd-a"],
-                    [:Singular :Person3 :Fem "á-‘ob-ət-ta"],
-                    [:Plural :Person1 :Common "á-‘ob-ə-na"],
-                    [:Plural :Person2 :Common "á-‘ob-ət-ti"],
-                    [:Plural :Person3 :Common "á-‘ob-əd-i"]]
-            }
-           {:label "boni_J-VJaraSuff2AffImprtv-obed"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :gender :Common,
-                     :lexeme :obed,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "óbo"],
-                    [:Plural "ób-əd’-a"]]
-            }
-           {:label "boni_J-VJaraSuff2AffPerf-obed"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :lexeme :obed,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘ob-əd’-ə"],
-                    [:Singular :Person2 :Common "á-‘ob-ət-tə"],
-                    [:Singular :Person3 :Masc "á-‘ob-əd-ə"],
-                    [:Singular :Person3 :Fem "á-‘ob-ət-tə"],
-                    [:Plural :Person1 :Common "á-‘ob-ə-nə"],
-                    [:Plural :Person2 :Common "á-‘ob-ət-te"],
-                    [:Plural :Person3 :Common "á-‘ob-əd-e"]]
-            }
-           {:label "boni_J-VJaraSuff2NegImperf-obed"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :lexeme :obed,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘ob-əed’-o"],
-                    [:Singular :Person2 :Common "húú-‘ob-ət-to"],
-                    [:Singular :Person3 :Masc "húú-‘ob-əd-o"],
-                    [:Singular :Person3 :Fem "húú-‘ob-ət-to"],
-                    [:Plural :Person1 :Common "húú-‘ob-ə-no"],
-                    [:Plural :Person2 :Common "húú-‘ob-ət-ti"],
-                    [:Plural :Person3 :Common "húú-‘ob-əd-i"]]
-            }
-           {:label "boni_J-VJaraSuff2NegImprtv-obed"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :gender :Common,
-                     :lexeme :obed,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-‘ób-ə-ne"],
-                    [:Plural "ha-‘ob-ə-náha"],
-                    [:Plural "ha-‘ob-ə-níya"]]
-            }
-           {:label "boni_J-VJaraSuff2NegPerf-obed"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :lexeme :obed,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an húú-‘ob-ə-ne"],
-                    [:Singular :Person2 :Common "ad húú-‘ob-ə-ne"],
-                    [:Singular :Person3 :Masc "us húú-‘ob-ə-ne"],
-                    [:Singular :Person3 :Fem "ii húú-‘ob-ə-ne"],
-                    [:Plural :Person1 :Common "un húú-‘ob-ə-ne"],
-                    [:Plural :Person2 :Common "ado húú-‘ob-ə-ne"],
-                    [:Plural :Person3 :Common "iyo húú-‘ob-ə-ne"]]
-            }
-           {:label "boni_J-VPrefAffImperf-aak"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aak,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘ajik-a"],
-                    [:Singular :Person2 :Common "á-t-a’ak-a"],
-                    [:Singular :Person3 :Masc "á-j-a’ak-a"],
-                    [:Singular :Person3 :Fem "á-t-a’ak-a"],
-                    [:Plural :Person1 :Common "á-n-a’ak-a"],
-                    [:Plural :Person2 :Common "á-t-a’ak-i"],
-                    [:Plural :Person3 :Common "á-j-a’ak-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-aal"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aal,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "a-ká-‘aal-a"],
-                    [:Singular :Person2 :Common "a-ké-t-aal-a"],
-                    [:Singular :Person3 :Masc "a-kí-j-aal-a"],
-                    [:Singular :Person3 :Fem "a-ké-t-aal-a"],
-                    [:Plural :Person1 :Common "a-ké-n-aal-a"],
-                    [:Plural :Person2 :Common "a-ké-t-aal-i"],
-                    [:Plural :Person3 :Common "a-kí-j-aal-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-ahang"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ahang,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘ahaŋ-a"],
-                    [:Singular :Person2 :Common "á-t-ahaŋ-a"],
-                    [:Singular :Person3 :Masc "á-j-ahaŋ-a"],
-                    [:Singular :Person3 :Fem "á-t-ahaŋ-a"],
-                    [:Plural :Person1 :Common "á-n-ahaŋ-a"],
-                    [:Plural :Person2 :Common "á-t-ahaŋ-i"],
-                    [:Plural :Person3 :Common "á-j-ahaŋ-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-ehe"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ehe,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-d’éér d’-ehe"],
-                    [:Singular :Person2 :Common "á-d’éé t-ehe"],
-                    [:Singular :Person3 :Masc "á-d’éér y-ehe"],
-                    [:Singular :Person3 :Fem "á-d’éér t-ehe"],
-                    [:Plural :Person1 :Common "á-d’éér n-ehe"],
-                    [:Plural :Person2 :Common "á-d’éér t-ihi"],
-                    [:Plural :Person3 :Common "á-d’éér y-ihi"]]
-            }
-           {:label "boni_J-VPrefAffImperf-erah"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :erah,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘erah-a"],
-                    [:Singular :Person2 :Common "á-t-erah-a"],
-                    [:Singular :Person3 :Masc "á-y-erah-a"],
-                    [:Singular :Person3 :Fem "á-t-erah-a"],
-                    [:Plural :Person1 :Common "á-n-erah-a"],
-                    [:Plural :Person2 :Common "á-t-eri-i"],
-                    [:Plural :Person3 :Common "á-y-eri-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-iraad"
-            :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+ :termclusters [
+                {:label "boni_J-VJaraSuff2AffImperf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :lexeme :obed,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ob-əd’-a"],
+                         [:Singular :Person2 :Common "á-‘ob-ət-ta"],
+                         [:Singular :Person3 :Masc "á-‘ob-əd-a"],
+                         [:Singular :Person3 :Fem "á-‘ob-ət-ta"],
+                         [:Plural :Person1 :Common "á-‘ob-ə-na"],
+                         [:Plural :Person2 :Common "á-‘ob-ət-ti"],
+                         [:Plural :Person3 :Common "á-‘ob-əd-i"]]
+                 }
+                {:label "boni_J-VJaraSuff2AffImprtv-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :gender :Common,
+                          :lexeme :obed,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "óbo"],
+                         [:Plural "ób-əd’-a"]]
+                 }
+                {:label "boni_J-VJaraSuff2AffPerf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :lexeme :obed,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ob-əd’-ə"],
+                         [:Singular :Person2 :Common "á-‘ob-ət-tə"],
+                         [:Singular :Person3 :Masc "á-‘ob-əd-ə"],
+                         [:Singular :Person3 :Fem "á-‘ob-ət-tə"],
+                         [:Plural :Person1 :Common "á-‘ob-ə-nə"],
+                         [:Plural :Person2 :Common "á-‘ob-ət-te"],
+                         [:Plural :Person3 :Common "á-‘ob-əd-e"]]
+                 }
+                {:label "boni_J-VJaraSuff2NegImperf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :lexeme :obed,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘ob-əed’-o"],
+                         [:Singular :Person2 :Common "húú-‘ob-ət-to"],
+                         [:Singular :Person3 :Masc "húú-‘ob-əd-o"],
+                         [:Singular :Person3 :Fem "húú-‘ob-ət-to"],
+                         [:Plural :Person1 :Common "húú-‘ob-ə-no"],
+                         [:Plural :Person2 :Common "húú-‘ob-ət-ti"],
+                         [:Plural :Person3 :Common "húú-‘ob-əd-i"]]
+                 }
+                {:label "boni_J-VJaraSuff2NegImprtv-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :gender :Common,
+                          :lexeme :obed,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘ób-ə-ne"],
+                         [:Plural "ha-‘ob-ə-náha"],
+                         [:Plural "ha-‘ob-ə-níya"]]
+                 }
+                {:label "boni_J-VJaraSuff2NegPerf-obed"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :lexeme :obed,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an húú-‘ob-ə-ne"],
+                         [:Singular :Person2 :Common "ad húú-‘ob-ə-ne"],
+                         [:Singular :Person3 :Masc "us húú-‘ob-ə-ne"],
+                         [:Singular :Person3 :Fem "ii húú-‘ob-ə-ne"],
+                         [:Plural :Person1 :Common "un húú-‘ob-ə-ne"],
+                         [:Plural :Person2 :Common "ado húú-‘ob-ə-ne"],
+                         [:Plural :Person3 :Common "iyo húú-‘ob-ə-ne"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-aak"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aak,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ajik-a"],
+                         [:Singular :Person2 :Common "á-t-a’ak-a"],
+                         [:Singular :Person3 :Masc "á-j-a’ak-a"],
+                         [:Singular :Person3 :Fem "á-t-a’ak-a"],
+                         [:Plural :Person1 :Common "á-n-a’ak-a"],
+                         [:Plural :Person2 :Common "á-t-a’ak-i"],
+                         [:Plural :Person3 :Common "á-j-a’ak-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-aal"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aal,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-ká-‘aal-a"],
+                         [:Singular :Person2 :Common "a-ké-t-aal-a"],
+                         [:Singular :Person3 :Masc "a-kí-j-aal-a"],
+                         [:Singular :Person3 :Fem "a-ké-t-aal-a"],
+                         [:Plural :Person1 :Common "a-ké-n-aal-a"],
+                         [:Plural :Person2 :Common "a-ké-t-aal-i"],
+                         [:Plural :Person3 :Common "a-kí-j-aal-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-ahang"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ahang,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ahaŋ-a"],
+                         [:Singular :Person2 :Common "á-t-ahaŋ-a"],
+                         [:Singular :Person3 :Masc "á-j-ahaŋ-a"],
+                         [:Singular :Person3 :Fem "á-t-ahaŋ-a"],
+                         [:Plural :Person1 :Common "á-n-ahaŋ-a"],
+                         [:Plural :Person2 :Common "á-t-ahaŋ-i"],
+                         [:Plural :Person3 :Common "á-j-ahaŋ-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-ehe"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ehe,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-d’éér d’-ehe"],
+                         [:Singular :Person2 :Common "á-d’éé t-ehe"],
+                         [:Singular :Person3 :Masc "á-d’éér y-ehe"],
+                         [:Singular :Person3 :Fem "á-d’éér t-ehe"],
+                         [:Plural :Person1 :Common "á-d’éér n-ehe"],
+                         [:Plural :Person2 :Common "á-d’éér t-ihi"],
+                         [:Plural :Person3 :Common "á-d’éér y-ihi"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-erah"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :erah,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘erah-a"],
+                         [:Singular :Person2 :Common "á-t-erah-a"],
+                         [:Singular :Person3 :Masc "á-y-erah-a"],
+                         [:Singular :Person3 :Fem "á-t-erah-a"],
+                         [:Plural :Person1 :Common "á-n-erah-a"],
+                         [:Plural :Person2 :Common "á-t-eri-i"],
+                         [:Plural :Person3 :Common "á-y-eri-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-iraad"
+                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iraad,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘iraad/r-a"],
-                    [:Singular :Person2 :Common "á-t-iraad/r-a"],
-                    [:Singular :Person3 :Masc "á-j-iraad/r-a"],
-                    [:Singular :Person3 :Fem "á-t-iraad/r-a"],
-                    [:Plural :Person1 :Common "á-n-iraad/r-a"],
-                    [:Plural :Person2 :Common "á-t-iraad/r-i"],
-                    [:Plural :Person3 :Common "á-j-iraad/r-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-iyaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaad,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘iyaad-a"],
-                    [:Singular :Person2 :Common "á-t-iyaad-a"],
-                    [:Singular :Person3 :Masc "á-j-iyaad-a"],
-                    [:Singular :Person3 :Fem "á-t-iyaad-a"],
-                    [:Plural :Person1 :Common "á-n-iyaad-a"],
-                    [:Plural :Person2 :Common "á-t-iyaad-i"],
-                    [:Plural :Person3 :Common "á-j-iyaad-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-iyaas"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaas,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘iyaas-a"],
-                    [:Singular :Person2 :Common "á-t-iyaas-a"],
-                    [:Singular :Person3 :Masc "á-j-iyaas-a"],
-                    [:Singular :Person3 :Fem "á-t-iyaas-a"],
-                    [:Plural :Person1 :Common "á-n-iyaas-a"],
-                    [:Plural :Person2 :Common "á-t-iyaas-i"],
-                    [:Plural :Person3 :Common "á-j-iyaas-i"]]
-            }
-           {:label "boni_J-VPrefAffImperf-uwaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :uwaad,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘uwaad-a"],
-                    [:Singular :Person2 :Common "á-t-uwaad-a"],
-                    [:Singular :Person3 :Masc "á-j-uwaad-a"],
-                    [:Singular :Person3 :Fem "á-t-uwaad-a"],
-                    [:Plural :Person1 :Common "á-n-uwaad-a"],
-                    [:Plural :Person2 :Common "á-t-uwaad-i"],
-                    [:Plural :Person3 :Common "á-j-uwaad-i"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-aak"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :aak,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ájik-e ~ ájik [Kijee]"],
-                    [:Plural "ajík-a"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-aal"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :aal,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "firííso"],
-                    [:Plural "firiis-íd"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-ahang"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :ahang,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "áhaŋ-e"],
-                    [:Plural "aháŋ-a"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-iraad"
-            :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iraad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘iraad/r-a"],
+                         [:Singular :Person2 :Common "á-t-iraad/r-a"],
+                         [:Singular :Person3 :Masc "á-j-iraad/r-a"],
+                         [:Singular :Person3 :Fem "á-t-iraad/r-a"],
+                         [:Plural :Person1 :Common "á-n-iraad/r-a"],
+                         [:Plural :Person2 :Common "á-t-iraad/r-i"],
+                         [:Plural :Person3 :Common "á-j-iraad/r-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-iyaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘iyaad-a"],
+                         [:Singular :Person2 :Common "á-t-iyaad-a"],
+                         [:Singular :Person3 :Masc "á-j-iyaad-a"],
+                         [:Singular :Person3 :Fem "á-t-iyaad-a"],
+                         [:Plural :Person1 :Common "á-n-iyaad-a"],
+                         [:Plural :Person2 :Common "á-t-iyaad-i"],
+                         [:Plural :Person3 :Common "á-j-iyaad-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-iyaas"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaas,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘iyaas-a"],
+                         [:Singular :Person2 :Common "á-t-iyaas-a"],
+                         [:Singular :Person3 :Masc "á-j-iyaas-a"],
+                         [:Singular :Person3 :Fem "á-t-iyaas-a"],
+                         [:Plural :Person1 :Common "á-n-iyaas-a"],
+                         [:Plural :Person2 :Common "á-t-iyaas-i"],
+                         [:Plural :Person3 :Common "á-j-iyaas-i"]]
+                 }
+                {:label "boni_J-VPrefAffImperf-uwaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :uwaad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘uwaad-a"],
+                         [:Singular :Person2 :Common "á-t-uwaad-a"],
+                         [:Singular :Person3 :Masc "á-j-uwaad-a"],
+                         [:Singular :Person3 :Fem "á-t-uwaad-a"],
+                         [:Plural :Person1 :Common "á-n-uwaad-a"],
+                         [:Plural :Person2 :Common "á-t-uwaad-i"],
+                         [:Plural :Person3 :Common "á-j-uwaad-i"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-aak"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :aak,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ájik-e ~ ájik [Kijee]"],
+                         [:Plural "ajík-a"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-aal"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :aal,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "firííso"],
+                         [:Plural "firiis-íd"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-ahang"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :ahang,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "áhaŋ-e"],
+                         [:Plural "aháŋ-a"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-iraad"
+                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :iraad,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "bóod"],
-                    [:Plural "bóód-a"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-iyaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :iyaad,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "káálə"],
-                    [:Plural "kaal-’íya"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-iyaas"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :iyaas,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "iyáàs-e ~ iyéès [Kijee]"],
-                    [:Plural "iyáás-a ~ iyéés-a [Kijee]"]]
-            }
-           {:label "boni_J-VPrefAffImprtv-uwaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :uwaad,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "uwáad-e"],
-                    [:Plural "uwáád-a ~ uwáad [Kijee]"]]
-            }
-           {:label "boni_J-VPrefAffPerf-aak"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aak,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘ajik-ə"],
-                    [:Singular :Person2 :Common "á-t-i’k-ə"],
-                    [:Singular :Person3 :Masc "á-j-i’k-ə"],
-                    [:Singular :Person3 :Fem "á-t-i’k-ə"],
-                    [:Plural :Person1 :Common "á-n-i’k-ə"],
-                    [:Plural :Person2 :Common "á-t-i’k-e"],
-                    [:Plural :Person3 :Common "á-j-i’k-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-aal"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aal,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "a-kí-‘iil-ə"],
-                    [:Singular :Person2 :Common "a-kí-t-iil-ə"],
-                    [:Singular :Person3 :Masc "a-kí-y-iil-ə"],
-                    [:Singular :Person3 :Fem "a-kí-t-iil-ə"],
-                    [:Plural :Person1 :Common "a-kí-n-iil-ə"],
-                    [:Plural :Person2 :Common "a-kí-t-iil-e"],
-                    [:Plural :Person3 :Common "a-kí-y-iil-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-ahang"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ahang,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘uhuŋ-ə"],
-                    [:Singular :Person2 :Common "á-t-uhuŋ-ə"],
-                    [:Singular :Person3 :Masc "á-j-uhuŋ-ə"],
-                    [:Singular :Person3 :Fem "á-t-uhuŋ-ə"],
-                    [:Plural :Person1 :Common "á-n-uhuŋ-ə"],
-                    [:Plural :Person2 :Common "á-t-uhuŋ-e"],
-                    [:Plural :Person3 :Common "á-j-uhuŋ-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-ehe"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ehe,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an d’eer-á hey"],
-                    [:Singular :Person2 :Common "ad d’eer-á he-d’ə"],
-                    [:Singular :Person3 :Masc "us d’eer’á hey"],
-                    [:Singular :Person3 :Fem "ii d’eer-á he-d’ə"],
-                    [:Plural :Person1 :Common "un d’eer-á hee-nə"],
-                    [:Plural :Person2 :Common "ado d’eer’á he-d’e"],
-                    [:Plural :Person3 :Common "iyo d’eer’á he-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-erah"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :erah,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘eer’-ə"],
-                    [:Singular :Person2 :Common "á-t-eer-ə"],
-                    [:Singular :Person3 :Masc "á-y-eer-ə"],
-                    [:Singular :Person3 :Fem "á-t-eer-ə"],
-                    [:Plural :Person1 :Common "á-n-eer-ə"],
-                    [:Plural :Person2 :Common "á-t-eer-e"],
-                    [:Plural :Person3 :Common "á-y-eer-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-iraad"
-            :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :iraad,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "bóod"],
+                         [:Plural "bóód-a"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-iyaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :iyaad,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "káálə"],
+                         [:Plural "kaal-’íya"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-iyaas"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :iyaas,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "iyáàs-e ~ iyéès [Kijee]"],
+                         [:Plural "iyáás-a ~ iyéés-a [Kijee]"]]
+                 }
+                {:label "boni_J-VPrefAffImprtv-uwaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :uwaad,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "uwáad-e"],
+                         [:Plural "uwáád-a ~ uwáad [Kijee]"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-aak"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aak,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ajik-ə"],
+                         [:Singular :Person2 :Common "á-t-i’k-ə"],
+                         [:Singular :Person3 :Masc "á-j-i’k-ə"],
+                         [:Singular :Person3 :Fem "á-t-i’k-ə"],
+                         [:Plural :Person1 :Common "á-n-i’k-ə"],
+                         [:Plural :Person2 :Common "á-t-i’k-e"],
+                         [:Plural :Person3 :Common "á-j-i’k-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-aal"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aal,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-kí-‘iil-ə"],
+                         [:Singular :Person2 :Common "a-kí-t-iil-ə"],
+                         [:Singular :Person3 :Masc "a-kí-y-iil-ə"],
+                         [:Singular :Person3 :Fem "a-kí-t-iil-ə"],
+                         [:Plural :Person1 :Common "a-kí-n-iil-ə"],
+                         [:Plural :Person2 :Common "a-kí-t-iil-e"],
+                         [:Plural :Person3 :Common "a-kí-y-iil-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-ahang"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ahang,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘uhuŋ-ə"],
+                         [:Singular :Person2 :Common "á-t-uhuŋ-ə"],
+                         [:Singular :Person3 :Masc "á-j-uhuŋ-ə"],
+                         [:Singular :Person3 :Fem "á-t-uhuŋ-ə"],
+                         [:Plural :Person1 :Common "á-n-uhuŋ-ə"],
+                         [:Plural :Person2 :Common "á-t-uhuŋ-e"],
+                         [:Plural :Person3 :Common "á-j-uhuŋ-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-ehe"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ehe,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an d’eer-á hey"],
+                         [:Singular :Person2 :Common "ad d’eer-á he-d’ə"],
+                         [:Singular :Person3 :Masc "us d’eer’á hey"],
+                         [:Singular :Person3 :Fem "ii d’eer-á he-d’ə"],
+                         [:Plural :Person1 :Common "un d’eer-á hee-nə"],
+                         [:Plural :Person2 :Common "ado d’eer’á he-d’e"],
+                         [:Plural :Person3 :Common "iyo d’eer’á he-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-erah"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :erah,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘eer’-ə"],
+                         [:Singular :Person2 :Common "á-t-eer-ə"],
+                         [:Singular :Person3 :Masc "á-y-eer-ə"],
+                         [:Singular :Person3 :Fem "á-t-eer-ə"],
+                         [:Plural :Person1 :Common "á-n-eer-ə"],
+                         [:Plural :Person2 :Common "á-t-eer-e"],
+                         [:Plural :Person3 :Common "á-y-eer-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-iraad"
+                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iraad,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-bood-ə"],
-                    [:Singular :Person2 :Common "á-boot-tə"],
-                    [:Singular :Person3 :Masc "á-bood-ə"],
-                    [:Singular :Person3 :Fem "á-boot-tə"],
-                    [:Plural :Person1 :Common "á-boon-nə"],
-                    [:Plural :Person2 :Common "á-boot-tə"],
-                    [:Plural :Person3 :Common "á-bood-ə"]]
-            }
-           {:label "boni_J-VPrefAffPerf-iyaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaad,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘iid-ə"],
-                    [:Singular :Person2 :Common "á-t-iid-ə"],
-                    [:Singular :Person3 :Masc "á-j-iid-ə"],
-                    [:Singular :Person3 :Fem "á-t-iid-ə"],
-                    [:Plural :Person1 :Common "á-n-iid-ə"],
-                    [:Plural :Person2 :Common "á-t-iid-e"],
-                    [:Plural :Person3 :Common "á-j-iid-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-iyaas"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaas,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘iis-ə"],
-                    [:Singular :Person2 :Common "á-t-iis-ə"],
-                    [:Singular :Person3 :Masc "á-j-iis-ə"],
-                    [:Singular :Person3 :Fem "á-t-iis-ə"],
-                    [:Plural :Person1 :Common "á-n-iis-ə"],
-                    [:Plural :Person2 :Common "á-t-iis-e"],
-                    [:Plural :Person3 :Common "á-j-iis-e"]]
-            }
-           {:label "boni_J-VPrefAffPerf-uwaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :uwaad,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘uud-ə"],
-                    [:Singular :Person2 :Common "á-t-uud-ə"],
-                    [:Singular :Person3 :Masc "á-j-uud-ə"],
-                    [:Singular :Person3 :Fem "á-t-uud-ə"],
-                    [:Plural :Person1 :Common "á-n-uud-ə"],
-                    [:Plural :Person2 :Common "á-t-uud-e"],
-                    [:Plural :Person3 :Common "á-j-uud-e"]]
-            }
-           {:label "boni_J-VPrefImperf-Stem"
-            :note "Heine1982 2.15.61.  As paradigms show,“prefix verb –iraar- is being replace by  largely synomymous suffix verb bood-."
-            :pdgmType :VOther
-            :common {:vmorphClass :VSTEMImperf
-                     :conjClass :Prefix,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:lexeme :token],
-                    [:aak "(ajik-/)a’ak"]
-                    [:aal, "aal"]
-                    [:ahang, "ahaŋ"]
-                    [:ehe, "ehe/ihi"]
-                    [:erah, "erah"]
-                    [:iraad, "iraad/iraar"]
-                    [:iyaad, "iyaad"]
-                    [:iyaas, "iyaas"]
-                    [:uwaad, "uwaad"]]
-            }
-           {:label "boni_J-VPrefPerf-Stem"
-            :note "Heine1982 2.15.61"
-            :pdgmType :VOther
-            :common {:vmorphClass :VSTEMPerf
-                     :conjClass :Prefix,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:lexeme :token],
-                    [:aak "(ajik-/)i’ik"]
-                    [:aal, "iil"]
-                    [:ahang, "uhuŋ"]
-                    [:erah, "eer"]
-                    [:iyaad, "iid"]
-                    [:iyaas, "iis"]
-                    [:uwaad, "uud"]]
-            }
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iraad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-bood-ə"],
+                         [:Singular :Person2 :Common "á-boot-tə"],
+                         [:Singular :Person3 :Masc "á-bood-ə"],
+                         [:Singular :Person3 :Fem "á-boot-tə"],
+                         [:Plural :Person1 :Common "á-boon-nə"],
+                         [:Plural :Person2 :Common "á-boot-tə"],
+                         [:Plural :Person3 :Common "á-bood-ə"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-iyaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘iid-ə"],
+                         [:Singular :Person2 :Common "á-t-iid-ə"],
+                         [:Singular :Person3 :Masc "á-j-iid-ə"],
+                         [:Singular :Person3 :Fem "á-t-iid-ə"],
+                         [:Plural :Person1 :Common "á-n-iid-ə"],
+                         [:Plural :Person2 :Common "á-t-iid-e"],
+                         [:Plural :Person3 :Common "á-j-iid-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-iyaas"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaas,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘iis-ə"],
+                         [:Singular :Person2 :Common "á-t-iis-ə"],
+                         [:Singular :Person3 :Masc "á-j-iis-ə"],
+                         [:Singular :Person3 :Fem "á-t-iis-ə"],
+                         [:Plural :Person1 :Common "á-n-iis-ə"],
+                         [:Plural :Person2 :Common "á-t-iis-e"],
+                         [:Plural :Person3 :Common "á-j-iis-e"]]
+                 }
+                {:label "boni_J-VPrefAffPerf-uwaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :uwaad,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘uud-ə"],
+                         [:Singular :Person2 :Common "á-t-uud-ə"],
+                         [:Singular :Person3 :Masc "á-j-uud-ə"],
+                         [:Singular :Person3 :Fem "á-t-uud-ə"],
+                         [:Plural :Person1 :Common "á-n-uud-ə"],
+                         [:Plural :Person2 :Common "á-t-uud-e"],
+                         [:Plural :Person3 :Common "á-j-uud-e"]]
+                 }
+                {:label "boni_J-VPrefImperf-Stem"
+                 :note "Heine1982 2.15.61.  As paradigms show,“prefix verb –iraar- is being replace by  largely synomymous suffix verb bood-."
+                 :common {:vmorphClass :VSTEMImperf
+                          :conjClass :Prefix,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:lexeme :token],
+                         [:aak "(ajik-/)a’ak"]
+                         [:aal, "aal"]
+                         [:ahang, "ahaŋ"]
+                         [:ehe, "ehe/ihi"]
+                         [:erah, "erah"]
+                         [:iraad, "iraad/iraar"]
+                         [:iyaad, "iyaad"]
+                         [:iyaas, "iyaas"]
+                         [:uwaad, "uwaad"]]
+                 }
+                {:label "boni_J-VPrefPerf-Stem"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphClass :VSTEMPerf
+                          :conjClass :Prefix,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:lexeme :token],
+                         [:aak "(ajik-/)i’ik"]
+                         [:aal, "iil"]
+                         [:ahang, "uhuŋ"]
+                         [:erah, "eer"]
+                         [:iyaad, "iid"]
+                         [:iyaas, "iis"]
+                         [:uwaad, "uud"]]
+                 }
 
-           {:label "boni_J-VJaraInfinitive-Stem"
-            :note "Heine1982"
-            :pdgmType :VOther
-            :common {:vmorphClass :VNoun
-                     :pos :Verb,
-                     :tam :Infinitive}
-            :terms [[:conjClass :lexeme :token],
-                    [:Suffix2 :obed "ob-əd’-ó(w)"]
-                    [:Suffix4 :baarin "baariŋ-ów"]
-                    [:Prefix  :aak "ajik-tíí"]
-                    [:Prefix,  :ahang, "ahaŋ-óó"]
-                    [:Prefix,  :iraad, "iraat-tíí"]
-                    [:Prefix,  :iyaad, "iyaad-óó"]]
-            }
-           {:label "boni_J-VPrefNegImperf-aak"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aak,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘ajik-o"],
-                    [:Singular :Person2 :Common "húú-t-a’ak-o"],
-                    [:Singular :Person3 :Masc "húú-j-a’ak-o"],
-                    [:Singular :Person3 :Fem "húú-t-a’ak-o"],
-                    [:Plural :Person1 :Common "húú-n-a’ak-o"],
-                    [:Plural :Person2 :Common "húú-t-a’ak-i"],
-                    [:Plural :Person3 :Common "húú-j-a’ak-i"]]
-            }
-           {:label "boni_J-VPrefNegImperf-aal"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aal,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "k-úú-‘aal-o"],
-                    [:Singular :Person2 :Common "k-úú-t-aal-o"],
-                    [:Singular :Person3 :Masc "k-úú-j-aal-a"],
-                    [:Singular :Person3 :Fem "k-úú-t-aal-a"],
-                    [:Plural :Person1 :Common "k-úú-n-aal-a"],
-                    [:Plural :Person2 :Common "k-úú-t-aal-a"],
-                    [:Plural :Person3 :Common "k-úú-j-aal-a"]]
-            }
-           {:label "boni_J-VPrefNegImperf-ahang"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ahang,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘ahaŋ-o"],
-                    [:Singular :Person2 :Common "húú-t-ahaŋ-o"],
-                    [:Singular :Person3 :Masc "húú-j-ahaŋ-o"],
-                    [:Singular :Person3 :Fem "húú-t-ahaŋ-o"],
-                    [:Plural :Person1 :Common "húú-n-ahaŋ-o"],
-                    [:Plural :Person2 :Common "húú-t-ahaŋ-i"],
-                    [:Plural :Person3 :Common "húú-j-ahaŋ-i"]]
-            }
-           {:label "boni_J-VPrefNegImperf-ehe"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ehe,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an d’eer-á mé-‘eya"],
-                    [:Singular :Person2 :Common "ad d’eer-á mé-‘eya"],
-                    [:Singular :Person3 :Masc "us d’eer-á mé-‘eya"],
-                    [:Singular :Person3 :Fem "ii d’eer-á mé-‘eya"],
-                    [:Plural :Person1 :Common "un d’eer-á mé-‘eya"],
-                    [:Plural :Person2 :Common "ado d’eer-á mé-‘eya"],
-                    [:Plural :Person3 :Common "iyo d’eer-á mé-‘eya"]]
-            }
-           {:label "boni_J-VPrefNegImperf-erah"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :erah,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘er-o"],
-                    [:Singular :Person2 :Common "húú-t-er-o"],
-                    [:Singular :Person3 :Masc "húú-y-er-o"],
-                    [:Singular :Person3 :Fem "húú-t-er-o"],
-                    [:Plural :Person1 :Common "húú-n-er-o"],
-                    [:Plural :Person2 :Common "húú-t-er-i"],
-                    [:Plural :Person3 :Common "húú-y-er-i"]]
-            }
-           {:label "boni_J-VPrefNegImperf-iraad"
-            :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                {:label "boni_J-VJaraInfinitive-Stem"
+                 :note "Heine1982"
+                 :common {:vmorphClass :VNoun
+                          :pos :Verb,
+                          :tam :Infinitive}
+                 :terms [[:conjClass :lexeme :token],
+                         [:Suffix2 :obed "ob-əd’-ó(w)"]
+                         [:Suffix4 :baarin "baariŋ-ów"]
+                         [:Prefix  :aak "ajik-tíí"]
+                         [:Prefix,  :ahang, "ahaŋ-óó"]
+                         [:Prefix,  :iraad, "iraat-tíí"]
+                         [:Prefix,  :iyaad, "iyaad-óó"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-aak"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aak,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘ajik-o"],
+                         [:Singular :Person2 :Common "húú-t-a’ak-o"],
+                         [:Singular :Person3 :Masc "húú-j-a’ak-o"],
+                         [:Singular :Person3 :Fem "húú-t-a’ak-o"],
+                         [:Plural :Person1 :Common "húú-n-a’ak-o"],
+                         [:Plural :Person2 :Common "húú-t-a’ak-i"],
+                         [:Plural :Person3 :Common "húú-j-a’ak-i"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-aal"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aal,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "k-úú-‘aal-o"],
+                         [:Singular :Person2 :Common "k-úú-t-aal-o"],
+                         [:Singular :Person3 :Masc "k-úú-j-aal-a"],
+                         [:Singular :Person3 :Fem "k-úú-t-aal-a"],
+                         [:Plural :Person1 :Common "k-úú-n-aal-a"],
+                         [:Plural :Person2 :Common "k-úú-t-aal-a"],
+                         [:Plural :Person3 :Common "k-úú-j-aal-a"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-ahang"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ahang,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘ahaŋ-o"],
+                         [:Singular :Person2 :Common "húú-t-ahaŋ-o"],
+                         [:Singular :Person3 :Masc "húú-j-ahaŋ-o"],
+                         [:Singular :Person3 :Fem "húú-t-ahaŋ-o"],
+                         [:Plural :Person1 :Common "húú-n-ahaŋ-o"],
+                         [:Plural :Person2 :Common "húú-t-ahaŋ-i"],
+                         [:Plural :Person3 :Common "húú-j-ahaŋ-i"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-ehe"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ehe,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an d’eer-á mé-‘eya"],
+                         [:Singular :Person2 :Common "ad d’eer-á mé-‘eya"],
+                         [:Singular :Person3 :Masc "us d’eer-á mé-‘eya"],
+                         [:Singular :Person3 :Fem "ii d’eer-á mé-‘eya"],
+                         [:Plural :Person1 :Common "un d’eer-á mé-‘eya"],
+                         [:Plural :Person2 :Common "ado d’eer-á mé-‘eya"],
+                         [:Plural :Person3 :Common "iyo d’eer-á mé-‘eya"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-erah"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :erah,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘er-o"],
+                         [:Singular :Person2 :Common "húú-t-er-o"],
+                         [:Singular :Person3 :Masc "húú-y-er-o"],
+                         [:Singular :Person3 :Fem "húú-t-er-o"],
+                         [:Plural :Person1 :Common "húú-n-er-o"],
+                         [:Plural :Person2 :Common "húú-t-er-i"],
+                         [:Plural :Person3 :Common "húú-y-er-i"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-iraad"
+                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iraad,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-bood-o"],
-                    [:Singular :Person2 :Common "húú-boot-to"],
-                    [:Singular :Person3 :Masc "húú-bood-o"],
-                    [:Singular :Person3 :Fem "húú-boot-to"],
-                    [:Plural :Person1 :Common "húú-boon-no"],
-                    [:Plural :Person2 :Common "húú-boot-ti"],
-                    [:Plural :Person3 :Common "húú-bood-i"]]
-            }
-           {:label "boni_J-VPrefNegImperf-iyaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaad,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘iyaad-o"],
-                    [:Singular :Person2 :Common "húú-t-iyaad-o"],
-                    [:Singular :Person3 :Masc "húú-j-iyaad-o"],
-                    [:Singular :Person3 :Fem "húú-t-iyaad-o"],
-                    [:Plural :Person1 :Common "húú-n-iyaad-o"],
-                    [:Plural :Person2 :Common "húú-t-iyaad-i"],
-                    [:Plural :Person3 :Common "húú-j-iyaad-i"]]
-            }
-           {:label "boni_J-VPrefNegImperf-iyaas"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaas,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘iyaas-o"],
-                    [:Singular :Person2 :Common "húú-t-iyaas-o"],
-                    [:Singular :Person3 :Masc "húú-j-iyaas-o"],
-                    [:Singular :Person3 :Fem "húú-t-iyaas-o"],
-                    [:Plural :Person1 :Common "húú-n-iyaas-o"],
-                    [:Plural :Person2 :Common "húú-t-iyaas-i"],
-                    [:Plural :Person3 :Common "húú-j-iyaas-i"]]
-            }
-           {:label "boni_J-VPrefNegImperf-uwaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :uwaad,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-‘uwaad-o"],
-                    [:Singular :Person2 :Common "húú-t-uwaad-o"],
-                    [:Singular :Person3 :Masc "húú-j-uwaad-o"],
-                    [:Singular :Person3 :Fem "húú-t-uwaad-o"],
-                    [:Plural :Person1 :Common "húú-n-uwaad-o"],
-                    [:Plural :Person2 :Common "húú-t-uwaad-i"],
-                    [:Plural :Person3 :Common "húú-j-uwaad-i"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-aak"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :aak,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-‘ajíŋ-ne ~ ha-‘ajiŋ-níya"],
-                    [:Plural "ha-‘ajiŋ-náha"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-aal"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :aal,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-firiis-ín-ne"],
-                    [:Plural "ha-firiis-in-náha ~ ha-firiis-in-níya"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-ahang"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :ahang,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-‘aháŋ-ne"],
-                    [:Plural "ha-‘ahaŋ-náha ~ ha-’ahaŋ-níya"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-iraad"
-            :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iraad,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-bood-o"],
+                         [:Singular :Person2 :Common "húú-boot-to"],
+                         [:Singular :Person3 :Masc "húú-bood-o"],
+                         [:Singular :Person3 :Fem "húú-boot-to"],
+                         [:Plural :Person1 :Common "húú-boon-no"],
+                         [:Plural :Person2 :Common "húú-boot-ti"],
+                         [:Plural :Person3 :Common "húú-bood-i"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-iyaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaad,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘iyaad-o"],
+                         [:Singular :Person2 :Common "húú-t-iyaad-o"],
+                         [:Singular :Person3 :Masc "húú-j-iyaad-o"],
+                         [:Singular :Person3 :Fem "húú-t-iyaad-o"],
+                         [:Plural :Person1 :Common "húú-n-iyaad-o"],
+                         [:Plural :Person2 :Common "húú-t-iyaad-i"],
+                         [:Plural :Person3 :Common "húú-j-iyaad-i"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-iyaas"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaas,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘iyaas-o"],
+                         [:Singular :Person2 :Common "húú-t-iyaas-o"],
+                         [:Singular :Person3 :Masc "húú-j-iyaas-o"],
+                         [:Singular :Person3 :Fem "húú-t-iyaas-o"],
+                         [:Plural :Person1 :Common "húú-n-iyaas-o"],
+                         [:Plural :Person2 :Common "húú-t-iyaas-i"],
+                         [:Plural :Person3 :Common "húú-j-iyaas-i"]]
+                 }
+                {:label "boni_J-VPrefNegImperf-uwaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :uwaad,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-‘uwaad-o"],
+                         [:Singular :Person2 :Common "húú-t-uwaad-o"],
+                         [:Singular :Person3 :Masc "húú-j-uwaad-o"],
+                         [:Singular :Person3 :Fem "húú-t-uwaad-o"],
+                         [:Plural :Person1 :Common "húú-n-uwaad-o"],
+                         [:Plural :Person2 :Common "húú-t-uwaad-i"],
+                         [:Plural :Person3 :Common "húú-j-uwaad-i"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-aak"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :aak,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘ajíŋ-ne ~ ha-‘ajiŋ-níya"],
+                         [:Plural "ha-‘ajiŋ-náha"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-aal"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :aal,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-firiis-ín-ne"],
+                         [:Plural "ha-firiis-in-náha ~ ha-firiis-in-níya"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-ahang"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :ahang,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘aháŋ-ne"],
+                         [:Plural "ha-‘ahaŋ-náha ~ ha-’ahaŋ-níya"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-iraad"
+                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :iraad,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-‘iráán-ne"],
-                    [:Plural "ha-‘iraan-náha ~ ha-‘iraan-níya"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-iyaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :iyaad,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha—‘iyáán-ne"],
-                    [:Plural "ha-‘iyaan-náha ~ ha-‘iyaan-níya"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-iyaas"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :iyaas,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-‘iyéin-ne"],
-                    [:Plural "ha-‘iyein-náha ~ ha-‘iyein-níya"]]
-            }
-           {:label "boni_J-VPrefNegImprtv-uwaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :gender :Common,
-                     :lexeme :uwaad,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-‘uwáán-ne"],
-                    [:Plural "ha-‘uwaan-náha ~ ha-‘uwaan-níya"]]
-            }
-           {:label "boni_J-VPrefNegPerf-aak"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aak,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an má-‘ajiŋ-ne"],
-                    [:Singular :Person2 :Common "ad má-‘ajiŋ-ne"],
-                    [:Singular :Person3 :Masc "us má-‘ajiŋ-ne"],
-                    [:Singular :Person3 :Fem "ii má-ajiŋ-ne"],
-                    [:Plural :Person1 :Common "un má-ajiŋ-ne"],
-                    [:Plural :Person2 :Common "ado má-ajiŋ-ne"],
-                    [:Plural :Person3 :Common "iyo má-ajiŋ-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-aal"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :aal,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an k-úú-iil-ee-ne"],
-                    [:Singular :Person2 :Common "ad k-úú-iil-ee-ne"],
-                    [:Singular :Person3 :Masc "us k-úú-iil-ee-ne"],
-                    [:Singular :Person3 :Fem "ii k-úú-iil-ee-ne"],
-                    [:Plural :Person1 :Common "un k-úú-iil-ee-ne"],
-                    [:Plural :Person2 :Common "ado k-úú-iil-ee-ne"],
-                    [:Plural :Person3 :Common "iyo k-úú-iil-ee-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-ahang"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ahang,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "má-‘ahaŋ-ne"],
-                    [:Singular :Person2 :Common "má-t-uhuŋ-ne"],
-                    [:Singular :Person3 :Masc "má-j-uhuŋ-ne"],
-                    [:Singular :Person3 :Fem "má-t-uhuŋ-ne"],
-                    [:Plural :Person1 :Common "má-n-uhuŋ-ne"],
-                    [:Plural :Person2 :Common "má-t-uhuŋ-ne"],
-                    [:Plural :Person3 :Common "má-j-uhuŋ-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-ehe"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :ehe,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an d’eer-á mé-hee-ne"],
-                    [:Singular :Person2 :Common "ad d’eer-á mé-hee-ne"],
-                    [:Singular :Person3 :Masc "us d’eer-á mé-hee-ne"],
-                    [:Singular :Person3 :Fem "ii d’eer-á mé-hee-ne"],
-                    [:Plural :Person1 :Common "un d’eer-á mé-hee-ne"],
-                    [:Plural :Person2 :Common "ado d’eer-á mé-hee-ne"],
-                    [:Plural :Person3 :Common "iyo d’eer-á mé-hee-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-erah"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :erah,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an mé-‘eraan-ne"],
-                    [:Singular :Person2 :Common "ad mé-‘eraan-ne"],
-                    [:Singular :Person3 :Masc "us mé-‘eraan-ne"],
-                    [:Singular :Person3 :Fem "ii mé-‘eraan-ne"],
-                    [:Plural :Person1 :Common "un mé-‘eraan-ne"],
-                    [:Plural :Person2 :Common "ado mé-‘eraan-ne"],
-                    [:Plural :Person3 :Common "iyo mé-‘eraan-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-iraad"
-            :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :iraad,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘iráán-ne"],
+                         [:Plural "ha-‘iraan-náha ~ ha-‘iraan-níya"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-iyaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :iyaad,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha—‘iyáán-ne"],
+                         [:Plural "ha-‘iyaan-náha ~ ha-‘iyaan-níya"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-iyaas"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :iyaas,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘iyéin-ne"],
+                         [:Plural "ha-‘iyein-náha ~ ha-‘iyein-níya"]]
+                 }
+                {:label "boni_J-VPrefNegImprtv-uwaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :gender :Common,
+                          :lexeme :uwaad,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-‘uwáán-ne"],
+                         [:Plural "ha-‘uwaan-náha ~ ha-‘uwaan-níya"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-aak"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aak,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an má-‘ajiŋ-ne"],
+                         [:Singular :Person2 :Common "ad má-‘ajiŋ-ne"],
+                         [:Singular :Person3 :Masc "us má-‘ajiŋ-ne"],
+                         [:Singular :Person3 :Fem "ii má-ajiŋ-ne"],
+                         [:Plural :Person1 :Common "un má-ajiŋ-ne"],
+                         [:Plural :Person2 :Common "ado má-ajiŋ-ne"],
+                         [:Plural :Person3 :Common "iyo má-ajiŋ-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-aal"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :aal,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an k-úú-iil-ee-ne"],
+                         [:Singular :Person2 :Common "ad k-úú-iil-ee-ne"],
+                         [:Singular :Person3 :Masc "us k-úú-iil-ee-ne"],
+                         [:Singular :Person3 :Fem "ii k-úú-iil-ee-ne"],
+                         [:Plural :Person1 :Common "un k-úú-iil-ee-ne"],
+                         [:Plural :Person2 :Common "ado k-úú-iil-ee-ne"],
+                         [:Plural :Person3 :Common "iyo k-úú-iil-ee-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-ahang"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ahang,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "má-‘ahaŋ-ne"],
+                         [:Singular :Person2 :Common "má-t-uhuŋ-ne"],
+                         [:Singular :Person3 :Masc "má-j-uhuŋ-ne"],
+                         [:Singular :Person3 :Fem "má-t-uhuŋ-ne"],
+                         [:Plural :Person1 :Common "má-n-uhuŋ-ne"],
+                         [:Plural :Person2 :Common "má-t-uhuŋ-ne"],
+                         [:Plural :Person3 :Common "má-j-uhuŋ-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-ehe"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :ehe,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an d’eer-á mé-hee-ne"],
+                         [:Singular :Person2 :Common "ad d’eer-á mé-hee-ne"],
+                         [:Singular :Person3 :Masc "us d’eer-á mé-hee-ne"],
+                         [:Singular :Person3 :Fem "ii d’eer-á mé-hee-ne"],
+                         [:Plural :Person1 :Common "un d’eer-á mé-hee-ne"],
+                         [:Plural :Person2 :Common "ado d’eer-á mé-hee-ne"],
+                         [:Plural :Person3 :Common "iyo d’eer-á mé-hee-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-erah"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :erah,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an mé-‘eraan-ne"],
+                         [:Singular :Person2 :Common "ad mé-‘eraan-ne"],
+                         [:Singular :Person3 :Masc "us mé-‘eraan-ne"],
+                         [:Singular :Person3 :Fem "ii mé-‘eraan-ne"],
+                         [:Plural :Person1 :Common "un mé-‘eraan-ne"],
+                         [:Plural :Person2 :Common "ado mé-‘eraan-ne"],
+                         [:Plural :Person3 :Common "iyo mé-‘eraan-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-iraad"
+                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iraad,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an mí-iraan-ne"],
-                    [:Singular :Person2 :Common "ad mí-iraan-ne"],
-                    [:Singular :Person3 :Masc "us mí-iraan-ne"],
-                    [:Singular :Person3 :Fem "ii mí-iraan-ne"],
-                    [:Plural :Person1 :Common "un mí-iraan-ne"],
-                    [:Plural :Person2 :Common "ado mí-iraan-ne"],
-                    [:Plural :Person3 :Common "iyo mí-iraan-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-iyaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaad,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an mí-‘iyaan-ne"],
-                    [:Singular :Person2 :Common "ad mí-‘iyaan-ne"],
-                    [:Singular :Person3 :Masc "us mí-‘iyaan-ne"],
-                    [:Singular :Person3 :Fem "ii mí-‘iyaan-ne"],
-                    [:Plural :Person1 :Common "un mí-‘iyaan-ne"],
-                    [:Plural :Person2 :Common "ado mí-‘iyaan-ne"],
-                    [:Plural :Person3 :Common "iyo mí-‘iyaan-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-iyaas"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :iyaas,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an mí-‘iyein-ne"],
-                    [:Singular :Person2 :Common "ad mí-‘iyein-ne"],
-                    [:Singular :Person3 :Masc "us mí-‘iyein-ne"],
-                    [:Singular :Person3 :Fem "ii mí-‘iyein-ne"],
-                    [:Plural :Person1 :Common "un mí-‘iyein-ne"],
-                    [:Plural :Person2 :Common "ado mí-‘iyein-ne"],
-                    [:Plural :Person3 :Common "iyo mí-‘iyein-ne"]]
-            }
-           {:label "boni_J-VPrefNegPerf-uwaad"
-            :note "Heine1982 2.15.61"
-            :pdgmType :Finite
-            :common {:conjClass :Prefix,
-                     :lexeme :uwaad,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an mú-‘uwaan-ne"],
-                    [:Singular :Person2 :Common "ad mú-‘uwaan-ne"],
-                    [:Singular :Person3 :Masc "us mú-‘uwaan-ne"],
-                    [:Singular :Person3 :Fem "ii mú-‘uwaan-ne"],
-                    [:Plural :Person1 :Common "un mú-‘uwaan-ne"],
-                    [:Plural :Person2 :Common "ado mú-‘uwaan-ne"],
-                    [:Plural :Person3 :Common "iyo mú-‘uwaan-ne"]]
-            }
-           {:label "boni_J-VSuff1AffPres-ark"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :ark,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘ark-a"],
-                    [:Singular :Person2 :Common "á-‘aret-ta"],
-                    [:Singular :Person3 :Masc "á-‘ark-a"],
-                    [:Singular :Person3 :Fem "á-‘aret-ta"],
-                    [:Plural :Person1 :Common "á-‘are-na"],
-                    [:Plural :Person2 :Common "á-‘aret-ti"],
-                    [:Plural :Person3 :Common "á-‘ark-i"]]
-            }
-           {:label "boni_J-VSuff1AffPres-eeg"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :eeg,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-eeg-a"],
-                    [:Singular :Person2 :Common "á-eek-ta"],
-                    [:Singular :Person3 :Masc "á-eeg-a"],
-                    [:Singular :Person3 :Fem "á-eek-ta"],
-                    [:Plural :Person1 :Common "á-eeg-na"],
-                    [:Plural :Person2 :Common "á-eek-ti"],
-                    [:Plural :Person3 :Common "á-ee-i"]]
-            }
-           {:label "boni_J-VSuff1AffPres-haawa"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :haawa,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "a-háá-wa’-a"],
-                    [:Singular :Person2 :Common "a-háá-wa’-ada"],
-                    [:Singular :Person3 :Masc "a-háá-wa’-a"],
-                    [:Singular :Person3 :Fem "a-háá-wa’-ada"],
-                    [:Plural :Person1 :Common "a-háá-wa’-ana"],
-                    [:Plural :Person2 :Common "a-háá-wa’-adi"],
-                    [:Plural :Person3 :Common "a-háá-wa’-i"]]
-            }
-           {:label "boni_J-VSuff1AffPres-kas"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :kas,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-kas-a"],
-                    [:Singular :Person2 :Common "á-kay-ta"],
-                    [:Singular :Person3 :Masc "á-kas-a"],
-                    [:Singular :Person3 :Fem "á-kay-ta"],
-                    [:Plural :Person1 :Common "á-kaay-na"],
-                    [:Plural :Person2 :Common "á-kay-ti"],
-                    [:Plural :Person3 :Common "á-kas-i"]]
-            }
-           {:label "boni_J-VSuff1AffPres-kuf"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :kuf,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-kuf-a"],
-                    [:Singular :Person2 :Common "á-kuf-ta"],
-                    [:Singular :Person3 :Masc "á-kuf-a"],
-                    [:Singular :Person3 :Fem "á-kuf-ta"],
-                    [:Plural :Person1 :Common "á-kuf-na"],
-                    [:Plural :Person2 :Common "á-kuf-ti"],
-                    [:Plural :Person3 :Common "á-kuf-i"]]
-            }
-           {:label "boni_J-VSuff1AffPres-maal"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :maal,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-ma’al-a"],
-                    [:Singular :Person2 :Common "á-ma’aš-a"],
-                    [:Singular :Person3 :Masc "á-ma’al-a"],
-                    [:Singular :Person3 :Fem "á-ma’aš-a"],
-                    [:Plural :Person1 :Common "á-ma’al-na"],
-                    [:Plural :Person2 :Common "á-ma’aš-i"],
-                    [:Plural :Person3 :Common "á-ma’al-i"]]
-            }
-           {:label "boni_J-VSuff1AffPres-ooy"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix1,
-                     :lexeme :ooy,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Present}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-‘oo-a"],
-                    [:Singular :Person2 :Common "á-‘ooi-da"],
-                    [:Singular :Person3 :Masc "á-‘oo-a"],
-                    [:Singular :Person3 :Fem "á-‘ooi-da"],
-                    [:Plural :Person1 :Common "á-‘ooi-na"],
-                    [:Plural :Person2 :Common "á-‘ooi-di"],
-                    [:Plural :Person3 :Common "á-‘oo-i"]]
-            }
-           {:label "boni_J-VSuff2AffImperf-sood"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix2,
-                     :lexeme :sood,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-so’od’-a"],
-                    [:Singular :Person2 :Common "á-so’ot-ta"],
-                    [:Singular :Person3 :Masc "á-so’od-a"],
-                    [:Singular :Person3 :Fem "á-so’ot-ta"],
-                    [:Plural :Person1 :Common "á-so’on-na"],
-                    [:Plural :Person2 :Common "á-so’ot-ti"],
-                    [:Plural :Person3 :Common "á-so’od-i"]]
-            }
-           {:label "boni_J-VSuff3-siiy"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix3,
-                     :lexeme :siiy,
-                     :pos :Verb}
-            :terms [[:polarity :tam :number :person :gender :token],
-                    [:Affirmative :Imperative :Singular :Person2 :Common "síi"],
-                    [:Affirmative :Imperative :Plural :Person2 :Common "sííy-a"],
-                    [:Affirmative :Imperfect :Singular :Person1 :Common "á-siiy-s"],
-                    [:Affirmative :Imperfect :Singular :Person2 :Common "á-siis-sa"],
-                    [:Affirmative :Imperfect :Singular :Person3 :Masc "á-siiy-a"],
-                    [:Affirmative :Imperfect :Singular :Person3 :Fem "á-siis-sa"],
-                    [:Affirmative :Imperfect :Plural :Person1 :Common "á-siiy-na"],
-                    [:Affirmative :Imperfect :Plural :Person2 :Common "á-siis-si"],
-                    [:Affirmative :Imperfect :Plural :Person3 :Common "á-siiy"],
-                    [:Affirmative :Perfect :Singular :Person1 :Common "á-sii"],
-                    [:Affirmative :Perfect :Singular :Person2 :Common "á-siis-sə"],
-                    [:Affirmative :Perfect :Singular :Person3 :Masc "á-sii"],
-                    [:Affirmative :Perfect :Singular :Person3 :Fem "á-siis-sə"],
-                    [:Affirmative :Perfect :Plural :Person1 :Common "á-siiy-nə"],
-                    [:Affirmative :Perfect :Plural :Person2 :Common "á-siis-se"],
-                    [:Affirmative :Perfect :Plural :Person3 :Common "á-sii"],
-                    [:Negative :Imperative :Singular :Person2 :Common "ha-sííy-ne"],
-                    [:Negative :Imperative :Plural :Person2 :Common "ha-sííy-náha"],
-                    [:Negative :Imperative :Plural :Person2 :Common "ha-sííy-níya"],
-                    [:Negative :Imperfect :Singular :Person1 :Common "húú-siiy-o"],
-                    [:Negative :Imperfect :Singular :Person2 :Common "húú-siis-so"],
-                    [:Negative :Imperfect :Singular :Person3 :Masc "húú-siiy-o"],
-                    [:Negative :Imperfect :Singular :Person3 :Fem "húú-siis-so"],
-                    [:Negative :Imperfect :Plural :Person1 :Common "húú-siiy-no"],
-                    [:Negative :Imperfect :Plural :Person2 :Common "húú-siis-si"],
-                    [:Negative :Imperfect :Plural :Person3 :Common "húú-siiy"],
-                    [:Negative :Perfect :Singular :Person1 :Common "húú-siiy-ne"],
-                    [:Negative :Perfect :Singular :Person2 :Common "húú-siiy-ne"],
-                    [:Negative :Perfect :Singular :Person3 :Masc "húú-siiy-ne"],
-                    [:Negative :Perfect :Singular :Person3 :Fem "húú-siiy-ne"],
-                    [:Negative :Perfect :Plural :Person1 :Common "mí-siiy-ne"],
-                    [:Negative :Perfect :Plural :Person2 :Common "mí-siiy-ne"],
-                    [:Negative :Perfect :Plural :Person3 :Common "mí-siiy-ne"],
-                    [:_NA :Infinitive :_NA :_NA :Common "sííy-óó"]]
-            }
-           {:label "boni_J-VSuff3AffImperf-kar-iy"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix3,
-                     :lexeme :kar-iy,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-kar-iy-a"],
-                    [:Singular :Person2 :Common "á-kar-as-sa"],
-                    [:Singular :Person3 :Masc "á-kar-iy-a"],
-                    [:Singular :Person3 :Fem "á-kar-as-sa"],
-                    [:Plural :Person1 :Common "á-kar-an-na"],
-                    [:Plural :Person2 :Common "á-kar-is-si"],
-                    [:Plural :Person3 :Common "á-kar-ii"]]
-            }
-           {:label "boni_J-VSuff4AffImperf-baarin"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix4,
-                     :lexeme :baarin,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-baariŋ-a"],
-                    [:Singular :Person2 :Common "á-baareŋ-a"],
-                    [:Singular :Person3 :Masc "á-baariŋ-a"],
-                    [:Singular :Person3 :Fem "á-baarin-na"],
-                    [:Plural :Person1 :Common "á-baarin-na"],
-                    [:Plural :Person2 :Common "á-baarin-ni"],
-                    [:Plural :Person3 :Common "á-baariŋ-i"]]
-            }
-           {:label "boni_J-VSuff4AffImprtv-baarin"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix4,
-                     :gender :Common,
-                     :lexeme :baarin,
-                     :person :Person2,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "bááriŋ"],
-                    [:Plural "baaréŋ-a"]]
-            }
-           {:label "boni_J-VSuff4AffPerf-baarin"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix4,
-                     :lexeme :baarin,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-baariŋ-ə"],
-                    [:Singular :Person2 :Common "á-baarin-nə"],
-                    [:Singular :Person3 :Masc "á-baariŋ-ə"],
-                    [:Singular :Person3 :Fem "á-baarin-nə"],
-                    [:Plural :Person1 :Common "á-baarin-nə"],
-                    [:Plural :Person2 :Common "á-baarin-ne"],
-                    [:Plural :Person3 :Common "á-baariŋ-e"]]
-            }
-           {:label "boni_J-VSuff4NegImperf-baarin"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix4,
-                     :lexeme :baarin,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "húú-baariŋ-o"],
-                    [:Singular :Person2 :Common "húú-baareŋ-o"],
-                    [:Singular :Person3 :Masc "húú-baariŋ-o"],
-                    [:Singular :Person3 :Fem "húú-baarin-no"],
-                    [:Plural :Person1 :Common "húú-baarin-no"],
-                    [:Plural :Person2 :Common "húú-baarin-ni"],
-                    [:Plural :Person3 :Common "húú-baariŋ-i"]]
-            }
-           {:label "boni_J-VSuff4NegImprtv-baarin"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix4,
-                     :gender :Common,
-                     :lexeme :baarin,
-                     :person :Person2,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperative}
-            :terms [[:number :token],
-                    [:Singular "ha-baaréŋ-ne"],
-                    [:Plural "ha-baareŋ-níya"],
-                    [:Plural "ha-baareŋ-náha"]]
-            }
-           {:label "boni_J-VSuff4NegPerf-baarin"
-            :note "Heine1982"
-            :pdgmType :Finite
-            :common {:conjClass :Suffix4,
-                     :lexeme :baarin,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an má-baariŋ-ne"],
-                    [:Singular :Person2 :Common "ad má-baariŋ-ne"],
-                    [:Singular :Person3 :Masc "us má-baariŋ-ne"],
-                    [:Singular :Person3 :Fem "ii má-baariŋ-ne"],
-                    [:Plural :Person1 :Common "un má-baariŋ-ne"],
-                    [:Plural :Person2 :Common "ado má-baariŋ-ne"],
-                    [:Plural :Person3 :Common "iyo má-baariŋ-ne"]]
-            }
-           {:label "boni_J-VSuffHabAff-baarin"
-            :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iraad,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an mí-iraan-ne"],
+                         [:Singular :Person2 :Common "ad mí-iraan-ne"],
+                         [:Singular :Person3 :Masc "us mí-iraan-ne"],
+                         [:Singular :Person3 :Fem "ii mí-iraan-ne"],
+                         [:Plural :Person1 :Common "un mí-iraan-ne"],
+                         [:Plural :Person2 :Common "ado mí-iraan-ne"],
+                         [:Plural :Person3 :Common "iyo mí-iraan-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-iyaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaad,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an mí-‘iyaan-ne"],
+                         [:Singular :Person2 :Common "ad mí-‘iyaan-ne"],
+                         [:Singular :Person3 :Masc "us mí-‘iyaan-ne"],
+                         [:Singular :Person3 :Fem "ii mí-‘iyaan-ne"],
+                         [:Plural :Person1 :Common "un mí-‘iyaan-ne"],
+                         [:Plural :Person2 :Common "ado mí-‘iyaan-ne"],
+                         [:Plural :Person3 :Common "iyo mí-‘iyaan-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-iyaas"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :iyaas,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an mí-‘iyein-ne"],
+                         [:Singular :Person2 :Common "ad mí-‘iyein-ne"],
+                         [:Singular :Person3 :Masc "us mí-‘iyein-ne"],
+                         [:Singular :Person3 :Fem "ii mí-‘iyein-ne"],
+                         [:Plural :Person1 :Common "un mí-‘iyein-ne"],
+                         [:Plural :Person2 :Common "ado mí-‘iyein-ne"],
+                         [:Plural :Person3 :Common "iyo mí-‘iyein-ne"]]
+                 }
+                {:label "boni_J-VPrefNegPerf-uwaad"
+                 :note "Heine1982 2.15.61"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Prefix,
+                          :lexeme :uwaad,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an mú-‘uwaan-ne"],
+                         [:Singular :Person2 :Common "ad mú-‘uwaan-ne"],
+                         [:Singular :Person3 :Masc "us mú-‘uwaan-ne"],
+                         [:Singular :Person3 :Fem "ii mú-‘uwaan-ne"],
+                         [:Plural :Person1 :Common "un mú-‘uwaan-ne"],
+                         [:Plural :Person2 :Common "ado mú-‘uwaan-ne"],
+                         [:Plural :Person3 :Common "iyo mú-‘uwaan-ne"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-ark"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :ark,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘ark-a"],
+                         [:Singular :Person2 :Common "á-‘aret-ta"],
+                         [:Singular :Person3 :Masc "á-‘ark-a"],
+                         [:Singular :Person3 :Fem "á-‘aret-ta"],
+                         [:Plural :Person1 :Common "á-‘are-na"],
+                         [:Plural :Person2 :Common "á-‘aret-ti"],
+                         [:Plural :Person3 :Common "á-‘ark-i"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-eeg"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :eeg,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-eeg-a"],
+                         [:Singular :Person2 :Common "á-eek-ta"],
+                         [:Singular :Person3 :Masc "á-eeg-a"],
+                         [:Singular :Person3 :Fem "á-eek-ta"],
+                         [:Plural :Person1 :Common "á-eeg-na"],
+                         [:Plural :Person2 :Common "á-eek-ti"],
+                         [:Plural :Person3 :Common "á-ee-i"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-haawa"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :haawa,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "a-háá-wa’-a"],
+                         [:Singular :Person2 :Common "a-háá-wa’-ada"],
+                         [:Singular :Person3 :Masc "a-háá-wa’-a"],
+                         [:Singular :Person3 :Fem "a-háá-wa’-ada"],
+                         [:Plural :Person1 :Common "a-háá-wa’-ana"],
+                         [:Plural :Person2 :Common "a-háá-wa’-adi"],
+                         [:Plural :Person3 :Common "a-háá-wa’-i"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-kas"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :kas,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-kas-a"],
+                         [:Singular :Person2 :Common "á-kay-ta"],
+                         [:Singular :Person3 :Masc "á-kas-a"],
+                         [:Singular :Person3 :Fem "á-kay-ta"],
+                         [:Plural :Person1 :Common "á-kaay-na"],
+                         [:Plural :Person2 :Common "á-kay-ti"],
+                         [:Plural :Person3 :Common "á-kas-i"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-kuf"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :kuf,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-kuf-a"],
+                         [:Singular :Person2 :Common "á-kuf-ta"],
+                         [:Singular :Person3 :Masc "á-kuf-a"],
+                         [:Singular :Person3 :Fem "á-kuf-ta"],
+                         [:Plural :Person1 :Common "á-kuf-na"],
+                         [:Plural :Person2 :Common "á-kuf-ti"],
+                         [:Plural :Person3 :Common "á-kuf-i"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-maal"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :maal,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-ma’al-a"],
+                         [:Singular :Person2 :Common "á-ma’aš-a"],
+                         [:Singular :Person3 :Masc "á-ma’al-a"],
+                         [:Singular :Person3 :Fem "á-ma’aš-a"],
+                         [:Plural :Person1 :Common "á-ma’al-na"],
+                         [:Plural :Person2 :Common "á-ma’aš-i"],
+                         [:Plural :Person3 :Common "á-ma’al-i"]]
+                 }
+                {:label "boni_J-VSuff1AffPres-ooy"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix1,
+                          :lexeme :ooy,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-‘oo-a"],
+                         [:Singular :Person2 :Common "á-‘ooi-da"],
+                         [:Singular :Person3 :Masc "á-‘oo-a"],
+                         [:Singular :Person3 :Fem "á-‘ooi-da"],
+                         [:Plural :Person1 :Common "á-‘ooi-na"],
+                         [:Plural :Person2 :Common "á-‘ooi-di"],
+                         [:Plural :Person3 :Common "á-‘oo-i"]]
+                 }
+                {:label "boni_J-VSuff2AffImperf-sood"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix2,
+                          :lexeme :sood,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-so’od’-a"],
+                         [:Singular :Person2 :Common "á-so’ot-ta"],
+                         [:Singular :Person3 :Masc "á-so’od-a"],
+                         [:Singular :Person3 :Fem "á-so’ot-ta"],
+                         [:Plural :Person1 :Common "á-so’on-na"],
+                         [:Plural :Person2 :Common "á-so’ot-ti"],
+                         [:Plural :Person3 :Common "á-so’od-i"]]
+                 }
+                {:label "boni_J-VSuff3-siiy"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix3,
+                          :lexeme :siiy,
+                          :pos :Verb}
+                 :terms [[:polarity :tam :number :person :gender :token],
+                         [:Affirmative :Imperative :Singular :Person2 :Common "síi"],
+                         [:Affirmative :Imperative :Plural :Person2 :Common "sííy-a"],
+                         [:Affirmative :Imperfect :Singular :Person1 :Common "á-siiy-s"],
+                         [:Affirmative :Imperfect :Singular :Person2 :Common "á-siis-sa"],
+                         [:Affirmative :Imperfect :Singular :Person3 :Masc "á-siiy-a"],
+                         [:Affirmative :Imperfect :Singular :Person3 :Fem "á-siis-sa"],
+                         [:Affirmative :Imperfect :Plural :Person1 :Common "á-siiy-na"],
+                         [:Affirmative :Imperfect :Plural :Person2 :Common "á-siis-si"],
+                         [:Affirmative :Imperfect :Plural :Person3 :Common "á-siiy"],
+                         [:Affirmative :Perfect :Singular :Person1 :Common "á-sii"],
+                         [:Affirmative :Perfect :Singular :Person2 :Common "á-siis-sə"],
+                         [:Affirmative :Perfect :Singular :Person3 :Masc "á-sii"],
+                         [:Affirmative :Perfect :Singular :Person3 :Fem "á-siis-sə"],
+                         [:Affirmative :Perfect :Plural :Person1 :Common "á-siiy-nə"],
+                         [:Affirmative :Perfect :Plural :Person2 :Common "á-siis-se"],
+                         [:Affirmative :Perfect :Plural :Person3 :Common "á-sii"],
+                         [:Negative :Imperative :Singular :Person2 :Common "ha-sííy-ne"],
+                         [:Negative :Imperative :Plural :Person2 :Common "ha-sííy-náha"],
+                         [:Negative :Imperative :Plural :Person2 :Common "ha-sííy-níya"],
+                         [:Negative :Imperfect :Singular :Person1 :Common "húú-siiy-o"],
+                         [:Negative :Imperfect :Singular :Person2 :Common "húú-siis-so"],
+                         [:Negative :Imperfect :Singular :Person3 :Masc "húú-siiy-o"],
+                         [:Negative :Imperfect :Singular :Person3 :Fem "húú-siis-so"],
+                         [:Negative :Imperfect :Plural :Person1 :Common "húú-siiy-no"],
+                         [:Negative :Imperfect :Plural :Person2 :Common "húú-siis-si"],
+                         [:Negative :Imperfect :Plural :Person3 :Common "húú-siiy"],
+                         [:Negative :Perfect :Singular :Person1 :Common "húú-siiy-ne"],
+                         [:Negative :Perfect :Singular :Person2 :Common "húú-siiy-ne"],
+                         [:Negative :Perfect :Singular :Person3 :Masc "húú-siiy-ne"],
+                         [:Negative :Perfect :Singular :Person3 :Fem "húú-siiy-ne"],
+                         [:Negative :Perfect :Plural :Person1 :Common "mí-siiy-ne"],
+                         [:Negative :Perfect :Plural :Person2 :Common "mí-siiy-ne"],
+                         [:Negative :Perfect :Plural :Person3 :Common "mí-siiy-ne"],
+                         [:_NA :Infinitive :_NA :_NA :Common "sííy-óó"]]
+                 }
+                {:label "boni_J-VSuff3AffImperf-kar-iy"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix3,
+                          :lexeme :kar-iy,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-kar-iy-a"],
+                         [:Singular :Person2 :Common "á-kar-as-sa"],
+                         [:Singular :Person3 :Masc "á-kar-iy-a"],
+                         [:Singular :Person3 :Fem "á-kar-as-sa"],
+                         [:Plural :Person1 :Common "á-kar-an-na"],
+                         [:Plural :Person2 :Common "á-kar-is-si"],
+                         [:Plural :Person3 :Common "á-kar-ii"]]
+                 }
+                {:label "boni_J-VSuff4AffImperf-baarin"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix4,
+                          :lexeme :baarin,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-baariŋ-a"],
+                         [:Singular :Person2 :Common "á-baareŋ-a"],
+                         [:Singular :Person3 :Masc "á-baariŋ-a"],
+                         [:Singular :Person3 :Fem "á-baarin-na"],
+                         [:Plural :Person1 :Common "á-baarin-na"],
+                         [:Plural :Person2 :Common "á-baarin-ni"],
+                         [:Plural :Person3 :Common "á-baariŋ-i"]]
+                 }
+                {:label "boni_J-VSuff4AffImprtv-baarin"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix4,
+                          :gender :Common,
+                          :lexeme :baarin,
+                          :person :Person2,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "bááriŋ"],
+                         [:Plural "baaréŋ-a"]]
+                 }
+                {:label "boni_J-VSuff4AffPerf-baarin"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix4,
+                          :lexeme :baarin,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-baariŋ-ə"],
+                         [:Singular :Person2 :Common "á-baarin-nə"],
+                         [:Singular :Person3 :Masc "á-baariŋ-ə"],
+                         [:Singular :Person3 :Fem "á-baarin-nə"],
+                         [:Plural :Person1 :Common "á-baarin-nə"],
+                         [:Plural :Person2 :Common "á-baarin-ne"],
+                         [:Plural :Person3 :Common "á-baariŋ-e"]]
+                 }
+                {:label "boni_J-VSuff4NegImperf-baarin"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix4,
+                          :lexeme :baarin,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "húú-baariŋ-o"],
+                         [:Singular :Person2 :Common "húú-baareŋ-o"],
+                         [:Singular :Person3 :Masc "húú-baariŋ-o"],
+                         [:Singular :Person3 :Fem "húú-baarin-no"],
+                         [:Plural :Person1 :Common "húú-baarin-no"],
+                         [:Plural :Person2 :Common "húú-baarin-ni"],
+                         [:Plural :Person3 :Common "húú-baariŋ-i"]]
+                 }
+                {:label "boni_J-VSuff4NegImprtv-baarin"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix4,
+                          :gender :Common,
+                          :lexeme :baarin,
+                          :person :Person2,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "ha-baaréŋ-ne"],
+                         [:Plural "ha-baareŋ-níya"],
+                         [:Plural "ha-baareŋ-náha"]]
+                 }
+                {:label "boni_J-VSuff4NegPerf-baarin"
+                 :note "Heine1982"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Suffix4,
+                          :lexeme :baarin,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an má-baariŋ-ne"],
+                         [:Singular :Person2 :Common "ad má-baariŋ-ne"],
+                         [:Singular :Person3 :Masc "us má-baariŋ-ne"],
+                         [:Singular :Person3 :Fem "ii má-baariŋ-ne"],
+                         [:Plural :Person1 :Common "un má-baariŋ-ne"],
+                         [:Plural :Person2 :Common "ado má-baariŋ-ne"],
+                         [:Plural :Person3 :Common "iyo má-baariŋ-ne"]]
+                 }
+                {:label "boni_J-VSuffHabAff-baarin"
+                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-            :pdgmType :Finite
-            :common {:aspect :Habitual,
-                     :conjClass :SuffixClass,
-                     :lexeme :baarin,
-                     :polarity :Affirmative,
-                     :pos :Verb}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-baariŋ-ši-i"],
-                    [:Singular :Person2 :Common "á-baariŋ-še-d’ə"],
-                    [:Singular :Person3 :Masc "á-baariŋ-ši-i"],
-                    [:Singular :Person3 :Fem "á-baariŋ-ši-d’ə"],
-                    [:Plural :Person1 :Common "á-baariŋ-ši-nə"],
-                    [:Plural :Person2 :Common "á-baariŋ-ši-d’e"],
-                    [:Plural :Person3 :Common "á-baariŋ-ši-e"]]
-            }
-           {:label "boni_J-VSuffHabAff-kariy"
-            :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
+                 :common {:vmorphclass :Finite
+                          :aspect :Habitual,
+                          :conjClass :SuffixClass,
+                          :lexeme :baarin,
+                          :polarity :Affirmative,
+                          :pos :Verb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-baariŋ-ši-i"],
+                         [:Singular :Person2 :Common "á-baariŋ-še-d’ə"],
+                         [:Singular :Person3 :Masc "á-baariŋ-ši-i"],
+                         [:Singular :Person3 :Fem "á-baariŋ-ši-d’ə"],
+                         [:Plural :Person1 :Common "á-baariŋ-ši-nə"],
+                         [:Plural :Person2 :Common "á-baariŋ-ši-d’e"],
+                         [:Plural :Person3 :Common "á-baariŋ-ši-e"]]
+                 }
+                {:label "boni_J-VSuffHabAff-kariy"
+                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-            :pdgmType :Finite
-            :common {:aspect :Habitual,
-                     :conjClass :SuffixClass,
-                     :lexeme :kariy,
-                     :polarity :Affirmative,
-                     :pos :Verb}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-karíš-ši-i"],
-                    [:Singular :Person2 :Common "á-karíš-še-d’ə"],
-                    [:Singular :Person3 :Masc "á-karíš-ši-i"],
-                    [:Singular :Person3 :Fem "á-karíš-ši-d’ə"],
-                    [:Plural :Person1 :Common "á-karíš-ši-nə"],
-                    [:Plural :Person2 :Common "á-karíš-ši-d’ə"],
-                    [:Plural :Person3 :Common "á-karíš-ši-e"]]
-            }
-           {:label "boni_J-VSuffHabAff-kor"
-            :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
+                 :common {:vmorphclass :Finite
+                          :aspect :Habitual,
+                          :conjClass :SuffixClass,
+                          :lexeme :kariy,
+                          :polarity :Affirmative,
+                          :pos :Verb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-karíš-ši-i"],
+                         [:Singular :Person2 :Common "á-karíš-še-d’ə"],
+                         [:Singular :Person3 :Masc "á-karíš-ši-i"],
+                         [:Singular :Person3 :Fem "á-karíš-ši-d’ə"],
+                         [:Plural :Person1 :Common "á-karíš-ši-nə"],
+                         [:Plural :Person2 :Common "á-karíš-ši-d’ə"],
+                         [:Plural :Person3 :Common "á-karíš-ši-e"]]
+                 }
+                {:label "boni_J-VSuffHabAff-kor"
+                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-            :pdgmType :Finite
-            :common {:aspect :Habitual,
-                     :conjClass :SuffixClass,
-                     :lexeme :kor,
-                     :polarity :Affirmative,
-                     :pos :Verb}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-kór-ši-i"],
-                    [:Singular :Person2 :Common "á-kór-še-d’ə"],
-                    [:Singular :Person3 :Masc "á-kór-ši-i"],
-                    [:Singular :Person3 :Fem "á-kór-ši-d’ə"],
-                    [:Plural :Person1 :Common "á-kór-ši-nə"],
-                    [:Plural :Person2 :Common "á-kór-ši-d’ə"],
-                    [:Plural :Person3 :Common "á-kór-ši-e"]]
-            }
-           {:label "boni_J-VSuffHabAff-sood"
-            :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
+                 :common {:vmorphclass :Finite
+                          :aspect :Habitual,
+                          :conjClass :SuffixClass,
+                          :lexeme :kor,
+                          :polarity :Affirmative,
+                          :pos :Verb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-kór-ši-i"],
+                         [:Singular :Person2 :Common "á-kór-še-d’ə"],
+                         [:Singular :Person3 :Masc "á-kór-ši-i"],
+                         [:Singular :Person3 :Fem "á-kór-ši-d’ə"],
+                         [:Plural :Person1 :Common "á-kór-ši-nə"],
+                         [:Plural :Person2 :Common "á-kór-ši-d’ə"],
+                         [:Plural :Person3 :Common "á-kór-ši-e"]]
+                 }
+                {:label "boni_J-VSuffHabAff-sood"
+                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-            :pdgmType :Finite
-            :common {:aspect :Habitual,
-                     :conjClass :SuffixClass,
-                     :lexeme :sood,
-                     :polarity :Affirmative,
-                     :pos :Verb}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "á-so’oš-ši-i"],
-                    [:Singular :Person2 :Common "á-so’oš-še-d’ə"],
-                    [:Singular :Person3 :Masc "á-so’oš-ši-i"],
-                    [:Singular :Person3 :Fem "á-so’oš-ši-d’ə"],
-                    [:Plural :Person1 :Common "á-so’oš-ši-nə"],
-                    [:Plural :Person2 :Common "á-so’oš-ši-d’e"],
-                    [:Plural :Person3 :Common "á-so’oš-ši-e"]]
-            }
-           {:label "boni_J-VSuffHabNeg-kor"
-            :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
+                 :common {:vmorphclass :Finite
+                          :aspect :Habitual,
+                          :conjClass :SuffixClass,
+                          :lexeme :sood,
+                          :polarity :Affirmative,
+                          :pos :Verb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "á-so’oš-ši-i"],
+                         [:Singular :Person2 :Common "á-so’oš-še-d’ə"],
+                         [:Singular :Person3 :Masc "á-so’oš-ši-i"],
+                         [:Singular :Person3 :Fem "á-so’oš-ši-d’ə"],
+                         [:Plural :Person1 :Common "á-so’oš-ši-nə"],
+                         [:Plural :Person2 :Common "á-so’oš-ši-d’e"],
+                         [:Plural :Person3 :Common "á-so’oš-ši-e"]]
+                 }
+                {:label "boni_J-VSuffHabNeg-kor"
+                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-            :pdgmType :Finite
-            :common {:aspect :Habitual,
-                     :conjClass :SuffixClass,
-                     :lexeme :kor,
-                     :polarity :Negative,
-                     :pos :Verb}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an húú-kór-šin-nə"],
-                    [:Singular :Person2 :Common "ad húú-kór-šin-ne"],
-                    [:Singular :Person3 :Masc "us húú-kór-šin-ne"],
-                    [:Singular :Person3 :Fem "ii húú-kór-šin-ne"],
-                    [:Plural :Person1 :Common "un húú-kór-šin-ne"],
-                    [:Plural :Person2 :Common "ado húú-kór-šin-ne"],
-                    [:Plural :Person3 :Common "iyo húú-kór-šin-ne"]]
-            }
-           {:label "boni_J-VSuffProgAffImperf-kor"
-            :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
+                 :common {:vmorphclass :Finite
+                          :aspect :Habitual,
+                          :conjClass :SuffixClass,
+                          :lexeme :kor,
+                          :polarity :Negative,
+                          :pos :Verb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an húú-kór-šin-nə"],
+                         [:Singular :Person2 :Common "ad húú-kór-šin-ne"],
+                         [:Singular :Person3 :Masc "us húú-kór-šin-ne"],
+                         [:Singular :Person3 :Fem "ii húú-kór-šin-ne"],
+                         [:Plural :Person1 :Common "un húú-kór-šin-ne"],
+                         [:Plural :Person2 :Common "ado húú-kór-šin-ne"],
+                         [:Plural :Person3 :Common "iyo húú-kór-šin-ne"]]
+                 }
+                {:label "boni_J-VSuffProgAffImperf-kor"
+                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-            :pdgmType :Finite
-            :common {:aspect :Progressive,
-                     :conjClass :SuffixClass,
-                     :lexeme :kor,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "kor-ów heey-a"],
-                    [:Singular :Person2 :Common "kor-ów hees-sa"],
-                    [:Singular :Person3 :Masc "kor-ów heey-a"],
-                    [:Singular :Person3 :Fem "kor-ów hees-sa"],
-                    [:Plural :Person1 :Common "kor-ów heey-na"],
-                    [:Plural :Person2 :Common "kor-ów hees-si"],
-                    [:Plural :Person3 :Common "kor-ów heey-i"]]
-            }
-           {:label "boni_J-VSuffProgAffPerf-kor"
-            :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
+                 :common {:vmorphclass :Finite
+                          :aspect :Progressive,
+                          :conjClass :SuffixClass,
+                          :lexeme :kor,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kor-ów heey-a"],
+                         [:Singular :Person2 :Common "kor-ów hees-sa"],
+                         [:Singular :Person3 :Masc "kor-ów heey-a"],
+                         [:Singular :Person3 :Fem "kor-ów hees-sa"],
+                         [:Plural :Person1 :Common "kor-ów heey-na"],
+                         [:Plural :Person2 :Common "kor-ów hees-si"],
+                         [:Plural :Person3 :Common "kor-ów heey-i"]]
+                 }
+                {:label "boni_J-VSuffProgAffPerf-kor"
+                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-            :pdgmType :Finite
-            :common {:aspect :Progressive,
-                     :conjClass :SuffixClass,
-                     :lexeme :kor,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "kor-ów heey"],
-                    [:Singular :Person2 :Common "kor-ów hees-se"],
-                    [:Singular :Person3 :Masc "kor-ów heey"],
-                    [:Singular :Person3 :Fem "kor-ów hees-se"],
-                    [:Plural :Person1 :Common "kor-ów heey-ne"],
-                    [:Plural :Person2 :Common "kor-ów hees-se"],
-                    [:Plural :Person3 :Common "kor-ów heey-e"]]
-            }
-           {:label "boni_J-VSuffProgNegImperf-kor"
-            :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
+                 :common {:vmorphclass :Finite
+                          :aspect :Progressive,
+                          :conjClass :SuffixClass,
+                          :lexeme :kor,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kor-ów heey"],
+                         [:Singular :Person2 :Common "kor-ów hees-se"],
+                         [:Singular :Person3 :Masc "kor-ów heey"],
+                         [:Singular :Person3 :Fem "kor-ów hees-se"],
+                         [:Plural :Person1 :Common "kor-ów heey-ne"],
+                         [:Plural :Person2 :Common "kor-ów hees-se"],
+                         [:Plural :Person3 :Common "kor-ów heey-e"]]
+                 }
+                {:label "boni_J-VSuffProgNegImperf-kor"
+                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-            :pdgmType :Finite
-            :common {:aspect :Progressive,
-                     :conjClass :SuffixClass,
-                     :lexeme :kor,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "kor-ów húú-heeyo"],
-                    [:Singular :Person2 :Common "kor-ów húú-hees-so"],
-                    [:Singular :Person3 :Masc "kor-ów húú-heey-o"],
-                    [:Singular :Person3 :Fem "kor-ów húú-hees-so"],
-                    [:Plural :Person1 :Common "kor-ów húú-heey-no"],
-                    [:Plural :Person2 :Common "kor-ów húú-hees-si"],
-                    [:Plural :Person3 :Common "kor-ów húú-heey-i"]]
-            }
-           {:label "boni_J-VSuffProgNegPerf-kor"
-            :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
+                 :common {:vmorphclass :Finite
+                          :aspect :Progressive,
+                          :conjClass :SuffixClass,
+                          :lexeme :kor,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kor-ów húú-heeyo"],
+                         [:Singular :Person2 :Common "kor-ów húú-hees-so"],
+                         [:Singular :Person3 :Masc "kor-ów húú-heey-o"],
+                         [:Singular :Person3 :Fem "kor-ów húú-hees-so"],
+                         [:Plural :Person1 :Common "kor-ów húú-heey-no"],
+                         [:Plural :Person2 :Common "kor-ów húú-hees-si"],
+                         [:Plural :Person3 :Common "kor-ów húú-heey-i"]]
+                 }
+                {:label "boni_J-VSuffProgNegPerf-kor"
+                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-            :pdgmType :Finite
-            :common {:aspect :Progressive,
-                     :conjClass :SuffixClass,
-                     :lexeme :kor,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an kor-ów mé-heey-ne"],
-                    [:Singular :Person2 :Common "ad kor-ów mé-heey-ne"],
-                    [:Singular :Person3 :Masc "us kor-ów mé-heey-ne"],
-                    [:Singular :Person3 :Fem "ii kor-ów mé-heey-ne"],
-                    [:Plural :Person1 :Common "un kor-ów mé-heey-ne"],
-                    [:Plural :Person2 :Common "ado kor-ów mé-heey-ne"],
-                    [:Plural :Person3 :Common "iyo kor-ów mé-heey-ne"]]
-            }
-           {:label "boni_J-VSuffSubjAffImperf-kas"
-            :note "Heine1982 2.15.5"
-            :pdgmType :Finite
-            :common {:conjClass :SuffixClass,
-                     :lexeme :kas,
-                     :mood :SubjunctivepdgmLex,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "kas-óò"],
-                    [:Singular :Person2 :Common "kay-ttóò"],
-                    [:Singular :Person3 :Masc "kas-óò"],
-                    [:Singular :Person3 :Fem "kay-ttóò"],
-                    [:Plural :Person1 :Common "kay-nóò"],
-                    [:Plural :Person2 :Common "kay-ttéè"],
-                    [:Plural :Person3 :Common "kas-éè"]]
-            }
-           {:label "boni_J-VSuffSubjAffPerf-kas"
-            :note "Heine1982 2.15.5"
-            :pdgmType :Finite
-            :common {:conjClass :SuffixClass,
-                     :lexeme :kas,
-                     :mood :SubjunctivepdgmLex,
-                     :polarity :Affirmative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "kas-éè"],
-                    [:Singular :Person2 :Common "kay-ttéè"],
-                    [:Singular :Person3 :Masc "kas-éè"],
-                    [:Singular :Person3 :Fem "kay-ttéè"],
-                    [:Plural :Person1 :Common "kay-néè"],
-                    [:Plural :Person2 :Common "kay-ttéè"],
-                    [:Plural :Person3 :Common "kas-éè"]]
-            }
-           {:label "boni_J-VSuffSubjNegPerf-kas"
-            :note "Heine1982 2.15.5"
-            :pdgmType :Finite
-            :common {:conjClass :SuffixClass,
-                     :lexeme :kas,
-                     :mood :SubjunctivepdgmLex,
-                     :polarity :Negative,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "an á-kay-néè"],
-                    [:Singular :Person2 :Common "ad á-kay-née "],
-                    [:Singular :Person3 :Masc "us á-kay-née"],
-                    [:Singular :Person3 :Fem "ii á-kay-née"],
-                    [:Plural :Person1 :Common "un á-kay-néè"],
-                    [:Plural :Person2 :Common "̀ado á-kay-née"],
-                    [:Plural :Person3 :Common "iyo á-kay-née"]]
-            }
-           ]
- :muterms [
-           {:label "boni_J-PPoss"
-            :note "Heine1982"
-            :pdgmType :PRO
-            :common {:pos :Pronoun,
-                     :proClass :PossessiveSuff,
-                     :formType :Suffix}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "-éè"],
-                    [:Singular :Person2 :Common "-áà"],
-                    [:Singular :Person3 :Masc "-íì"],
-                    [:Singular :Person3 :Fem "-éè"],
-                    [:Plural :Person1 :Common "-aani"],
-                    [:Plural :Person2 :Common "-iinî"],
-                    [:Plural :Person3 :Common "-oo(d’a)"]]
-            }
-           {:label "boni_J-Pronoun"
-            :note "Heine1982 2.14"
-            :pdgmType :PRO
-            :common {:pos :Pronoun}
-            :terms [[:proClass :number :person :gender :token],
-                    [:Focus :Singular :Person1 :Common "an-é"],
-                    [:Focus :Singular :Person2 :Common "ad-é"],
-                    [:Focus :Singular :Person3 :Masc "use’é"],
-                    [:Focus :Singular :Person3 :Fem "ii’é"],
-                    [:Focus :Plural :Person1 :Common "un-é"],
-                    [:Focus :Plural :Person2 :Common "adó"],
-                    [:Focus :Plural :Person3 :Common "iyó"],
-                    [:Independent :Singular :Person1 :Common "an(ə)"],
-                    [:Independent :Singular :Person2 :Common "ad(ə)"],
-                    [:Independent :Singular :Person3 :Masc "us(ə)"],
-                    [:Independent :Singular :Person3 :Fem "ii"],
-                    [:Independent :Plural :Person1 :Common "un(ə)"],
-                    [:Independent :Plural :Person2 :Common "ado"],
-                    [:Independent :Plural :Person3 :Common "iyo"],
-                    [:Object :Singular :Person1 :Common "Common"],
-                    [:Object :Singular :Person2 :Common "kú-"],
-                    [:Object :Singular :Person3 :Masc "Common"],
-                    [:Object :Singular :Person3 :Fem "Common"],
-                    [:Object :Plural :Person1 :Common "nú-"],
-                    [:Object :Plural :Person2 :Common "dáá-"],
-                    [:Object :Plural :Person3 :Common "Common"],
-                    [:SubjPrefV :Singular :Person1 :Common "Common"],
-                    [:SubjPrefV :Singular :Person2 :Common "t…t"],
-                    [:SubjPrefV :Singular :Person3 :Masc "j…"],
-                    [:SubjPrefV :Singular :Person3 :Fem "t…t"],
-                    [:SubjPrefV :Plural :Person1 :Common "n…n"],
-                    [:SubjPrefV :Plural :Person2 :Common "t…t"],
-                    [:SubjPrefV :Plural :Person3 :Common "j…"],
-                    [:SubjSuffV :Singular :Person1 :Common "Common"],
-                    [:SubjSuffV :Singular :Person2 :Common "-t"],
-                    [:SubjSuffV :Singular :Person3 :Masc "Common"],
-                    [:SubjSuffV :Singular :Person3 :Fem "-t"],
-                    [:SubjSuffV :Plural :Person1 :Common "-n"],
-                    [:SubjSuffV :Plural :Person2 :Common "-t"],
-                    [:SubjSuffV :Plural :Person3 :Common "Common"]]
-            }
-           {:label "boni_J-VAspect"
-            :note "Heine1982 2.15.4"
-            :pdgmType :VOther
-            :common {:vmorphClass :AspectSuff
-                     :pos :Verb,
-                     :formType :Suffix}
-            :terms [[:polarity :tam :number :token],
-                    [:Affirmative :Imperative :Singular "-e"],
-                    [:Affirmative :Imperative :Plural "-a"],
-                    [:Affirmative :Imperfect :Singular "-à"],
-                    [:Affirmative :Imperfect :Plural "-ì"],
-                    [:Affirmative :Perfect :Singular "Common"],
-                    [:Affirmative :Perfect :Plural "-è"],
-                    [:Negative :Imperative :Singular "-ne"],
-                    [:Negative :Imperative :Plural "-náha (-níya)"],
-                    [:Negative :Imperfect :Singular "-ò"],
-                    [:Negative :Imperfect :Plural "-ì"],
-                    [:Negative :Perfect :Common "-nè"]]
-            }
-           {:label "boni_J-VClitics"
-            :note "Heine1982 2.15.7"
-            :pdgmType :VOther
-            :common {:vmorphClass :Clitics
-                     :pos :Verb}
-            :terms [[:cliticClass :cliticType :token-note :token],
-                    [:Ablative :Proclitic "" "kə́-"],
-                    [:Causative :DervSuff "= conjClass III" "-(i)iy-"],
-                    [:Comitative :Proclitic "" "l(ə)́-"],
-                    [:Focus :Proclitic "" "Common"],
-                    [:Medial :DervSuff "= conjClass II" "-əd’-"],
-                    [:Passive :Proclitic "" "l-"],
-                    [:Reflexive :Proclitic "" "s(ə)-"],
-                    [:Ventive :Proclitic "" "háá-"],
-                    [:Goal :Proclitic "" "Common"]]
-            }
-           {:label "boni_J-VNegation"
-            :note "Heine1982 2.15.3. These affixes involve both a prefix and a suffix."
-            :pdgmType :VOther
-            :common {:vmorphClass :NegationAffix
-                     :pos :Verb,
-                     :formType :Affix}
-            :terms [[:tam :number :token],
-                    [:Imperative :Singular "hà- -nè"],
-                    [:Imperative :Plural "hà- -náha (-níya)"],
-                    [:Imperfect :Singular "húú- -ò"],
-                    [:Imperfect :Plural "húú- -ì"],
-                    [:Perfect :Common "mə́- (húú- in Kijee) -nè"]]
-            }
-           {:label "boni_J-VSubjAffImperf"
-            :note "Heine1982 2.15.5"
-            :pdgmType :VOther
-            :common {:vmorphClass :SUBJMARKERIMPERF
-                     :mood :Subjunctivepolarity,
-                     :pos :Verb,
-                     :tam :Imperfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "-óò"],
-                    [:Singular :Person2 :Common "-tóò"],
-                    [:Singular :Person3 :Masc "-óò"],
-                    [:Singular :Person3 :Fem "-tóò"],
-                    [:Plural :Person1 :Common "-nóò"],
-                    [:Plural :Person2 :Common "-téè"],
-                    [:Plural :Person3 :Common "-éè"]]
-            }
-           {:label "boni_J-VSubjAffPerf"
-            :note "Heine1982 2.15.5"
-            :pdgmType :VOther
-            :common {:vmorphClass :SUBJMARKERPERF
-                     :mood :Subjunctivepolarity,
-                     :pos :Verb,
-                     :tam :Perfect}
-            :terms [[:number :person :gender :token],
-                    [:Singular :Person1 :Common "-éè"],
-                    [:Singular :Person2 :Common "-téè"],
-                    [:Singular :Person3 :Masc "-éè"],
-                    [:Singular :Person3 :Fem "-téè"],
-                    [:Plural :Person1 :Common "-néè"],
-                    [:Plural :Person2 :Common "-téè"],
-                    [:Plural :Person3 :Common "-éè"]]
-            }
-           {:label "boni_J-VSuffSubjMarkers"
-            :note "Heine1982 2.15.62. The suffix conjugation sub-classes are:I basic,II medial,III
+                 :common {:vmorphclass :Finite
+                          :aspect :Progressive,
+                          :conjClass :SuffixClass,
+                          :lexeme :kor,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an kor-ów mé-heey-ne"],
+                         [:Singular :Person2 :Common "ad kor-ów mé-heey-ne"],
+                         [:Singular :Person3 :Masc "us kor-ów mé-heey-ne"],
+                         [:Singular :Person3 :Fem "ii kor-ów mé-heey-ne"],
+                         [:Plural :Person1 :Common "un kor-ów mé-heey-ne"],
+                         [:Plural :Person2 :Common "ado kor-ów mé-heey-ne"],
+                         [:Plural :Person3 :Common "iyo kor-ów mé-heey-ne"]]
+                 }
+                {:label "boni_J-VSuffSubjAffImperf-kas"
+                 :note "Heine1982 2.15.5"
+                 :common {:vmorphclass :Finite
+                          :conjClass :SuffixClass,
+                          :lexeme :kas,
+                          :mood :SubjunctivepdgmLex,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kas-óò"],
+                         [:Singular :Person2 :Common "kay-ttóò"],
+                         [:Singular :Person3 :Masc "kas-óò"],
+                         [:Singular :Person3 :Fem "kay-ttóò"],
+                         [:Plural :Person1 :Common "kay-nóò"],
+                         [:Plural :Person2 :Common "kay-ttéè"],
+                         [:Plural :Person3 :Common "kas-éè"]]
+                 }
+                {:label "boni_J-VSuffSubjAffPerf-kas"
+                 :note "Heine1982 2.15.5"
+                 :common {:vmorphclass :Finite
+                          :conjClass :SuffixClass,
+                          :lexeme :kas,
+                          :mood :SubjunctivepdgmLex,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kas-éè"],
+                         [:Singular :Person2 :Common "kay-ttéè"],
+                         [:Singular :Person3 :Masc "kas-éè"],
+                         [:Singular :Person3 :Fem "kay-ttéè"],
+                         [:Plural :Person1 :Common "kay-néè"],
+                         [:Plural :Person2 :Common "kay-ttéè"],
+                         [:Plural :Person3 :Common "kas-éè"]]
+                 }
+                {:label "boni_J-VSuffSubjNegPerf-kas"
+                 :note "Heine1982 2.15.5"
+                 :common {:vmorphclass :Finite
+                          :conjClass :SuffixClass,
+                          :lexeme :kas,
+                          :mood :SubjunctivepdgmLex,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "an á-kay-néè"],
+                         [:Singular :Person2 :Common "ad á-kay-née "],
+                         [:Singular :Person3 :Masc "us á-kay-née"],
+                         [:Singular :Person3 :Fem "ii á-kay-née"],
+                         [:Plural :Person1 :Common "un á-kay-néè"],
+                         [:Plural :Person2 :Common "̀ado á-kay-née"],
+                         [:Plural :Person3 :Common "iyo á-kay-née"]]
+                 }
+                {:label "boni_J-PPoss"
+                 :note "Heine1982"
+                 :common {:pos :Pronoun,
+                          :proClass :PossessiveSuff,
+                          :formType :Suffix}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-éè"],
+                         [:Singular :Person2 :Common "-áà"],
+                         [:Singular :Person3 :Masc "-íì"],
+                         [:Singular :Person3 :Fem "-éè"],
+                         [:Plural :Person1 :Common "-aani"],
+                         [:Plural :Person2 :Common "-iinî"],
+                         [:Plural :Person3 :Common "-oo(d’a)"]]
+                 }
+                {:label "boni_J-Pronoun"
+                 :note "Heine1982 2.14"
+                 :common {:pos :Pronoun}
+                 :terms [[:proClass :number :person :gender :token],
+                         [:Focus :Singular :Person1 :Common "an-é"],
+                         [:Focus :Singular :Person2 :Common "ad-é"],
+                         [:Focus :Singular :Person3 :Masc "use’é"],
+                         [:Focus :Singular :Person3 :Fem "ii’é"],
+                         [:Focus :Plural :Person1 :Common "un-é"],
+                         [:Focus :Plural :Person2 :Common "adó"],
+                         [:Focus :Plural :Person3 :Common "iyó"],
+                         [:Independent :Singular :Person1 :Common "an(ə)"],
+                         [:Independent :Singular :Person2 :Common "ad(ə)"],
+                         [:Independent :Singular :Person3 :Masc "us(ə)"],
+                         [:Independent :Singular :Person3 :Fem "ii"],
+                         [:Independent :Plural :Person1 :Common "un(ə)"],
+                         [:Independent :Plural :Person2 :Common "ado"],
+                         [:Independent :Plural :Person3 :Common "iyo"],
+                         [:Object :Singular :Person1 :Common "Common"],
+                         [:Object :Singular :Person2 :Common "kú-"],
+                         [:Object :Singular :Person3 :Masc "Common"],
+                         [:Object :Singular :Person3 :Fem "Common"],
+                         [:Object :Plural :Person1 :Common "nú-"],
+                         [:Object :Plural :Person2 :Common "dáá-"],
+                         [:Object :Plural :Person3 :Common "Common"],
+                         [:SubjPrefV :Singular :Person1 :Common "Common"],
+                         [:SubjPrefV :Singular :Person2 :Common "t…t"],
+                         [:SubjPrefV :Singular :Person3 :Masc "j…"],
+                         [:SubjPrefV :Singular :Person3 :Fem "t…t"],
+                         [:SubjPrefV :Plural :Person1 :Common "n…n"],
+                         [:SubjPrefV :Plural :Person2 :Common "t…t"],
+                         [:SubjPrefV :Plural :Person3 :Common "j…"],
+                         [:SubjSuffV :Singular :Person1 :Common "Common"],
+                         [:SubjSuffV :Singular :Person2 :Common "-t"],
+                         [:SubjSuffV :Singular :Person3 :Masc "Common"],
+                         [:SubjSuffV :Singular :Person3 :Fem "-t"],
+                         [:SubjSuffV :Plural :Person1 :Common "-n"],
+                         [:SubjSuffV :Plural :Person2 :Common "-t"],
+                         [:SubjSuffV :Plural :Person3 :Common "Common"]]
+                 }
+                {:label "boni_J-VAspect"
+                 :note "Heine1982 2.15.4"
+                 :common {:vmorphClass :AspectSuff
+                          :pos :Verb,
+                          :formType :Suffix}
+                 :terms [[:polarity :tam :number :token],
+                         [:Affirmative :Imperative :Singular "-e"],
+                         [:Affirmative :Imperative :Plural "-a"],
+                         [:Affirmative :Imperfect :Singular "-à"],
+                         [:Affirmative :Imperfect :Plural "-ì"],
+                         [:Affirmative :Perfect :Singular "Common"],
+                         [:Affirmative :Perfect :Plural "-è"],
+                         [:Negative :Imperative :Singular "-ne"],
+                         [:Negative :Imperative :Plural "-náha (-níya)"],
+                         [:Negative :Imperfect :Singular "-ò"],
+                         [:Negative :Imperfect :Plural "-ì"],
+                         [:Negative :Perfect :Common "-nè"]]
+                 }
+                {:label "boni_J-VClitics"
+                 :note "Heine1982 2.15.7"
+                 :common {:vmorphClass :Clitics
+                          :pos :Verb}
+                 :terms [[:cliticClass :cliticType :token-note :token],
+                         [:Ablative :Proclitic "" "kə́-"],
+                         [:Causative :DervSuff "= conjClass III" "-(i)iy-"],
+                         [:Comitative :Proclitic "" "l(ə)́-"],
+                         [:Focus :Proclitic "" "Common"],
+                         [:Medial :DervSuff "= conjClass II" "-əd’-"],
+                         [:Passive :Proclitic "" "l-"],
+                         [:Reflexive :Proclitic "" "s(ə)-"],
+                         [:Ventive :Proclitic "" "háá-"],
+                         [:Goal :Proclitic "" "Common"]]
+                 }
+                {:label "boni_J-VNegation"
+                 :note "Heine1982 2.15.3. These affixes involve both a prefix and a suffix."
+                 :common {:vmorphClass :NegationAffix
+                          :pos :Verb,
+                          :formType :Affix}
+                 :terms [[:tam :number :token],
+                         [:Imperative :Singular "hà- -nè"],
+                         [:Imperative :Plural "hà- -náha (-níya)"],
+                         [:Imperfect :Singular "húú- -ò"],
+                         [:Imperfect :Plural "húú- -ì"],
+                         [:Perfect :Common "mə́- (húú- in Kijee) -nè"]]
+                 }
+                {:label "boni_J-VSubjAffImperf"
+                 :note "Heine1982 2.15.5"
+                 :common {:vmorphClass :SUBJMARKERIMPERF
+                          :mood :Subjunctivepolarity,
+                          :pos :Verb,
+                          :tam :Imperfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-óò"],
+                         [:Singular :Person2 :Common "-tóò"],
+                         [:Singular :Person3 :Masc "-óò"],
+                         [:Singular :Person3 :Fem "-tóò"],
+                         [:Plural :Person1 :Common "-nóò"],
+                         [:Plural :Person2 :Common "-téè"],
+                         [:Plural :Person3 :Common "-éè"]]
+                 }
+                {:label "boni_J-VSubjAffPerf"
+                 :note "Heine1982 2.15.5"
+                 :common {:vmorphClass :SUBJMARKERPERF
+                          :mood :Subjunctivepolarity,
+                          :pos :Verb,
+                          :tam :Perfect}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "-éè"],
+                         [:Singular :Person2 :Common "-téè"],
+                         [:Singular :Person3 :Masc "-éè"],
+                         [:Singular :Person3 :Fem "-téè"],
+                         [:Plural :Person1 :Common "-néè"],
+                         [:Plural :Person2 :Common "-téè"],
+                         [:Plural :Person3 :Common "-éè"]]
+                 }
+                {:label "boni_J-VSuffSubjMarkers"
+                 :note "Heine1982 2.15.62. The suffix conjugation sub-classes are:I basic,II medial,III
             causative,IV nasal."
-            :pdgmType :VOther
-            :common {:vmorphClass :SubjMarkers
-                     :pos :Verb,
-                     :formType :Suffix}
-            :terms [[:conjClass :number :person :gender :token],
-                    [:SuffixClass :Singular :Person1 :Common "Common"],
-                    [:SuffixClass :Singular :Person1 :Common "Common"],
-                    [:SuffixClass :Singular :Person1 :Common "-d’-"],
-                    [:SuffixClass :Singular :Person1 :Common "Common"],
-                    [:SuffixClass :Singular :Person2 :Common "-s-"],
-                    [:SuffixClass :Singular :Person2 :Common "-t-"],
-                    [:SuffixClass :Singular :Person2 :Common "-n-"],
-                    [:SuffixClass :Singular :Person2 :Common "-tt-"],
-                    [:SuffixClass :Singular :Person3 :Masc "Common"],
-                    [:SuffixClass :Singular :Person3 :Masc "-d-"],
-                    [:SuffixClass :Singular :Person3 :Masc "Common"],
-                    [:SuffixClass :Singular :Person3 :Masc "-n-"],
-                    [:SuffixClass :Singular :Person3 :Fem "-n-"],
-                    [:SuffixClass :Singular :Person3 :Fem "-n-"],
-                    [:SuffixClass :Singular :Person3 :Fem "-tt-"],
-                    [:SuffixClass :Singular :Person3 :Fem "-t-"],
-                    [:SuffixClass :Plural :Person1 :Common "-n-"],
-                    [:SuffixClass :Plural :Person1 :Common "-s-"],
-                    [:SuffixClass :Plural :Person1 :Common "-n-"],
-                    [:SuffixClass :Plural :Person1 :Common "-nn-"],
-                    [:SuffixClass :Plural :Person2 :Common "-n-"],
-                    [:SuffixClass :Plural :Person2 :Common "Common"],
-                    [:SuffixClass :Plural :Person2 :Common "-t-"],
-                    [:SuffixClass :Plural :Person2 :Common "-tt-"],
-                    [:SuffixClass :Plural :Person3 :Common "-d-"],
-                    [:SuffixClass :Plural :Person3 :Common "Common"],
-                    [:SuffixClass :Plural :Person3 :Common "Common"],
-                    [:SuffixClass :Plural :Person3 :Common "Common"]]
-            }
-           ]
+                 :common {:vmorphClass :SubjMarkers
+                          :pos :Verb,
+                          :formType :Suffix}
+                 :terms [[:conjClass :number :person :gender :token],
+                         [:SuffixClass :Singular :Person1 :Common "Common"],
+                         [:SuffixClass :Singular :Person1 :Common "Common"],
+                         [:SuffixClass :Singular :Person1 :Common "-d’-"],
+                         [:SuffixClass :Singular :Person1 :Common "Common"],
+                         [:SuffixClass :Singular :Person2 :Common "-s-"],
+                         [:SuffixClass :Singular :Person2 :Common "-t-"],
+                         [:SuffixClass :Singular :Person2 :Common "-n-"],
+                         [:SuffixClass :Singular :Person2 :Common "-tt-"],
+                         [:SuffixClass :Singular :Person3 :Masc "Common"],
+                         [:SuffixClass :Singular :Person3 :Masc "-d-"],
+                         [:SuffixClass :Singular :Person3 :Masc "Common"],
+                         [:SuffixClass :Singular :Person3 :Masc "-n-"],
+                         [:SuffixClass :Singular :Person3 :Fem "-n-"],
+                         [:SuffixClass :Singular :Person3 :Fem "-n-"],
+                         [:SuffixClass :Singular :Person3 :Fem "-tt-"],
+                         [:SuffixClass :Singular :Person3 :Fem "-t-"],
+                         [:SuffixClass :Plural :Person1 :Common "-n-"],
+                         [:SuffixClass :Plural :Person1 :Common "-s-"],
+                         [:SuffixClass :Plural :Person1 :Common "-n-"],
+                         [:SuffixClass :Plural :Person1 :Common "-nn-"],
+                         [:SuffixClass :Plural :Person2 :Common "-n-"],
+                         [:SuffixClass :Plural :Person2 :Common "Common"],
+                         [:SuffixClass :Plural :Person2 :Common "-t-"],
+                         [:SuffixClass :Plural :Person2 :Common "-tt-"],
+                         [:SuffixClass :Plural :Person3 :Common "-d-"],
+                         [:SuffixClass :Plural :Person3 :Common "Common"],
+                         [:SuffixClass :Plural :Person3 :Common "Common"],
+                         [:SuffixClass :Plural :Person3 :Common "Common"]]
+                 }
+                ]
  }
 
 

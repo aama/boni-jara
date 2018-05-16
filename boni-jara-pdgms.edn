@@ -62,7 +62,7 @@
  :termclusters [
                 {:label "boni_J-VJaraSuff2AffImperf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
                           :polarity :Affirmative,
@@ -79,7 +79,7 @@
                  }
                 {:label "boni_J-VJaraSuff2AffImprtv-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :gender :Common,
                           :lexeme :obed,
@@ -93,7 +93,7 @@
                  }
                 {:label "boni_J-VJaraSuff2AffPerf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
                           :polarity :Affirmative,
@@ -110,7 +110,7 @@
                  }
                 {:label "boni_J-VJaraSuff2NegImperf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
                           :polarity :Negative,
@@ -127,7 +127,7 @@
                  }
                 {:label "boni_J-VJaraSuff2NegImprtv-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :gender :Common,
                           :lexeme :obed,
@@ -142,7 +142,7 @@
                  }
                 {:label "boni_J-VJaraSuff2NegPerf-obed"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
                           :polarity :Negative,
@@ -159,7 +159,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-aak"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
                           :polarity :Affirmative,
@@ -176,7 +176,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-aal"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
                           :polarity :Affirmative,
@@ -193,7 +193,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-ahang"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
                           :polarity :Affirmative,
@@ -210,7 +210,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-ehe"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
                           :polarity :Affirmative,
@@ -227,7 +227,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-erah"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
                           :polarity :Affirmative,
@@ -245,7 +245,7 @@
                 {:label "boni_J-VPrefAffImperf-iraad"
                  :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iraad,
                           :polarity :Affirmative,
@@ -262,7 +262,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-iyaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
                           :polarity :Affirmative,
@@ -279,7 +279,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-iyaas"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
                           :polarity :Affirmative,
@@ -296,7 +296,7 @@
                  }
                 {:label "boni_J-VPrefAffImperf-uwaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
                           :polarity :Affirmative,
@@ -313,7 +313,7 @@
                  }
                 {:label "boni_J-VPrefAffImprtv-aak"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aak,
@@ -327,7 +327,7 @@
                  }
                 {:label "boni_J-VPrefAffImprtv-aal"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aal,
@@ -341,7 +341,7 @@
                  }
                 {:label "boni_J-VPrefAffImprtv-ahang"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ahang,
@@ -356,7 +356,7 @@
                 {:label "boni_J-VPrefAffImprtv-iraad"
                  :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iraad,
@@ -370,7 +370,7 @@
                  }
                 {:label "boni_J-VPrefAffImprtv-iyaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iyaad,
@@ -384,7 +384,7 @@
                  }
                 {:label "boni_J-VPrefAffImprtv-iyaas"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iyaas,
@@ -398,7 +398,7 @@
                  }
                 {:label "boni_J-VPrefAffImprtv-uwaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :uwaad,
@@ -412,7 +412,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-aak"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
                           :polarity :Affirmative,
@@ -429,7 +429,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-aal"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
                           :polarity :Affirmative,
@@ -446,7 +446,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-ahang"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
                           :polarity :Affirmative,
@@ -463,7 +463,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-ehe"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
                           :polarity :Affirmative,
@@ -480,7 +480,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-erah"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
                           :polarity :Affirmative,
@@ -498,7 +498,7 @@
                 {:label "boni_J-VPrefAffPerf-iraad"
                  :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iraad,
                           :polarity :Affirmative,
@@ -515,7 +515,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-iyaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
                           :polarity :Affirmative,
@@ -532,7 +532,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-iyaas"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
                           :polarity :Affirmative,
@@ -549,7 +549,7 @@
                  }
                 {:label "boni_J-VPrefAffPerf-uwaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
                           :polarity :Affirmative,
@@ -612,7 +612,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-aak"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
                           :polarity :Negative,
@@ -629,7 +629,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-aal"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
                           :polarity :Negative,
@@ -646,7 +646,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-ahang"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
                           :polarity :Negative,
@@ -663,7 +663,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-ehe"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
                           :polarity :Negative,
@@ -680,7 +680,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-erah"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
                           :polarity :Negative,
@@ -698,7 +698,7 @@
                 {:label "boni_J-VPrefNegImperf-iraad"
                  :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iraad,
                           :polarity :Negative,
@@ -715,7 +715,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-iyaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
                           :polarity :Negative,
@@ -732,7 +732,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-iyaas"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
                           :polarity :Negative,
@@ -749,7 +749,7 @@
                  }
                 {:label "boni_J-VPrefNegImperf-uwaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
                           :polarity :Negative,
@@ -766,7 +766,7 @@
                  }
                 {:label "boni_J-VPrefNegImprtv-aak"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aak,
@@ -780,7 +780,7 @@
                  }
                 {:label "boni_J-VPrefNegImprtv-aal"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :aal,
@@ -794,7 +794,7 @@
                  }
                 {:label "boni_J-VPrefNegImprtv-ahang"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :ahang,
@@ -809,7 +809,7 @@
                 {:label "boni_J-VPrefNegImprtv-iraad"
                  :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iraad,
@@ -823,7 +823,7 @@
                  }
                 {:label "boni_J-VPrefNegImprtv-iyaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iyaad,
@@ -837,7 +837,7 @@
                  }
                 {:label "boni_J-VPrefNegImprtv-iyaas"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :iyaas,
@@ -851,7 +851,7 @@
                  }
                 {:label "boni_J-VPrefNegImprtv-uwaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
                           :lexeme :uwaad,
@@ -865,7 +865,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-aak"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
                           :polarity :Negative,
@@ -882,7 +882,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-aal"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
                           :polarity :Negative,
@@ -899,7 +899,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-ahang"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
                           :polarity :Negative,
@@ -916,7 +916,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-ehe"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
                           :polarity :Negative,
@@ -933,7 +933,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-erah"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
                           :polarity :Negative,
@@ -951,7 +951,7 @@
                 {:label "boni_J-VPrefNegPerf-iraad"
                  :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iraad,
                           :polarity :Negative,
@@ -968,7 +968,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-iyaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
                           :polarity :Negative,
@@ -985,7 +985,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-iyaas"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
                           :polarity :Negative,
@@ -1002,7 +1002,7 @@
                  }
                 {:label "boni_J-VPrefNegPerf-uwaad"
                  :note "Heine1982 2.15.61"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
                           :polarity :Negative,
@@ -1019,7 +1019,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-ark"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :ark,
                           :polarity :Affirmative,
@@ -1036,7 +1036,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-eeg"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :eeg,
                           :polarity :Affirmative,
@@ -1053,7 +1053,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-haawa"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :haawa,
                           :polarity :Affirmative,
@@ -1070,7 +1070,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-kas"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :kas,
                           :polarity :Affirmative,
@@ -1087,7 +1087,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-kuf"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :kuf,
                           :polarity :Affirmative,
@@ -1104,7 +1104,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-maal"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :maal,
                           :polarity :Affirmative,
@@ -1121,7 +1121,7 @@
                  }
                 {:label "boni_J-VSuff1AffPres-ooy"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :ooy,
                           :polarity :Affirmative,
@@ -1138,7 +1138,7 @@
                  }
                 {:label "boni_J-VSuff2AffImperf-sood"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :sood,
                           :polarity :Affirmative,
@@ -1155,7 +1155,7 @@
                  }
                 {:label "boni_J-VSuff3-siiy"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix3,
                           :lexeme :siiy,
                           :pos :Verb}
@@ -1197,7 +1197,7 @@
                  }
                 {:label "boni_J-VSuff3AffImperf-kar-iy"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix3,
                           :lexeme :kar-iy,
                           :polarity :Affirmative,
@@ -1214,7 +1214,7 @@
                  }
                 {:label "boni_J-VSuff4AffImperf-baarin"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
                           :polarity :Affirmative,
@@ -1231,7 +1231,7 @@
                  }
                 {:label "boni_J-VSuff4AffImprtv-baarin"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :gender :Common,
                           :lexeme :baarin,
@@ -1245,7 +1245,7 @@
                  }
                 {:label "boni_J-VSuff4AffPerf-baarin"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
                           :polarity :Affirmative,
@@ -1262,7 +1262,7 @@
                  }
                 {:label "boni_J-VSuff4NegImperf-baarin"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
                           :polarity :Negative,
@@ -1279,7 +1279,7 @@
                  }
                 {:label "boni_J-VSuff4NegImprtv-baarin"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :gender :Common,
                           :lexeme :baarin,
@@ -1294,7 +1294,7 @@
                  }
                 {:label "boni_J-VSuff4NegPerf-baarin"
                  :note "Heine1982"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
                           :polarity :Negative,
@@ -1312,7 +1312,7 @@
                 {:label "boni_J-VSuffHabAff-baarin"
                  :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
                           :lexeme :baarin,
@@ -1330,7 +1330,7 @@
                 {:label "boni_J-VSuffHabAff-kariy"
                  :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
                           :lexeme :kariy,
@@ -1348,7 +1348,7 @@
                 {:label "boni_J-VSuffHabAff-kor"
                  :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
                           :lexeme :kor,
@@ -1366,7 +1366,7 @@
                 {:label "boni_J-VSuffHabAff-sood"
                  :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
                           :lexeme :sood,
@@ -1384,7 +1384,7 @@
                 {:label "boni_J-VSuffHabNeg-kor"
                  :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
             aspect.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
                           :lexeme :kor,
@@ -1402,7 +1402,7 @@
                 {:label "boni_J-VSuffProgAffImperf-kor"
                  :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
                           :lexeme :kor,
@@ -1421,7 +1421,7 @@
                 {:label "boni_J-VSuffProgAffPerf-kor"
                  :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
                           :lexeme :kor,
@@ -1440,7 +1440,7 @@
                 {:label "boni_J-VSuffProgNegImperf-kor"
                  :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
                           :lexeme :kor,
@@ -1459,7 +1459,7 @@
                 {:label "boni_J-VSuffProgNegPerf-kor"
                  :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
             plus the auxiliary heey-.”"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
                           :lexeme :kor,
@@ -1477,7 +1477,7 @@
                  }
                 {:label "boni_J-VSuffSubjAffImperf-kas"
                  :note "Heine1982 2.15.5"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :SuffixClass,
                           :lexeme :kas,
                           :mood :SubjunctivepdgmLex,
@@ -1495,7 +1495,7 @@
                  }
                 {:label "boni_J-VSuffSubjAffPerf-kas"
                  :note "Heine1982 2.15.5"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :SuffixClass,
                           :lexeme :kas,
                           :mood :SubjunctivepdgmLex,
@@ -1513,7 +1513,7 @@
                  }
                 {:label "boni_J-VSuffSubjNegPerf-kas"
                  :note "Heine1982 2.15.5"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :SuffixClass,
                           :lexeme :kas,
                           :mood :SubjunctivepdgmLex,

@@ -5,21 +5,22 @@
  :datasource "Heine1982"
  :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Jara is a variety of Central Boni spoken for the most part by residents of the town of Mangai in North-eastern Kenya. It was the object of a dialect study by Bernd Heine published in 1982."
-:schemata {:aspect [:Habitual :Progressive],
-           :cliticClass [:Ablative :Causative :Comitative :Focus :Goal :Medial :Passive :Reflexive :Ventive],
-           :cliticType [:DervSuff :Proclitic],
-           :conjClass [:Prefix :Suffix1 :Suffix2 :Suffix3 :Suffix4 :SuffixClass],
-           :formType [:Affix :Suffix],
-           :gender [:Common :Fem :Masc],
-           :mood [:SubjunctivepdgmLex :Subjunctivepolarity],
-           :number [:Common :Plural :Singular :_NA],
-           :person [:Person1 :Person2 :Person3 :_NA],
-           :polarity [:Affirmative :Negative :_NA],
-           :pos [:Pronoun :Verb],
-           :proClass [:Focus :Independent :Object :PossessiveSuff :SubjPrefV :SubjSuffV],
-           :tam [:Imperative :Imperfect :Infinitive :Perfect :Present],
-           :vmorphClass [:Finite :AspectSuff :Clitics :NegationAffix :SUBJMARKERIMPERF :SUBJMARKERPERF :SubjMarkers :VNoun :VSTEMImperf :VSTEMPerf]
-           }
+:schemata {:lexeme [:aak  :aal :ahang :ark :baarin :eeg :ehe :erah :haawa :iraad :iyaad :iyaas :kar-iy :kariy :kas :kor :kuf :maal :obed :ooy :siiy :sood :uwaad],
+ :aspect [:Habitual :Progressive],
+ :cliticClass [:Ablative :Causative :Comitative :Focus :Goal :Medial :Passive :Reflexive :Ventive],
+ :cliticType [:DervSuff :Proclitic],
+ :conjClass [:Prefix :Suffix1 :Suffix2 :Suffix3 :Suffix4 :SuffixClass],
+ :formType [:Affix :Suffix],
+ :gender [:Common :Fem :Masc],
+ :mood [:SubjunctivepdgmLex :Subjunctivepolarity],
+ :number [:Common :Plural :Singular :_NA],
+ :person [:Person1 :Person2 :Person3 :_NA],
+ :polarity [:Affirmative :Negative :_NA],
+ :pos [:Pronoun :Verb],
+ :proClass [:Focus :Independent :Object :PossessiveSuff :SubjPrefV :SubjSuffV],
+ :tam [:Imperative :Imperfect :Infinitive :Perfect :Present],
+ :vmorphClass [:AspectSuff :Clitics :Finite :NegationAffix :SUBJMARKERIMPERF :SUBJMARKERPERF :SubjMarkers :VNoun :VSTEMImperf :VSTEMPerf]
+ }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:aspect :cliticClass :case :derivedStem :mood :polarity :pos :proClass :tam],
           :inflClass [:conjClass :cliticType],
@@ -1531,7 +1532,7 @@
                  }
                 {:label "boni_J-PPoss"
                  :note "Heine1982"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossessiveSuff,
                           :formType :Suffix}
                  :terms [[:number :person :gender :token],

@@ -2,68 +2,68 @@
  :lang :boni-jara
  :subfamily "Lowland East Cushitic Omo-Tana"
  :sgpref "boj"
- :datasource "Heine1982"
+ :datasource "Heine1982; abbrev. H82s"
  :geodemoURL "http://www.ethnologue.com/language/bob"
  :geodemoTXT "Jara is a variety of Central Boni spoken for the most part by residents of the town of Mangai in North-eastern Kenya. It was the object of a dialect study by Bernd Heine published in 1982."
-:schemata { :aspect [:Habitual :Progressive],
- :cliticClass [:Ablative :Causative :Comitative :Focus :Goal :Medial :Passive :Reflexive :Ventive],
- :cliticType [:DervSuff :Proclitic],
- :conjClass [:Prefix :Suffix1 :Suffix2 :Suffix3 :Suffix4 :SuffixClass],
- :formType [:Affix :Suffix],
- :gender [:Common :Fem :Masc],
- :mood [:SubjunctivepdgmLex :Subjunctivepolarity],
- :number [:Common :Plural :Singular :_NA],
- :person [:Person1 :Person2 :Person3 :_NA],
- :polarity [:Affirmative :Negative :_NA],
- :pos [:Pronoun :Verb],
- :proClass [:Focus :Independent :Object :PossessiveSuff :SubjPrefV :SubjSuffV],
- :tam [:Imperative :Imperfect :Infinitive :Perfect :Present],
- :vmorphClass [:AspectSuff :Clitics :Finite :NegationAffix :SUBJMARKERIMPERF :SUBJMARKERPERF :SubjMarkers :VNoun :VSTEMImperf :VSTEMPerf]
- }
+ :schemata { :aspect [:Habitual :Progressive],
+            :cliticClass [:Ablative :Causative :Comitative :Focus :Goal :Medial :Passive :Reflexive :Ventive],
+            :cliticType [:DervSuff :Proclitic],
+            :conjClass [:Prefix :Suffix1 :Suffix2 :Suffix3 :Suffix4 :SuffixClass],
+            :formType [:Affix :Suffix],
+            :gender [:Common :Fem :Masc],
+            :mood [:SubjunctivepdgmLex :Subjunctivepolarity],
+            :number [:Common :Plural :Singular :_NA],
+            :person [:Person1 :Person2 :Person3 :_NA],
+            :polarity [:Affirmative :Negative :_NA],
+            :pos [:Pronoun :Verb],
+            :proClass [:Focus :Independent :Object :PossessiveSuff :SubjPrefV :SubjSuffV],
+            :tam [:Imperative :Imperfect :Infinitive :Perfect :Present],
+            :vmorphClass [:AspectSuff :Clitics :Finite :NegationAffix :SUBJMARKERIMPERF :SUBJMARKERPERF :SubjMarkers :VNoun :VSTEMImperf :VSTEMPerf]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:aspect :cliticClass :case :derivedStem :mood :polarity :pos :proClass :tam],
           :inflClass [:conjClass :cliticType],
           :otherClass []}
  :lexemes {
-:aak   {:pos :Verb, :lemma "-a’ak-", :gloss "drink", :conjClass :Prefix},
-:aal   {:pos :Verb, :lemma "-aal-", :gloss "stay", :conjClass :Prefix},
-:ahang   {:pos :Verb, :lemma "-ahaŋ-", :gloss "eat", :conjClass :Prefix},
-:ark   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:baarin   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:eeg   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:ehe   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:ehe-1   {:pos :Verb, :lemma "d’eer-", :gloss "tall", },
-:ehe-2   {:pos :Adjective, :lemma "-ehe-", :gloss "be", :conjClass :Prefix},
-:erah   {:pos :Verb, :lemma "- erah-", :gloss "say", :conjClass :Prefix},
-:haawa   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:iraad   {:pos :Verb, :lemma "- iraad-", :gloss "run", :conjClass :Prefix},
-:iyaad   {:pos :Verb, :lemma "- iyaad-", :gloss "come", :conjClass :Prefix},
-:iyaas   {:pos :Verb, :lemma "-iyaas-", :gloss "kill", :conjClass :Prefix},
-:kar-iy   {:pos :Verb, :lemma "kar-iy-", :gloss "cook (tr.)", :conjClass :Suffix3},
-:kariy   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:kas   {:pos :Verb, :lemma "kas-", :gloss "know", :conjClass :Suffix},
-:kor   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:kor-1   {:pos :Verb, :lemma "kariy-", :gloss "cook (tr)", :conjClass :Suffix},
-:kor-2   {:pos :Verb, :lemma "so’od’-", :gloss "go", :conjClass :Suffix},
-:kor-3   {:pos :Verb, :lemma "kor-", :gloss "climb", :conjClass :Suffix},
-:kor-4   {:pos :Verb, :lemma "baariŋ-", :gloss "speak", :conjClass :Suffix},
-:kuf   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:maal   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:obed   {:pos :Verb, :lemma "ob-əd’-", :gloss "seize", :conjClass :Suffix2},
-:ooy   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:ooy-1   {:pos :Verb, :lemma "haa-wa’-", :gloss "call", :conjClass :Suffix1},
-:ooy-2   {:pos :Verb, :lemma "ooi-", :gloss "cry", :conjClass :Suffix1},
-:ooy-3   {:pos :Verb, :lemma "ark-", :gloss "see", :conjClass :Suffix1},
-:ooy-4   {:pos :Verb, :lemma "eeg-", :gloss "wait", :conjClass :Suffix1},
-:ooy-5   {:pos :Verb, :lemma "ma’al-", :gloss "hear", :conjClass :Suffix1},
-:ooy-6   {:pos :Verb, :lemma "kuf-", :gloss "fall", :conjClass :Suffix1},
-:siiy   {:pos :Verb, :lemma "siiy-", :gloss "give", :conjClass :Suffix3},
-:sood   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:uwaad   {:pos :Verb, :lemma "-uwaad-", :gloss "die", :conjClass :Prefix},
-}
+           :aak   {:pos :Verb, :lemma "-a’ak-", :gloss "drink", :conjClass :Prefix},
+           :aal   {:pos :Verb, :lemma "-aal-", :gloss "stay", :conjClass :Prefix},
+           :ahang   {:pos :Verb, :lemma "-ahaŋ-", :gloss "eat", :conjClass :Prefix},
+           :ark   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :baarin   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :eeg   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :ehe   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :ehe-1   {:pos :Verb, :lemma "d’eer-", :gloss "tall", },
+           :ehe-2   {:pos :Adjective, :lemma "-ehe-", :gloss "be", :conjClass :Prefix},
+           :erah   {:pos :Verb, :lemma "- erah-", :gloss "say", :conjClass :Prefix},
+           :haawa   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :iraad   {:pos :Verb, :lemma "- iraad-", :gloss "run", :conjClass :Prefix},
+           :iyaad   {:pos :Verb, :lemma "- iyaad-", :gloss "come", :conjClass :Prefix},
+           :iyaas   {:pos :Verb, :lemma "-iyaas-", :gloss "kill", :conjClass :Prefix},
+           :kar-iy   {:pos :Verb, :lemma "kar-iy-", :gloss "cook (tr.)", :conjClass :Suffix3},
+           :kariy   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :kas   {:pos :Verb, :lemma "kas-", :gloss "know", :conjClass :Suffix},
+           :kor   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :kor-1   {:pos :Verb, :lemma "kariy-", :gloss "cook (tr)", :conjClass :Suffix},
+           :kor-2   {:pos :Verb, :lemma "so’od’-", :gloss "go", :conjClass :Suffix},
+           :kor-3   {:pos :Verb, :lemma "kor-", :gloss "climb", :conjClass :Suffix},
+           :kor-4   {:pos :Verb, :lemma "baariŋ-", :gloss "speak", :conjClass :Suffix},
+           :kuf   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :maal   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :obed   {:pos :Verb, :lemma "ob-əd’-", :gloss "seize", :conjClass :Suffix2},
+           :ooy   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :ooy-1   {:pos :Verb, :lemma "haa-wa’-", :gloss "call", :conjClass :Suffix1},
+           :ooy-2   {:pos :Verb, :lemma "ooi-", :gloss "cry", :conjClass :Suffix1},
+           :ooy-3   {:pos :Verb, :lemma "ark-", :gloss "see", :conjClass :Suffix1},
+           :ooy-4   {:pos :Verb, :lemma "eeg-", :gloss "wait", :conjClass :Suffix1},
+           :ooy-5   {:pos :Verb, :lemma "ma’al-", :gloss "hear", :conjClass :Suffix1},
+           :ooy-6   {:pos :Verb, :lemma "kuf-", :gloss "fall", :conjClass :Suffix1},
+           :siiy   {:pos :Verb, :lemma "siiy-", :gloss "give", :conjClass :Suffix3},
+           :sood   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :uwaad   {:pos :Verb, :lemma "-uwaad-", :gloss "die", :conjClass :Prefix},
+           }
  :termclusters [
                 {:label "boni_J-VJaraSuff2AffImperf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
@@ -80,7 +80,7 @@
                          [:Plural :Person3 :Common "á-‘ob-əd-i"]]
                  }
                 {:label "boni_J-VJaraSuff2AffImprtv-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :gender :Common,
@@ -94,7 +94,7 @@
                          [:Plural "ób-əd’-a"]]
                  }
                 {:label "boni_J-VJaraSuff2AffPerf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
@@ -111,7 +111,7 @@
                          [:Plural :Person3 :Common "á-‘ob-əd-e"]]
                  }
                 {:label "boni_J-VJaraSuff2NegImperf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
@@ -128,7 +128,7 @@
                          [:Plural :Person3 :Common "húú-‘ob-əd-i"]]
                  }
                 {:label "boni_J-VJaraSuff2NegImprtv-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :gender :Common,
@@ -143,7 +143,7 @@
                          [:Plural "ha-‘ob-ə-níya"]]
                  }
                 {:label "boni_J-VJaraSuff2NegPerf-obed"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :obed,
@@ -160,7 +160,7 @@
                          [:Plural :Person3 :Common "iyo húú-‘ob-ə-ne"]]
                  }
                 {:label "boni_J-VPrefAffImperf-aak"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
@@ -177,7 +177,7 @@
                          [:Plural :Person3 :Common "á-j-a’ak-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-aal"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
@@ -194,7 +194,7 @@
                          [:Plural :Person3 :Common "a-kí-j-aal-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-ahang"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
@@ -211,7 +211,7 @@
                          [:Plural :Person3 :Common "á-j-ahaŋ-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-ehe"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
@@ -228,7 +228,7 @@
                          [:Plural :Person3 :Common "á-d’éér y-ihi"]]
                  }
                 {:label "boni_J-VPrefAffImperf-erah"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
@@ -245,7 +245,7 @@
                          [:Plural :Person3 :Common "á-y-eri-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-iraad"
-                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :note "H82s2.15.61 :: As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
@@ -263,7 +263,7 @@
                          [:Plural :Person3 :Common "á-j-iraad/r-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-iyaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
@@ -280,7 +280,7 @@
                          [:Plural :Person3 :Common "á-j-iyaad-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-iyaas"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
@@ -297,7 +297,7 @@
                          [:Plural :Person3 :Common "á-j-iyaas-i"]]
                  }
                 {:label "boni_J-VPrefAffImperf-uwaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
@@ -314,7 +314,7 @@
                          [:Plural :Person3 :Common "á-j-uwaad-i"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-aak"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -328,7 +328,7 @@
                          [:Plural "ajík-a"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-aal"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -342,7 +342,7 @@
                          [:Plural "firiis-íd"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-ahang"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -356,7 +356,7 @@
                          [:Plural "aháŋ-a"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-iraad"
-                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :note "H82s2.15.6 :: As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
@@ -371,7 +371,7 @@
                          [:Plural "bóód-a"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-iyaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -385,7 +385,7 @@
                          [:Plural "kaal-’íya"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-iyaas"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -399,7 +399,7 @@
                          [:Plural "iyáás-a ~ iyéés-a [Kijee]"]]
                  }
                 {:label "boni_J-VPrefAffImprtv-uwaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -413,7 +413,7 @@
                          [:Plural "uwáád-a ~ uwáad [Kijee]"]]
                  }
                 {:label "boni_J-VPrefAffPerf-aak"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
@@ -430,7 +430,7 @@
                          [:Plural :Person3 :Common "á-j-i’k-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-aal"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
@@ -447,7 +447,7 @@
                          [:Plural :Person3 :Common "a-kí-y-iil-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-ahang"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
@@ -464,7 +464,7 @@
                          [:Plural :Person3 :Common "á-j-uhuŋ-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-ehe"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
@@ -481,7 +481,7 @@
                          [:Plural :Person3 :Common "iyo d’eer’á he-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-erah"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
@@ -498,7 +498,7 @@
                          [:Plural :Person3 :Common "á-y-eer-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-iraad"
-                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :note "H82s2.15.61 :: As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
@@ -516,7 +516,7 @@
                          [:Plural :Person3 :Common "á-bood-ə"]]
                  }
                 {:label "boni_J-VPrefAffPerf-iyaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
@@ -533,7 +533,7 @@
                          [:Plural :Person3 :Common "á-j-iid-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-iyaas"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
@@ -550,7 +550,7 @@
                          [:Plural :Person3 :Common "á-j-iis-e"]]
                  }
                 {:label "boni_J-VPrefAffPerf-uwaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
@@ -567,7 +567,7 @@
                          [:Plural :Person3 :Common "á-j-uud-e"]]
                  }
                 {:label "boni_J-VPrefImperf-Stem"
-                 :note "Heine1982 2.15.61.  As paradigms show,“prefix verb –iraar- is being replace by  largely synomymous suffix verb bood-."
+                 :note "H82s2.15.61 ::  As paradigms show,“prefix verb –iraar- is being replace by  largely synomymous suffix verb bood-."
                  :common {:vmorphClass :VSTEMImperf
                           :conjClass :Prefix,
                           :pos :Verb,
@@ -584,7 +584,7 @@
                          [:uwaad, "uwaad"]]
                  }
                 {:label "boni_J-VPrefPerf-Stem"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :VSTEMPerf
                           :conjClass :Prefix,
                           :pos :Verb,
@@ -600,7 +600,7 @@
                  }
 
                 {:label "boni_J-VJaraInfinitive-Stem"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :VNoun
                           :pos :Verb,
                           :tam :Infinitive}
@@ -613,7 +613,7 @@
                          [:Prefix,  :iyaad, "iyaad-óó"]]
                  }
                 {:label "boni_J-VPrefNegImperf-aak"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
@@ -630,7 +630,7 @@
                          [:Plural :Person3 :Common "húú-j-a’ak-i"]]
                  }
                 {:label "boni_J-VPrefNegImperf-aal"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
@@ -647,7 +647,7 @@
                          [:Plural :Person3 :Common "k-úú-j-aal-a"]]
                  }
                 {:label "boni_J-VPrefNegImperf-ahang"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
@@ -664,7 +664,7 @@
                          [:Plural :Person3 :Common "húú-j-ahaŋ-i"]]
                  }
                 {:label "boni_J-VPrefNegImperf-ehe"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
@@ -681,7 +681,7 @@
                          [:Plural :Person3 :Common "iyo d’eer-á mé-‘eya"]]
                  }
                 {:label "boni_J-VPrefNegImperf-erah"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
@@ -698,7 +698,7 @@
                          [:Plural :Person3 :Common "húú-y-er-i"]]
                  }
                 {:label "boni_J-VPrefNegImperf-iraad"
-                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :note "H82s2.15.61 :: As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
@@ -716,7 +716,7 @@
                          [:Plural :Person3 :Common "húú-bood-i"]]
                  }
                 {:label "boni_J-VPrefNegImperf-iyaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
@@ -733,7 +733,7 @@
                          [:Plural :Person3 :Common "húú-j-iyaad-i"]]
                  }
                 {:label "boni_J-VPrefNegImperf-iyaas"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
@@ -750,7 +750,7 @@
                          [:Plural :Person3 :Common "húú-j-iyaas-i"]]
                  }
                 {:label "boni_J-VPrefNegImperf-uwaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
@@ -767,7 +767,7 @@
                          [:Plural :Person3 :Common "húú-j-uwaad-i"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-aak"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -781,7 +781,7 @@
                          [:Plural "ha-‘ajiŋ-náha"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-aal"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -795,7 +795,7 @@
                          [:Plural "ha-firiis-in-náha ~ ha-firiis-in-níya"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-ahang"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -809,7 +809,7 @@
                          [:Plural "ha-‘ahaŋ-náha ~ ha-’ahaŋ-níya"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-iraad"
-                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :note "H82s2.15.61 :: As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
@@ -824,7 +824,7 @@
                          [:Plural "ha-‘iraan-náha ~ ha-‘iraan-níya"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-iyaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -838,7 +838,7 @@
                          [:Plural "ha-‘iyaan-náha ~ ha-‘iyaan-níya"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-iyaas"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -852,7 +852,7 @@
                          [:Plural "ha-‘iyein-náha ~ ha-‘iyein-níya"]]
                  }
                 {:label "boni_J-VPrefNegImprtv-uwaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :gender :Common,
@@ -866,7 +866,7 @@
                          [:Plural "ha-‘uwaan-náha ~ ha-‘uwaan-níya"]]
                  }
                 {:label "boni_J-VPrefNegPerf-aak"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aak,
@@ -883,7 +883,7 @@
                          [:Plural :Person3 :Common "iyo má-ajiŋ-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-aal"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :aal,
@@ -900,7 +900,7 @@
                          [:Plural :Person3 :Common "iyo k-úú-iil-ee-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-ahang"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ahang,
@@ -917,7 +917,7 @@
                          [:Plural :Person3 :Common "má-j-uhuŋ-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-ehe"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :ehe,
@@ -934,7 +934,7 @@
                          [:Plural :Person3 :Common "iyo d’eer-á mé-hee-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-erah"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :erah,
@@ -951,7 +951,7 @@
                          [:Plural :Person3 :Common "iyo mé-‘eraan-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-iraad"
-                 :note "Heine1982 2.15.61. As paradigms show,“prefix verb –iraar- is being replace by
+                 :note "H82s2.15.61 :: As paradigms show,“prefix verb –iraar- is being replace by
             largely synomymous suffix verb bood-.“"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
@@ -969,7 +969,7 @@
                          [:Plural :Person3 :Common "iyo mí-iraan-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-iyaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaad,
@@ -986,7 +986,7 @@
                          [:Plural :Person3 :Common "iyo mí-‘iyaan-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-iyaas"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :iyaas,
@@ -1003,7 +1003,7 @@
                          [:Plural :Person3 :Common "iyo mí-‘iyein-ne"]]
                  }
                 {:label "boni_J-VPrefNegPerf-uwaad"
-                 :note "Heine1982 2.15.61"
+                 :note "H82s2.15.61"
                  :common {:vmorphClass :Finite
                           :conjClass :Prefix,
                           :lexeme :uwaad,
@@ -1020,7 +1020,7 @@
                          [:Plural :Person3 :Common "iyo mú-‘uwaan-ne"]]
                  }
                 {:label "boni_J-VSuff1AffPres-ark"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :ark,
@@ -1037,7 +1037,7 @@
                          [:Plural :Person3 :Common "á-‘ark-i"]]
                  }
                 {:label "boni_J-VSuff1AffPres-eeg"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :eeg,
@@ -1054,7 +1054,7 @@
                          [:Plural :Person3 :Common "á-ee-i"]]
                  }
                 {:label "boni_J-VSuff1AffPres-haawa"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :haawa,
@@ -1071,7 +1071,7 @@
                          [:Plural :Person3 :Common "a-háá-wa’-i"]]
                  }
                 {:label "boni_J-VSuff1AffPres-kas"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :kas,
@@ -1088,7 +1088,7 @@
                          [:Plural :Person3 :Common "á-kas-i"]]
                  }
                 {:label "boni_J-VSuff1AffPres-kuf"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :kuf,
@@ -1105,7 +1105,7 @@
                          [:Plural :Person3 :Common "á-kuf-i"]]
                  }
                 {:label "boni_J-VSuff1AffPres-maal"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :maal,
@@ -1122,7 +1122,7 @@
                          [:Plural :Person3 :Common "á-ma’al-i"]]
                  }
                 {:label "boni_J-VSuff1AffPres-ooy"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix1,
                           :lexeme :ooy,
@@ -1139,7 +1139,7 @@
                          [:Plural :Person3 :Common "á-‘oo-i"]]
                  }
                 {:label "boni_J-VSuff2AffImperf-sood"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix2,
                           :lexeme :sood,
@@ -1156,7 +1156,7 @@
                          [:Plural :Person3 :Common "á-so’od-i"]]
                  }
                 {:label "boni_J-VSuff3-siiy"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix3,
                           :lexeme :siiy,
@@ -1198,7 +1198,7 @@
                          [:_NA :Infinitive :_NA :_NA :Common "sííy-óó"]]
                  }
                 {:label "boni_J-VSuff3AffImperf-kar-iy"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix3,
                           :lexeme :kar-iy,
@@ -1215,7 +1215,7 @@
                          [:Plural :Person3 :Common "á-kar-ii"]]
                  }
                 {:label "boni_J-VSuff4AffImperf-baarin"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
@@ -1232,7 +1232,7 @@
                          [:Plural :Person3 :Common "á-baariŋ-i"]]
                  }
                 {:label "boni_J-VSuff4AffImprtv-baarin"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :gender :Common,
@@ -1246,7 +1246,7 @@
                          [:Plural "baaréŋ-a"]]
                  }
                 {:label "boni_J-VSuff4AffPerf-baarin"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
@@ -1263,7 +1263,7 @@
                          [:Plural :Person3 :Common "á-baariŋ-e"]]
                  }
                 {:label "boni_J-VSuff4NegImperf-baarin"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
@@ -1280,7 +1280,7 @@
                          [:Plural :Person3 :Common "húú-baariŋ-i"]]
                  }
                 {:label "boni_J-VSuff4NegImprtv-baarin"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :gender :Common,
@@ -1295,7 +1295,7 @@
                          [:Plural "ha-baareŋ-náha"]]
                  }
                 {:label "boni_J-VSuff4NegPerf-baarin"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:vmorphClass :Finite
                           :conjClass :Suffix4,
                           :lexeme :baarin,
@@ -1312,8 +1312,7 @@
                          [:Plural :Person3 :Common "iyo má-baariŋ-ne"]]
                  }
                 {:label "boni_J-VSuffHabAff-baarin"
-                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
-            aspect.”"
+                 :note "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”"
                  :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
@@ -1330,8 +1329,7 @@
                          [:Plural :Person3 :Common "á-baariŋ-ši-e"]]
                  }
                 {:label "boni_J-VSuffHabAff-kariy"
-                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
-            aspect.”"
+                 :note "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”"
                  :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
@@ -1348,8 +1346,7 @@
                          [:Plural :Person3 :Common "á-karíš-ši-e"]]
                  }
                 {:label "boni_J-VSuffHabAff-kor"
-                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
-            aspect.”"
+                 :note "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”"
                  :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
@@ -1366,8 +1363,7 @@
                          [:Plural :Person3 :Common "á-kór-ši-e"]]
                  }
                 {:label "boni_J-VSuffHabAff-sood"
-                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
-            aspect.”"
+                 :note "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”"
                  :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
@@ -1384,8 +1380,7 @@
                          [:Plural :Person3 :Common "á-so’oš-ši-e"]]
                  }
                 {:label "boni_J-VSuffHabNeg-kor"
-                 :note "Heine1982 2.15.42.2 “There is no imperfect/perfect distinction in the habitual
-            aspect.”"
+                 :note "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”"
                  :common {:vmorphClass :Finite
                           :aspect :Habitual,
                           :conjClass :SuffixClass,
@@ -1402,8 +1397,7 @@
                          [:Plural :Person3 :Common "iyo húú-kór-šin-ne"]]
                  }
                 {:label "boni_J-VSuffProgAffImperf-kor"
-                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
-            plus the auxiliary heey-.”"
+                 :note "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”"
                  :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
@@ -1421,8 +1415,7 @@
                          [:Plural :Person3 :Common "kor-ów heey-i"]]
                  }
                 {:label "boni_J-VSuffProgAffPerf-kor"
-                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
-            plus the auxiliary heey-.”"
+                 :note "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”"
                  :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
@@ -1440,8 +1433,7 @@
                          [:Plural :Person3 :Common "kor-ów heey-e"]]
                  }
                 {:label "boni_J-VSuffProgNegImperf-kor"
-                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
-            plus the auxiliary heey-.”"
+                 :note "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”"
                  :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
@@ -1459,8 +1451,7 @@
                          [:Plural :Person3 :Common "kor-ów húú-heey-i"]]
                  }
                 {:label "boni_J-VSuffProgNegPerf-kor"
-                 :note "Heine1982 2.15.42.1. “The progressive consists of the verb in its infinitive form
-            plus the auxiliary heey-.”"
+                 :note "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”"
                  :common {:vmorphClass :Finite
                           :aspect :Progressive,
                           :conjClass :SuffixClass,
@@ -1478,7 +1469,7 @@
                          [:Plural :Person3 :Common "iyo kor-ów mé-heey-ne"]]
                  }
                 {:label "boni_J-VSuffSubjAffImperf-kas"
-                 :note "Heine1982 2.15.5"
+                 :note "H82s2.15.5"
                  :common {:vmorphClass :Finite
                           :conjClass :SuffixClass,
                           :lexeme :kas,
@@ -1496,7 +1487,7 @@
                          [:Plural :Person3 :Common "kas-éè"]]
                  }
                 {:label "boni_J-VSuffSubjAffPerf-kas"
-                 :note "Heine1982 2.15.5"
+                 :note "H82s2.15.5"
                  :common {:vmorphClass :Finite
                           :conjClass :SuffixClass,
                           :lexeme :kas,
@@ -1514,7 +1505,7 @@
                          [:Plural :Person3 :Common "kas-éè"]]
                  }
                 {:label "boni_J-VSuffSubjNegPerf-kas"
-                 :note "Heine1982 2.15.5"
+                 :note "H82s2.15.5"
                  :common {:vmorphClass :Finite
                           :conjClass :SuffixClass,
                           :lexeme :kas,
@@ -1532,7 +1523,7 @@
                          [:Plural :Person3 :Common "iyo á-kay-née"]]
                  }
                 {:label "boni_J-PPoss"
-                 :note "Heine1982"
+                 :note "H82s"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossessiveSuff,
                           :formType :Suffix}
@@ -1546,7 +1537,7 @@
                          [:Plural :Person3 :Common "-oo(d’a)"]]
                  }
                 {:label "boni_J-Pronoun"
-                 :note "Heine1982 2.14"
+                 :note "H82s2.14"
                  :common {:pos :Pronoun}
                  :terms [[:proClass :number :person :gender :token],
                          [:Focus :Singular :Person1 :Common "an-é"],
@@ -1586,7 +1577,7 @@
                          [:SubjSuffV :Plural :Person3 :Common "Common"]]
                  }
                 {:label "boni_J-VAspect"
-                 :note "Heine1982 2.15.4"
+                 :note "H82s2.15.4"
                  :common {:vmorphClass :AspectSuff
                           :pos :Verb,
                           :formType :Suffix}
@@ -1604,7 +1595,7 @@
                          [:Negative :Perfect :Common "-nè"]]
                  }
                 {:label "boni_J-VClitics"
-                 :note "Heine1982 2.15.7"
+                 :note "H82s2.15.7"
                  :common {:vmorphClass :Clitics
                           :pos :Verb}
                  :terms [[:cliticClass :cliticType :token-note :token],
@@ -1619,7 +1610,7 @@
                          [:Goal :Proclitic "" "Common"]]
                  }
                 {:label "boni_J-VNegation"
-                 :note "Heine1982 2.15.3. These affixes involve both a prefix and a suffix."
+                 :note "H82s2.15.3 :: These affixes involve both a prefix and a suffix."
                  :common {:vmorphClass :NegationAffix
                           :pos :Verb,
                           :formType :Affix}
@@ -1631,7 +1622,7 @@
                          [:Perfect :Common "mə́- (húú- in Kijee) -nè"]]
                  }
                 {:label "boni_J-VSubjAffImperf"
-                 :note "Heine1982 2.15.5"
+                 :note "H82s2.15.5"
                  :common {:vmorphClass :SUBJMARKERIMPERF
                           :mood :Subjunctivepolarity,
                           :pos :Verb,
@@ -1646,7 +1637,7 @@
                          [:Plural :Person3 :Common "-éè"]]
                  }
                 {:label "boni_J-VSubjAffPerf"
-                 :note "Heine1982 2.15.5"
+                 :note "H82s2.15.5"
                  :common {:vmorphClass :SUBJMARKERPERF
                           :mood :Subjunctivepolarity,
                           :pos :Verb,
@@ -1661,8 +1652,7 @@
                          [:Plural :Person3 :Common "-éè"]]
                  }
                 {:label "boni_J-VSuffSubjMarkers"
-                 :note "Heine1982 2.15.62. The suffix conjugation sub-classes are:I basic,II medial,III
-            causative,IV nasal."
+                 :note "H82s2.15.62 :: The suffix conjugation sub-classes are:I basic,II medial,III causative,IV nasal."
                  :common {:vmorphClass :SubjMarkers
                           :pos :Verb,
                           :formType :Suffix}

@@ -1,2069 +1,2220 @@
 {
   "lang": "boni-jara",
   "subfamily": "Lowland East Cushitic Omo-Tana",
-  "sgpref": "boj",
-  "datasource": "Heine1982; abbrev. H82s",
+  "lgpref": "boj",
+  "datasource": "Heine, Bernd. 1982. Boni Dialects. The Non-Bantu Languages of Kenya. Language and Dialect Atlas of Kenya, vol. 10. Berlin: Dietrich Reimer Verlag. [H82]",
+  "datasourceNotes": "",
   "geodemoURL": "http://www.ethnologue.com/language/bob",
   "geodemoTXT": "Jara is a variety of Central Boni spoken for the most part by residents of the town of Mangai in North-eastern Kenya. It was the object of a dialect study by Bernd Heine published in 1982.",
   "schemata": {
-    "aspect": [
-      "Habitual",
-      "Progressive"
-    ],
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3",
-      "_NA"
-    ],
-    "number": [
-      "Common",
-      "Plural",
-      "Singular",
-      "_NA"
-    ],
-    "vmorphClass": [
-      "AspectSuff",
-      "Clitics",
-      "Finite",
-      "NegationAffix",
-      "SUBJMARKERIMPERF",
-      "SUBJMARKERPERF",
-      "SubjMarkers",
-      "VNoun",
-      "VSTEMImperf",
-      "VSTEMPerf"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "Focus",
-      "Independent",
-      "Object",
-      "PossessiveSuff",
-      "SubjPrefV",
-      "SubjSuffV"
-    ],
-    "cliticType": [
-      "DervSuff",
-      "Proclitic"
-    ],
-    "formType": [
-      "Affix",
-      "Suffix"
-    ],
-    "mood": [
-      "SubjunctivepdgmLex",
-      "Subjunctivepolarity"
-    ],
-    "conjClass": [
-      "Prefix",
-      "Suffix1",
-      "Suffix2",
-      "Suffix3",
-      "Suffix4",
-      "SuffixClass"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Negative",
-      "_NA"
-    ],
-    "cliticClass": [
-      "Ablative",
-      "Causative",
-      "Comitative",
-      "Focus",
-      "Goal",
-      "Medial",
-      "Passive",
-      "Reflexive",
-      "Ventive"
-    ],
-    "tam": [
-      "Imperative",
-      "Imperfect",
-      "Infinitive",
-      "Perfect",
-      "Present"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Masc"
+  "aspect": [
+    "Habitual",
+    "Progressive"
+  ],
+  "cliticClass": [
+    "Ablative",
+    "Causative",
+    "Comitative",
+    "Focus",
+    "Goal",
+    "Medial",
+    "Passive",
+    "Reflexive",
+    "Ventive"
+  ],
+  "cliticType": [
+    "DervSuff",
+    "Proclitic"
+  ],
+  "conjClass": [
+    "Prefix",
+    "Suffix1",
+    "Suffix2",
+    "Suffix3",
+    "Suffix4",
+    "SuffixClass"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Masc"
+  ],
+  "lexeme": [
+    "aak",
+    "aal",
+    "ahang",
+    "ark",
+    "baarin",
+    "dheer",
+    "eeg",
+    "ehe",
+    "erah",
+    "haawa",
+    "iraad",
+    "iyaad",
+    "iyaas",
+    "kariy",
+    "kas",
+    "kor",
+    "kuf",
+    "maal",
+    "obed",
+    "ooy",
+    "siiy",
+    "sood",
+    "uwaad"
+  ],
+  "mood": [
+    "SubjunctivepdgmLex",
+    "Subjunctivepolarity"
+  ],
+  "morphClass": [
+    "AspectSuff",
+    "Clitics",
+    "NegationAffix",
+    "SUBJMARKERIMPERF",
+    "SUBJMARKERPERF",
+    "SubjSuffMarkers",
+    "VNoun",
+    "VSTEMImperf",
+    "VSTEMPerf"
+  ],
+  "number": [
+    "Common",
+    "Plural",
+    "Singular",
+    "_NA"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person3",
+    "_NA"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative",
+    "_NA"
+  ],
+  "pos": [
+    "Pronoun",
+    "Verb"
+  ],
+  "proClass": [
+    "Focus",
+    "Independent",
+    "Object",
+    "PossessiveSuff",
+    "SubjPrefV",
+    "SubjSuffV"
+  ],
+  "tam": [
+    "Imperative",
+    "Imperfect",
+    "Infinitive",
+    "Perfect",
+    "Present"
+  ]
+},
+  "lexemes": {
+  "aak": {
+    "conjClass": "Prefix",
+    "gloss": "drink",
+    "lemma": "-a’ak-",
+    "pos": "Verb"
+  },
+  "aal": {
+    "conjClass": "Prefix",
+    "gloss": "stay",
+    "lemma": "-aal-",
+    "pos": "Verb"
+  },
+  "ahang": {
+    "conjClass": "Prefix",
+    "gloss": "eat",
+    "lemma": "-ahaŋ-",
+    "pos": "Verb"
+  },
+  "ark": {
+    "conjClass": "Suffix1",
+    "gloss": "see",
+    "lemma": "ark-",
+    "pos": "Verb"
+  },
+  "baarin": {
+    "conjClass": "Suffix",
+    "gloss": "speak",
+    "lemma": "baariŋ-",
+    "pos": "Verb"
+  },
+  "dheer": {
+    "gloss": "tall",
+    "lemma": "d’eer-",
+    "pos": "Verb"
+  },
+  "eeg": {
+    "conjClass": "Suffix1",
+    "gloss": "wait",
+    "lemma": "eeg-",
+    "pos": "Verb"
+  },
+  "erah": {
+    "conjClass": "Prefix",
+    "gloss": "say",
+    "lemma": "- erah-",
+    "pos": "Verb"
+  },
+  "haawa": {
+    "conjClass": "Suffix1",
+    "gloss": "call",
+    "lemma": "haa-wa’-",
+    "pos": "Verb"
+  },
+  "iraad": {
+    "conjClass": "Prefix",
+    "gloss": "run",
+    "lemma": "- iraad-",
+    "pos": "Verb"
+  },
+  "iyaad": {
+    "conjClass": "Prefix",
+    "gloss": "come",
+    "lemma": "- iyaad-",
+    "pos": "Verb"
+  },
+  "iyaas": {
+    "conjClass": "Prefix",
+    "gloss": "kill",
+    "lemma": "-iyaas-",
+    "pos": "Verb"
+  },
+  "kariy": {
+    "conjClass": "Suffix3",
+    "gloss": "cook (tr.)",
+    "lemma": "kar-iy-",
+    "pos": "Verb"
+  },
+  "kas": {
+    "conjClass": "Suffix",
+    "gloss": "know",
+    "lemma": "kas-",
+    "pos": "Verb"
+  },
+  "kor": {
+    "conjClass": "Suffix",
+    "gloss": "climb",
+    "lemma": "kor-",
+    "pos": "Verb"
+  },
+  "kuf": {
+    "conjClass": "Suffix1",
+    "gloss": "fall",
+    "lemma": "kuf-",
+    "pos": "Verb"
+  },
+  "maal": {
+    "conjClass": "Suffix1",
+    "gloss": "hear",
+    "lemma": "ma’al-",
+    "pos": "Verb"
+  },
+  "obed": {
+    "conjClass": "Suffix2",
+    "gloss": "seize",
+    "lemma": "ob-əd’-",
+    "pos": "Verb"
+  },
+  "ooy": {
+    "conjClass": "Suffix1",
+    "gloss": "cry",
+    "lemma": "ooi-",
+    "pos": "Verb"
+  },
+  "siiy": {
+    "conjClass": "Suffix3",
+    "gloss": "give",
+    "lemma": "siiy-",
+    "pos": "Verb"
+  },
+  "sood": {
+    "gloss": "go",
+    "lemma": "so'od",
+    "pos": "Verb"
+  },
+  "uwaad": {
+    "conjClass": "Prefix",
+    "gloss": "die",
+    "lemma": "-uwaad-",
+    "pos": "Verb"}
+},
+  "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass", "lexeme", "tam", "mood", "polarity", "aspect"],
+  "termclusters": [
+  {
+    "label": "boj-Pronoun",
+    "note": "H82s2.14",
+    "common": {
+      "pos": "Pronoun"
+    },
+    "terms": [
+      ["proClass" ,"number" ,"person" ,"gender" ,"token"],
+      ["Focus" ,"Singular" ,"Person1" ,"Common" ,"an-é"],
+      ["Focus" ,"Singular" ,"Person2" ,"Common" ,"ad-é"],
+      ["Focus" ,"Singular" ,"Person3" ,"Masc" ,"use’é"],
+      ["Focus" ,"Singular" ,"Person3" ,"Fem" ,"ii’é"],
+      ["Focus" ,"Plural" ,"Person1" ,"Common" ,"un-é"],
+      ["Focus" ,"Plural" ,"Person2" ,"Common" ,"adó"],
+      ["Focus" ,"Plural" ,"Person3" ,"Common" ,"iyó"],
+      ["Independent" ,"Singular" ,"Person1" ,"Common" ,"an(ə)"],
+      ["Independent" ,"Singular" ,"Person2" ,"Common" ,"ad(ə)"],
+      ["Independent" ,"Singular" ,"Person3" ,"Masc" ,"us(ə)"],
+      ["Independent" ,"Singular" ,"Person3" ,"Fem" ,"ii"],
+      ["Independent" ,"Plural" ,"Person1" ,"Common" ,"un(ə)"],
+      ["Independent" ,"Plural" ,"Person2" ,"Common" ,"ado"],
+      ["Independent" ,"Plural" ,"Person3" ,"Common" ,"iyo"],
+      ["Object" ,"Singular" ,"Person1" ,"Common" ,"Common"],
+      ["Object" ,"Singular" ,"Person2" ,"Common" ,"kú-"],
+      ["Object" ,"Singular" ,"Person3" ,"Masc" ,"Common"],
+      ["Object" ,"Singular" ,"Person3" ,"Fem" ,"Common"],
+      ["Object" ,"Plural" ,"Person1" ,"Common" ,"nú-"],
+      ["Object" ,"Plural" ,"Person2" ,"Common" ,"dáá-"],
+      ["Object" ,"Plural" ,"Person3" ,"Common" ,"Common"],
+      ["SubjPrefV" ,"Singular" ,"Person1" ,"Common" ,"Common"],
+      ["SubjPrefV" ,"Singular" ,"Person2" ,"Common" ,"t…t"],
+      ["SubjPrefV" ,"Singular" ,"Person3" ,"Masc" ,"j…"],
+      ["SubjPrefV" ,"Singular" ,"Person3" ,"Fem" ,"t…t"],
+      ["SubjPrefV" ,"Plural" ,"Person1" ,"Common" ,"n…n"],
+      ["SubjPrefV" ,"Plural" ,"Person2" ,"Common" ,"t…t"],
+      ["SubjPrefV" ,"Plural" ,"Person3" ,"Common" ,"j…"],
+      ["SubjSuffV" ,"Singular" ,"Person1" ,"Common" ,"Common"],
+      ["SubjSuffV" ,"Singular" ,"Person2" ,"Common" ,"-t"],
+      ["SubjSuffV" ,"Singular" ,"Person3" ,"Masc" ,"Common"],
+      ["SubjSuffV" ,"Singular" ,"Person3" ,"Fem" ,"-t"],
+      ["SubjSuffV" ,"Plural" ,"Person1" ,"Common" ,"-n"],
+      ["SubjSuffV" ,"Plural" ,"Person2" ,"Common" ,"-t"],
+      ["SubjSuffV" ,"Plural" ,"Person3" ,"Common" ,"Common"]
     ]
   },
-  "lexemes": {
-    "siiy": {
-      "pos": "Verb",
-      "lemma": "siiy-",
-      "gloss": "give",
-      "conjClass": "Suffix3"
+  {
+    "label": "boj-PronounPossessiveSuff",
+    "note": "H82s",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossessiveSuff"
     },
-    "ooy-5": {
-      "pos": "Verb",
-      "lemma": "ma’al-",
-      "gloss": "hear",
-      "conjClass": "Suffix1"
-    },
-    "haawa": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "iyaas": {
-      "pos": "Verb",
-      "lemma": "-iyaas-",
-      "gloss": "kill",
-      "conjClass": "Prefix"
-    },
-    "sood": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "kas": {
-      "pos": "Verb",
-      "lemma": "kas-",
-      "gloss": "know",
-      "conjClass": "Suffix"
-    },
-    "ooy-6": {
-      "pos": "Verb",
-      "lemma": "kuf-",
-      "gloss": "fall",
-      "conjClass": "Suffix1"
-    },
-    "kor-3": {
-      "pos": "Verb",
-      "lemma": "kor-",
-      "gloss": "climb",
-      "conjClass": "Suffix"
-    },
-    "kariy": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "kor-2": {
-      "pos": "Verb",
-      "lemma": "so’od’-",
-      "gloss": "go",
-      "conjClass": "Suffix"
-    },
-    "kor-1": {
-      "pos": "Verb",
-      "lemma": "kariy-",
-      "gloss": "cook (tr)",
-      "conjClass": "Suffix"
-    },
-    "kor": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "kuf": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "kar-iy": {
-      "pos": "Verb",
-      "lemma": "kar-iy-",
-      "gloss": "cook (tr.)",
-      "conjClass": "Suffix3"
-    },
-    "ehe-1": {
-      "pos": "Verb",
-      "lemma": "d’eer-",
-      "gloss": "tall"
-    },
-    "ooy-4": {
-      "pos": "Verb",
-      "lemma": "eeg-",
-      "gloss": "wait",
-      "conjClass": "Suffix1"
-    },
-    "ahang": {
-      "pos": "Verb",
-      "lemma": "-ahaŋ-",
-      "gloss": "eat",
-      "conjClass": "Prefix"
-    },
-    "iyaad": {
-      "pos": "Verb",
-      "lemma": "- iyaad-",
-      "gloss": "come",
-      "conjClass": "Prefix"
-    },
-    "ooy-1": {
-      "pos": "Verb",
-      "lemma": "haa-wa’-",
-      "gloss": "call",
-      "conjClass": "Suffix1"
-    },
-    "uwaad": {
-      "pos": "Verb",
-      "lemma": "-uwaad-",
-      "gloss": "die",
-      "conjClass": "Prefix"
-    },
-    "aal": {
-      "pos": "Verb",
-      "lemma": "-aal-",
-      "gloss": "stay",
-      "conjClass": "Prefix"
-    },
-    "ooy": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "maal": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "eeg": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "ark": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "baarin": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    },
-    "obed": {
-      "pos": "Verb",
-      "lemma": "ob-əd’-",
-      "gloss": "seize",
-      "conjClass": "Suffix2"
-    },
-    "aak": {
-      "pos": "Verb",
-      "lemma": "-a’ak-",
-      "gloss": "drink",
-      "conjClass": "Prefix"
-    },
-    "ooy-2": {
-      "pos": "Verb",
-      "lemma": "ooi-",
-      "gloss": "cry",
-      "conjClass": "Suffix1"
-    },
-    "ooy-3": {
-      "pos": "Verb",
-      "lemma": "ark-",
-      "gloss": "see",
-      "conjClass": "Suffix1"
-    },
-    "kor-4": {
-      "pos": "Verb",
-      "lemma": "baariŋ-",
-      "gloss": "speak",
-      "conjClass": "Suffix"
-    },
-    "erah": {
-      "pos": "Verb",
-      "lemma": "- erah-",
-      "gloss": "say",
-      "conjClass": "Prefix"
-    },
-    "iraad": {
-      "pos": "Verb",
-      "lemma": "- iraad-",
-      "gloss": "run",
-      "conjClass": "Prefix"
-    },
-    "ehe-2": {
-      "pos": "Adjective",
-      "lemma": "-ehe-",
-      "gloss": "be",
-      "conjClass": "Prefix"
-    },
-    "ehe": {
-      "pos": "Verb",
-      "lemma": "[y]",
-      "gloss": "[x]"
-    }
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-éè"],
+      ["Singular" ,"Person2" ,"Common" ,"-áà"],
+      ["Singular" ,"Person3" ,"Masc" ,"-íì"],
+      ["Singular" ,"Person3" ,"Fem" ,"-éè"],
+      ["Plural" ,"Person1" ,"Common" ,"-aani"],
+      ["Plural" ,"Person2" ,"Common" ,"-iinî"],
+      ["Plural" ,"Person3" ,"Common" ,"-oo(d’a)"]
+    ]
   },
-  "termclusters": [
-{
-"label": "boni_J-VJaraSuff2AffImperf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "lexeme": "obed",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ob-əd’-a"],
- ["Singular", "Person2", "Common", "á-‘ob-ət-ta"],
- ["Singular", "Person3", "Masc", "á-‘ob-əd-a"],
- ["Singular", "Person3", "Fem", "á-‘ob-ət-ta"],
- ["Plural", "Person1", "Common", "á-‘ob-ə-na"],
- ["Plural", "Person2", "Common", "á-‘ob-ət-ti"],
- ["Plural", "Person3", "Common", "á-‘ob-əd-i"]]
-},
-{
-"label": "boni_J-VJaraSuff2AffImprtv-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "gender": "Common",
- "lexeme": "obed",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "óbo"], ["Plural", "ób-əd’-a"]]
-},
-{
-"label": "boni_J-VJaraSuff2AffPerf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "lexeme": "obed",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ob-əd’-ə"],
- ["Singular", "Person2", "Common", "á-‘ob-ət-tə"],
- ["Singular", "Person3", "Masc", "á-‘ob-əd-ə"],
- ["Singular", "Person3", "Fem", "á-‘ob-ət-tə"],
- ["Plural", "Person1", "Common", "á-‘ob-ə-nə"],
- ["Plural", "Person2", "Common", "á-‘ob-ət-te"],
- ["Plural", "Person3", "Common", "á-‘ob-əd-e"]]
-},
-{
-"label": "boni_J-VJaraSuff2NegImperf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "lexeme": "obed",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘ob-əed’-o"],
- ["Singular", "Person2", "Common", "húú-‘ob-ət-to"],
- ["Singular", "Person3", "Masc", "húú-‘ob-əd-o"],
- ["Singular", "Person3", "Fem", "húú-‘ob-ət-to"],
- ["Plural", "Person1", "Common", "húú-‘ob-ə-no"],
- ["Plural", "Person2", "Common", "húú-‘ob-ət-ti"],
- ["Plural", "Person3", "Common", "húú-‘ob-əd-i"]]
-},
-{
-"label": "boni_J-VJaraSuff2NegImprtv-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "gender": "Common",
- "lexeme": "obed",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘ób-ə-ne"], ["Plural", "ha-‘ob-ə-náha"], ["Plural", "ha-‘ob-ə-níya"]]
-},
-{
-"label": "boni_J-VJaraSuff2NegPerf-obed",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "lexeme": "obed",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an húú-‘ob-ə-ne"],
- ["Singular", "Person2", "Common", "ad húú-‘ob-ə-ne"],
- ["Singular", "Person3", "Masc", "us húú-‘ob-ə-ne"],
- ["Singular", "Person3", "Fem", "ii húú-‘ob-ə-ne"],
- ["Plural", "Person1", "Common", "un húú-‘ob-ə-ne"],
- ["Plural", "Person2", "Common", "ado húú-‘ob-ə-ne"],
- ["Plural", "Person3", "Common", "iyo húú-‘ob-ə-ne"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-aak",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aak",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ajik-a"],
- ["Singular", "Person2", "Common", "á-t-a’ak-a"],
- ["Singular", "Person3", "Masc", "á-j-a’ak-a"],
- ["Singular", "Person3", "Fem", "á-t-a’ak-a"],
- ["Plural", "Person1", "Common", "á-n-a’ak-a"],
- ["Plural", "Person2", "Common", "á-t-a’ak-i"],
- ["Plural", "Person3", "Common", "á-j-a’ak-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-aal",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aal",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "a-ká-‘aal-a"],
- ["Singular", "Person2", "Common", "a-ké-t-aal-a"],
- ["Singular", "Person3", "Masc", "a-kí-j-aal-a"],
- ["Singular", "Person3", "Fem", "a-ké-t-aal-a"],
- ["Plural", "Person1", "Common", "a-ké-n-aal-a"],
- ["Plural", "Person2", "Common", "a-ké-t-aal-i"],
- ["Plural", "Person3", "Common", "a-kí-j-aal-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-ahang",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ahang",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ahaŋ-a"],
- ["Singular", "Person2", "Common", "á-t-ahaŋ-a"],
- ["Singular", "Person3", "Masc", "á-j-ahaŋ-a"],
- ["Singular", "Person3", "Fem", "á-t-ahaŋ-a"],
- ["Plural", "Person1", "Common", "á-n-ahaŋ-a"],
- ["Plural", "Person2", "Common", "á-t-ahaŋ-i"],
- ["Plural", "Person3", "Common", "á-j-ahaŋ-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-ehe",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ehe",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-d’éér d’-ehe"],
- ["Singular", "Person2", "Common", "á-d’éé t-ehe"],
- ["Singular", "Person3", "Masc", "á-d’éér y-ehe"],
- ["Singular", "Person3", "Fem", "á-d’éér t-ehe"],
- ["Plural", "Person1", "Common", "á-d’éér n-ehe"],
- ["Plural", "Person2", "Common", "á-d’éér t-ihi"],
- ["Plural", "Person3", "Common", "á-d’éér y-ihi"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-erah",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "erah",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘erah-a"],
- ["Singular", "Person2", "Common", "á-t-erah-a"],
- ["Singular", "Person3", "Masc", "á-y-erah-a"],
- ["Singular", "Person3", "Fem", "á-t-erah-a"],
- ["Plural", "Person1", "Common", "á-n-erah-a"],
- ["Plural", "Person2", "Common", "á-t-eri-i"],
- ["Plural", "Person3", "Common", "á-y-eri-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-iraad",
-"note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "lexeme": "iraad",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘iraad/r-a"],
- ["Singular", "Person2", "Common", "á-t-iraad/r-a"],
- ["Singular", "Person3", "Masc", "á-j-iraad/r-a"],
- ["Singular", "Person3", "Fem", "á-t-iraad/r-a"],
- ["Plural", "Person1", "Common", "á-n-iraad/r-a"],
- ["Plural", "Person2", "Common", "á-t-iraad/r-i"],
- ["Plural", "Person3", "Common", "á-j-iraad/r-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-iyaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaad",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘iyaad-a"],
- ["Singular", "Person2", "Common", "á-t-iyaad-a"],
- ["Singular", "Person3", "Masc", "á-j-iyaad-a"],
- ["Singular", "Person3", "Fem", "á-t-iyaad-a"],
- ["Plural", "Person1", "Common", "á-n-iyaad-a"],
- ["Plural", "Person2", "Common", "á-t-iyaad-i"],
- ["Plural", "Person3", "Common", "á-j-iyaad-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-iyaas",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaas",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘iyaas-a"],
- ["Singular", "Person2", "Common", "á-t-iyaas-a"],
- ["Singular", "Person3", "Masc", "á-j-iyaas-a"],
- ["Singular", "Person3", "Fem", "á-t-iyaas-a"],
- ["Plural", "Person1", "Common", "á-n-iyaas-a"],
- ["Plural", "Person2", "Common", "á-t-iyaas-i"],
- ["Plural", "Person3", "Common", "á-j-iyaas-i"]]
-},
-{
-"label": "boni_J-VPrefAffImperf-uwaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "uwaad",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘uwaad-a"],
- ["Singular", "Person2", "Common", "á-t-uwaad-a"],
- ["Singular", "Person3", "Masc", "á-j-uwaad-a"],
- ["Singular", "Person3", "Fem", "á-t-uwaad-a"],
- ["Plural", "Person1", "Common", "á-n-uwaad-a"],
- ["Plural", "Person2", "Common", "á-t-uwaad-i"],
- ["Plural", "Person3", "Common", "á-j-uwaad-i"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-aak",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "aak",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ájik-e ~ ájik [Kijee]"], ["Plural", "ajík-a"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-aal",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "aal",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "firííso"], ["Plural", "firiis-íd"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-ahang",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "ahang",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "áhaŋ-e"], ["Plural", "aháŋ-a"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-iraad",
-"note": "H82s2.15.6 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "iraad",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "bóod"], ["Plural", "bóód-a"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-iyaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "iyaad",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "káálə"], ["Plural", "kaal-’íya"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-iyaas",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "iyaas",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "iyáàs-e ~ iyéès [Kijee]"], ["Plural", "iyáás-a ~ iyéés-a [Kijee]"]]
-},
-{
-"label": "boni_J-VPrefAffImprtv-uwaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "uwaad",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "uwáad-e"], ["Plural", "uwáád-a ~ uwáad [Kijee]"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-aak",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aak",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ajik-ə"],
- ["Singular", "Person2", "Common", "á-t-i’k-ə"],
- ["Singular", "Person3", "Masc", "á-j-i’k-ə"],
- ["Singular", "Person3", "Fem", "á-t-i’k-ə"],
- ["Plural", "Person1", "Common", "á-n-i’k-ə"],
- ["Plural", "Person2", "Common", "á-t-i’k-e"],
- ["Plural", "Person3", "Common", "á-j-i’k-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-aal",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aal",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "a-kí-‘iil-ə"],
- ["Singular", "Person2", "Common", "a-kí-t-iil-ə"],
- ["Singular", "Person3", "Masc", "a-kí-y-iil-ə"],
- ["Singular", "Person3", "Fem", "a-kí-t-iil-ə"],
- ["Plural", "Person1", "Common", "a-kí-n-iil-ə"],
- ["Plural", "Person2", "Common", "a-kí-t-iil-e"],
- ["Plural", "Person3", "Common", "a-kí-y-iil-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-ahang",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ahang",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘uhuŋ-ə"],
- ["Singular", "Person2", "Common", "á-t-uhuŋ-ə"],
- ["Singular", "Person3", "Masc", "á-j-uhuŋ-ə"],
- ["Singular", "Person3", "Fem", "á-t-uhuŋ-ə"],
- ["Plural", "Person1", "Common", "á-n-uhuŋ-ə"],
- ["Plural", "Person2", "Common", "á-t-uhuŋ-e"],
- ["Plural", "Person3", "Common", "á-j-uhuŋ-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-ehe",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ehe",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an d’eer-á hey"],
- ["Singular", "Person2", "Common", "ad d’eer-á he-d’ə"],
- ["Singular", "Person3", "Masc", "us d’eer’á hey"],
- ["Singular", "Person3", "Fem", "ii d’eer-á he-d’ə"],
- ["Plural", "Person1", "Common", "un d’eer-á hee-nə"],
- ["Plural", "Person2", "Common", "ado d’eer’á he-d’e"],
- ["Plural", "Person3", "Common", "iyo d’eer’á he-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-erah",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "erah",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘eer’-ə"],
- ["Singular", "Person2", "Common", "á-t-eer-ə"],
- ["Singular", "Person3", "Masc", "á-y-eer-ə"],
- ["Singular", "Person3", "Fem", "á-t-eer-ə"],
- ["Plural", "Person1", "Common", "á-n-eer-ə"],
- ["Plural", "Person2", "Common", "á-t-eer-e"],
- ["Plural", "Person3", "Common", "á-y-eer-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-iraad",
-"note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "lexeme": "iraad",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-bood-ə"],
- ["Singular", "Person2", "Common", "á-boot-tə"],
- ["Singular", "Person3", "Masc", "á-bood-ə"],
- ["Singular", "Person3", "Fem", "á-boot-tə"],
- ["Plural", "Person1", "Common", "á-boon-nə"],
- ["Plural", "Person2", "Common", "á-boot-tə"],
- ["Plural", "Person3", "Common", "á-bood-ə"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-iyaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaad",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘iid-ə"],
- ["Singular", "Person2", "Common", "á-t-iid-ə"],
- ["Singular", "Person3", "Masc", "á-j-iid-ə"],
- ["Singular", "Person3", "Fem", "á-t-iid-ə"],
- ["Plural", "Person1", "Common", "á-n-iid-ə"],
- ["Plural", "Person2", "Common", "á-t-iid-e"],
- ["Plural", "Person3", "Common", "á-j-iid-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-iyaas",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaas",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘iis-ə"],
- ["Singular", "Person2", "Common", "á-t-iis-ə"],
- ["Singular", "Person3", "Masc", "á-j-iis-ə"],
- ["Singular", "Person3", "Fem", "á-t-iis-ə"],
- ["Plural", "Person1", "Common", "á-n-iis-ə"],
- ["Plural", "Person2", "Common", "á-t-iis-e"],
- ["Plural", "Person3", "Common", "á-j-iis-e"]]
-},
-{
-"label": "boni_J-VPrefAffPerf-uwaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "uwaad",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘uud-ə"],
- ["Singular", "Person2", "Common", "á-t-uud-ə"],
- ["Singular", "Person3", "Masc", "á-j-uud-ə"],
- ["Singular", "Person3", "Fem", "á-t-uud-ə"],
- ["Plural", "Person1", "Common", "á-n-uud-ə"],
- ["Plural", "Person2", "Common", "á-t-uud-e"],
- ["Plural", "Person3", "Common", "á-j-uud-e"]]
-},
-{
-"label": "boni_J-VPrefImperf-Stem",
-"note": "H82s2.15.61 ::  As paradigms show, prefix verb –iraar- is being replace by  largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "VSTEMImperf"},
-"terms":  
-[["lexeme", "token"],
- ["aak", "(ajik-/)a’ak"],
- ["aal", "aal"],
- ["ahang", "ahaŋ"],
- ["ehe", "ehe/ihi"],
- ["erah", "erah"],
- ["iraad", "iraad/iraar"],
- ["iyaad", "iyaad"],
- ["iyaas", "iyaas"],
- ["uwaad", "uwaad"]]
-},
-{
-"label": "boni_J-VPrefPerf-Stem",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "VSTEMPerf"},
-"terms":  
-[["lexeme", "token"],
- ["aak", "(ajik-/)i’ik"],
- ["aal", "iil"],
- ["ahang", "uhuŋ"],
- ["erah", "eer"],
- ["iyaad", "iid"],
- ["iyaas", "iis"],
- ["uwaad", "uud"]]
-},
-{
-"label": "boni_J-VJaraInfinitive-Stem",
-"note": "H82s",
-"common": {"pos": "Verb",
- "tam": "Infinitive",
- "vmorphClass": "VNoun"},
-"terms":  
-[["conjClass", "lexeme", "token"],
- ["Suffix2", "obed", "ob-əd’-ó(w)"],
- ["Suffix4", "baarin", "baariŋ-ów"],
- ["Prefix", "aak", "ajik-tíí"],
- ["Prefix", "ahang", "ahaŋ-óó"],
- ["Prefix", "iraad", "iraat-tíí"],
- ["Prefix", "iyaad", "iyaad-óó"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-aak",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aak",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘ajik-o"],
- ["Singular", "Person2", "Common", "húú-t-a’ak-o"],
- ["Singular", "Person3", "Masc", "húú-j-a’ak-o"],
- ["Singular", "Person3", "Fem", "húú-t-a’ak-o"],
- ["Plural", "Person1", "Common", "húú-n-a’ak-o"],
- ["Plural", "Person2", "Common", "húú-t-a’ak-i"],
- ["Plural", "Person3", "Common", "húú-j-a’ak-i"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-aal",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aal",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "k-úú-‘aal-o"],
- ["Singular", "Person2", "Common", "k-úú-t-aal-o"],
- ["Singular", "Person3", "Masc", "k-úú-j-aal-a"],
- ["Singular", "Person3", "Fem", "k-úú-t-aal-a"],
- ["Plural", "Person1", "Common", "k-úú-n-aal-a"],
- ["Plural", "Person2", "Common", "k-úú-t-aal-a"],
- ["Plural", "Person3", "Common", "k-úú-j-aal-a"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-ahang",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ahang",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘ahaŋ-o"],
- ["Singular", "Person2", "Common", "húú-t-ahaŋ-o"],
- ["Singular", "Person3", "Masc", "húú-j-ahaŋ-o"],
- ["Singular", "Person3", "Fem", "húú-t-ahaŋ-o"],
- ["Plural", "Person1", "Common", "húú-n-ahaŋ-o"],
- ["Plural", "Person2", "Common", "húú-t-ahaŋ-i"],
- ["Plural", "Person3", "Common", "húú-j-ahaŋ-i"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-ehe",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ehe",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an d’eer-á mé-‘eya"],
- ["Singular", "Person2", "Common", "ad d’eer-á mé-‘eya"],
- ["Singular", "Person3", "Masc", "us d’eer-á mé-‘eya"],
- ["Singular", "Person3", "Fem", "ii d’eer-á mé-‘eya"],
- ["Plural", "Person1", "Common", "un d’eer-á mé-‘eya"],
- ["Plural", "Person2", "Common", "ado d’eer-á mé-‘eya"],
- ["Plural", "Person3", "Common", "iyo d’eer-á mé-‘eya"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-erah",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "erah",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘er-o"],
- ["Singular", "Person2", "Common", "húú-t-er-o"],
- ["Singular", "Person3", "Masc", "húú-y-er-o"],
- ["Singular", "Person3", "Fem", "húú-t-er-o"],
- ["Plural", "Person1", "Common", "húú-n-er-o"],
- ["Plural", "Person2", "Common", "húú-t-er-i"],
- ["Plural", "Person3", "Common", "húú-y-er-i"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-iraad",
-"note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "lexeme": "iraad",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-bood-o"],
- ["Singular", "Person2", "Common", "húú-boot-to"],
- ["Singular", "Person3", "Masc", "húú-bood-o"],
- ["Singular", "Person3", "Fem", "húú-boot-to"],
- ["Plural", "Person1", "Common", "húú-boon-no"],
- ["Plural", "Person2", "Common", "húú-boot-ti"],
- ["Plural", "Person3", "Common", "húú-bood-i"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-iyaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaad",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘iyaad-o"],
- ["Singular", "Person2", "Common", "húú-t-iyaad-o"],
- ["Singular", "Person3", "Masc", "húú-j-iyaad-o"],
- ["Singular", "Person3", "Fem", "húú-t-iyaad-o"],
- ["Plural", "Person1", "Common", "húú-n-iyaad-o"],
- ["Plural", "Person2", "Common", "húú-t-iyaad-i"],
- ["Plural", "Person3", "Common", "húú-j-iyaad-i"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-iyaas",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaas",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘iyaas-o"],
- ["Singular", "Person2", "Common", "húú-t-iyaas-o"],
- ["Singular", "Person3", "Masc", "húú-j-iyaas-o"],
- ["Singular", "Person3", "Fem", "húú-t-iyaas-o"],
- ["Plural", "Person1", "Common", "húú-n-iyaas-o"],
- ["Plural", "Person2", "Common", "húú-t-iyaas-i"],
- ["Plural", "Person3", "Common", "húú-j-iyaas-i"]]
-},
-{
-"label": "boni_J-VPrefNegImperf-uwaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "uwaad",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-‘uwaad-o"],
- ["Singular", "Person2", "Common", "húú-t-uwaad-o"],
- ["Singular", "Person3", "Masc", "húú-j-uwaad-o"],
- ["Singular", "Person3", "Fem", "húú-t-uwaad-o"],
- ["Plural", "Person1", "Common", "húú-n-uwaad-o"],
- ["Plural", "Person2", "Common", "húú-t-uwaad-i"],
- ["Plural", "Person3", "Common", "húú-j-uwaad-i"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-aak",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "aak",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘ajíŋ-ne ~ ha-‘ajiŋ-níya"], ["Plural", "ha-‘ajiŋ-náha"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-aal",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "aal",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-firiis-ín-ne"], ["Plural", "ha-firiis-in-náha ~ ha-firiis-in-níya"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-ahang",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "ahang",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘aháŋ-ne"], ["Plural", "ha-‘ahaŋ-náha ~ ha-’ahaŋ-níya"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-iraad",
-"note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "iraad",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘iráán-ne"], ["Plural", "ha-‘iraan-náha ~ ha-‘iraan-níya"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-iyaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "iyaad",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha—‘iyáán-ne"], ["Plural", "ha-‘iyaan-náha ~ ha-‘iyaan-níya"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-iyaas",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "iyaas",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘iyéin-ne"], ["Plural", "ha-‘iyein-náha ~ ha-‘iyein-níya"]]
-},
-{
-"label": "boni_J-VPrefNegImprtv-uwaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "gender": "Common",
- "lexeme": "uwaad",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-‘uwáán-ne"], ["Plural", "ha-‘uwaan-náha ~ ha-‘uwaan-níya"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-aak",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aak",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an má-‘ajiŋ-ne"],
- ["Singular", "Person2", "Common", "ad má-‘ajiŋ-ne"],
- ["Singular", "Person3", "Masc", "us má-‘ajiŋ-ne"],
- ["Singular", "Person3", "Fem", "ii má-ajiŋ-ne"],
- ["Plural", "Person1", "Common", "un má-ajiŋ-ne"],
- ["Plural", "Person2", "Common", "ado má-ajiŋ-ne"],
- ["Plural", "Person3", "Common", "iyo má-ajiŋ-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-aal",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "aal",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an k-úú-iil-ee-ne"],
- ["Singular", "Person2", "Common", "ad k-úú-iil-ee-ne"],
- ["Singular", "Person3", "Masc", "us k-úú-iil-ee-ne"],
- ["Singular", "Person3", "Fem", "ii k-úú-iil-ee-ne"],
- ["Plural", "Person1", "Common", "un k-úú-iil-ee-ne"],
- ["Plural", "Person2", "Common", "ado k-úú-iil-ee-ne"],
- ["Plural", "Person3", "Common", "iyo k-úú-iil-ee-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-ahang",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ahang",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "má-‘ahaŋ-ne"],
- ["Singular", "Person2", "Common", "má-t-uhuŋ-ne"],
- ["Singular", "Person3", "Masc", "má-j-uhuŋ-ne"],
- ["Singular", "Person3", "Fem", "má-t-uhuŋ-ne"],
- ["Plural", "Person1", "Common", "má-n-uhuŋ-ne"],
- ["Plural", "Person2", "Common", "má-t-uhuŋ-ne"],
- ["Plural", "Person3", "Common", "má-j-uhuŋ-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-ehe",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "ehe",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an d’eer-á mé-hee-ne"],
- ["Singular", "Person2", "Common", "ad d’eer-á mé-hee-ne"],
- ["Singular", "Person3", "Masc", "us d’eer-á mé-hee-ne"],
- ["Singular", "Person3", "Fem", "ii d’eer-á mé-hee-ne"],
- ["Plural", "Person1", "Common", "un d’eer-á mé-hee-ne"],
- ["Plural", "Person2", "Common", "ado d’eer-á mé-hee-ne"],
- ["Plural", "Person3", "Common", "iyo d’eer-á mé-hee-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-erah",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "erah",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an mé-‘eraan-ne"],
- ["Singular", "Person2", "Common", "ad mé-‘eraan-ne"],
- ["Singular", "Person3", "Masc", "us mé-‘eraan-ne"],
- ["Singular", "Person3", "Fem", "ii mé-‘eraan-ne"],
- ["Plural", "Person1", "Common", "un mé-‘eraan-ne"],
- ["Plural", "Person2", "Common", "ado mé-‘eraan-ne"],
- ["Plural", "Person3", "Common", "iyo mé-‘eraan-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-iraad",
-"note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
-"common": {"conjClass": "Prefix",
- "lexeme": "iraad",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an mí-iraan-ne"],
- ["Singular", "Person2", "Common", "ad mí-iraan-ne"],
- ["Singular", "Person3", "Masc", "us mí-iraan-ne"],
- ["Singular", "Person3", "Fem", "ii mí-iraan-ne"],
- ["Plural", "Person1", "Common", "un mí-iraan-ne"],
- ["Plural", "Person2", "Common", "ado mí-iraan-ne"],
- ["Plural", "Person3", "Common", "iyo mí-iraan-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-iyaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaad",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an mí-‘iyaan-ne"],
- ["Singular", "Person2", "Common", "ad mí-‘iyaan-ne"],
- ["Singular", "Person3", "Masc", "us mí-‘iyaan-ne"],
- ["Singular", "Person3", "Fem", "ii mí-‘iyaan-ne"],
- ["Plural", "Person1", "Common", "un mí-‘iyaan-ne"],
- ["Plural", "Person2", "Common", "ado mí-‘iyaan-ne"],
- ["Plural", "Person3", "Common", "iyo mí-‘iyaan-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-iyaas",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "iyaas",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an mí-‘iyein-ne"],
- ["Singular", "Person2", "Common", "ad mí-‘iyein-ne"],
- ["Singular", "Person3", "Masc", "us mí-‘iyein-ne"],
- ["Singular", "Person3", "Fem", "ii mí-‘iyein-ne"],
- ["Plural", "Person1", "Common", "un mí-‘iyein-ne"],
- ["Plural", "Person2", "Common", "ado mí-‘iyein-ne"],
- ["Plural", "Person3", "Common", "iyo mí-‘iyein-ne"]]
-},
-{
-"label": "boni_J-VPrefNegPerf-uwaad",
-"note": "H82s2.15.61",
-"common": {"conjClass": "Prefix",
- "lexeme": "uwaad",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an mú-‘uwaan-ne"],
- ["Singular", "Person2", "Common", "ad mú-‘uwaan-ne"],
- ["Singular", "Person3", "Masc", "us mú-‘uwaan-ne"],
- ["Singular", "Person3", "Fem", "ii mú-‘uwaan-ne"],
- ["Plural", "Person1", "Common", "un mú-‘uwaan-ne"],
- ["Plural", "Person2", "Common", "ado mú-‘uwaan-ne"],
- ["Plural", "Person3", "Common", "iyo mú-‘uwaan-ne"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-ark",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "ark",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘ark-a"],
- ["Singular", "Person2", "Common", "á-‘aret-ta"],
- ["Singular", "Person3", "Masc", "á-‘ark-a"],
- ["Singular", "Person3", "Fem", "á-‘aret-ta"],
- ["Plural", "Person1", "Common", "á-‘are-na"],
- ["Plural", "Person2", "Common", "á-‘aret-ti"],
- ["Plural", "Person3", "Common", "á-‘ark-i"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-eeg",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "eeg",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-eeg-a"],
- ["Singular", "Person2", "Common", "á-eek-ta"],
- ["Singular", "Person3", "Masc", "á-eeg-a"],
- ["Singular", "Person3", "Fem", "á-eek-ta"],
- ["Plural", "Person1", "Common", "á-eeg-na"],
- ["Plural", "Person2", "Common", "á-eek-ti"],
- ["Plural", "Person3", "Common", "á-ee-i"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-haawa",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "haawa",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "a-háá-wa’-a"],
- ["Singular", "Person2", "Common", "a-háá-wa’-ada"],
- ["Singular", "Person3", "Masc", "a-háá-wa’-a"],
- ["Singular", "Person3", "Fem", "a-háá-wa’-ada"],
- ["Plural", "Person1", "Common", "a-háá-wa’-ana"],
- ["Plural", "Person2", "Common", "a-háá-wa’-adi"],
- ["Plural", "Person3", "Common", "a-háá-wa’-i"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-kas",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "kas",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-kas-a"],
- ["Singular", "Person2", "Common", "á-kay-ta"],
- ["Singular", "Person3", "Masc", "á-kas-a"],
- ["Singular", "Person3", "Fem", "á-kay-ta"],
- ["Plural", "Person1", "Common", "á-kaay-na"],
- ["Plural", "Person2", "Common", "á-kay-ti"],
- ["Plural", "Person3", "Common", "á-kas-i"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-kuf",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "kuf",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-kuf-a"],
- ["Singular", "Person2", "Common", "á-kuf-ta"],
- ["Singular", "Person3", "Masc", "á-kuf-a"],
- ["Singular", "Person3", "Fem", "á-kuf-ta"],
- ["Plural", "Person1", "Common", "á-kuf-na"],
- ["Plural", "Person2", "Common", "á-kuf-ti"],
- ["Plural", "Person3", "Common", "á-kuf-i"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-maal",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "maal",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-ma’al-a"],
- ["Singular", "Person2", "Common", "á-ma’aš-a"],
- ["Singular", "Person3", "Masc", "á-ma’al-a"],
- ["Singular", "Person3", "Fem", "á-ma’aš-a"],
- ["Plural", "Person1", "Common", "á-ma’al-na"],
- ["Plural", "Person2", "Common", "á-ma’aš-i"],
- ["Plural", "Person3", "Common", "á-ma’al-i"]]
-},
-{
-"label": "boni_J-VSuff1AffPres-ooy",
-"note": "H82s",
-"common": {"conjClass": "Suffix1",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Present",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-‘oo-a"],
- ["Singular", "Person2", "Common", "á-‘ooi-da"],
- ["Singular", "Person3", "Masc", "á-‘oo-a"],
- ["Singular", "Person3", "Fem", "á-‘ooi-da"],
- ["Plural", "Person1", "Common", "á-‘ooi-na"],
- ["Plural", "Person2", "Common", "á-‘ooi-di"],
- ["Plural", "Person3", "Common", "á-‘oo-i"]]
-},
-{
-"label": "boni_J-VSuff2AffImperf-sood",
-"note": "H82s",
-"common": {"conjClass": "Suffix2",
- "lexeme": "sood",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-so’od’-a"],
- ["Singular", "Person2", "Common", "á-so’ot-ta"],
- ["Singular", "Person3", "Masc", "á-so’od-a"],
- ["Singular", "Person3", "Fem", "á-so’ot-ta"],
- ["Plural", "Person1", "Common", "á-so’on-na"],
- ["Plural", "Person2", "Common", "á-so’ot-ti"],
- ["Plural", "Person3", "Common", "á-so’od-i"]]
-},
-{
-"label": "boni_J-VSuff3-siiy",
-"note": "H82s",
-"common": {"conjClass": "Suffix3",
- "lexeme": "siiy",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["polarity", "tam", "number", "person", "gender", "token"],
- ["Affirmative", "Imperative", "Singular", "Person2", "Common", "síi"],
- ["Affirmative", "Imperative", "Plural", "Person2", "Common", "sííy-a"],
- ["Affirmative", "Imperfect", "Singular", "Person1", "Common", "á-siiy-s"],
- ["Affirmative", "Imperfect", "Singular", "Person2", "Common", "á-siis-sa"],
- ["Affirmative", "Imperfect", "Singular", "Person3", "Masc", "á-siiy-a"],
- ["Affirmative", "Imperfect", "Singular", "Person3", "Fem", "á-siis-sa"],
- ["Affirmative", "Imperfect", "Plural", "Person1", "Common", "á-siiy-na"],
- ["Affirmative", "Imperfect", "Plural", "Person2", "Common", "á-siis-si"],
- ["Affirmative", "Imperfect", "Plural", "Person3", "Common", "á-siiy"],
- ["Affirmative", "Perfect", "Singular", "Person1", "Common", "á-sii"],
- ["Affirmative", "Perfect", "Singular", "Person2", "Common", "á-siis-sə"],
- ["Affirmative", "Perfect", "Singular", "Person3", "Masc", "á-sii"],
- ["Affirmative", "Perfect", "Singular", "Person3", "Fem", "á-siis-sə"],
- ["Affirmative", "Perfect", "Plural", "Person1", "Common", "á-siiy-nə"],
- ["Affirmative", "Perfect", "Plural", "Person2", "Common", "á-siis-se"],
- ["Affirmative", "Perfect", "Plural", "Person3", "Common", "á-sii"],
- ["Negative", "Imperative", "Singular", "Person2", "Common", "ha-sííy-ne"],
- ["Negative", "Imperative", "Plural", "Person2", "Common", "ha-sííy-náha"],
- ["Negative", "Imperative", "Plural", "Person2", "Common", "ha-sííy-níya"],
- ["Negative", "Imperfect", "Singular", "Person1", "Common", "húú-siiy-o"],
- ["Negative", "Imperfect", "Singular", "Person2", "Common", "húú-siis-so"],
- ["Negative", "Imperfect", "Singular", "Person3", "Masc", "húú-siiy-o"],
- ["Negative", "Imperfect", "Singular", "Person3", "Fem", "húú-siis-so"],
- ["Negative", "Imperfect", "Plural", "Person1", "Common", "húú-siiy-no"],
- ["Negative", "Imperfect", "Plural", "Person2", "Common", "húú-siis-si"],
- ["Negative", "Imperfect", "Plural", "Person3", "Common", "húú-siiy"],
- ["Negative", "Perfect", "Singular", "Person1", "Common", "húú-siiy-ne"],
- ["Negative", "Perfect", "Singular", "Person2", "Common", "húú-siiy-ne"],
- ["Negative", "Perfect", "Singular", "Person3", "Masc", "húú-siiy-ne"],
- ["Negative", "Perfect", "Singular", "Person3", "Fem", "húú-siiy-ne"],
- ["Negative", "Perfect", "Plural", "Person1", "Common", "mí-siiy-ne"],
- ["Negative", "Perfect", "Plural", "Person2", "Common", "mí-siiy-ne"],
- ["Negative", "Perfect", "Plural", "Person3", "Common", "mí-siiy-ne"],
- ["_NA", "Infinitive", "_NA", "_NA", "Common", "sííy-óó"]]
-},
-{
-"label": "boni_J-VSuff3AffImperf-kar-iy",
-"note": "H82s",
-"common": {"conjClass": "Suffix3",
- "lexeme": "kar-iy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-kar-iy-a"],
- ["Singular", "Person2", "Common", "á-kar-as-sa"],
- ["Singular", "Person3", "Masc", "á-kar-iy-a"],
- ["Singular", "Person3", "Fem", "á-kar-as-sa"],
- ["Plural", "Person1", "Common", "á-kar-an-na"],
- ["Plural", "Person2", "Common", "á-kar-is-si"],
- ["Plural", "Person3", "Common", "á-kar-ii"]]
-},
-{
-"label": "boni_J-VSuff4AffImperf-baarin",
-"note": "H82s",
-"common": {"conjClass": "Suffix4",
- "lexeme": "baarin",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-baariŋ-a"],
- ["Singular", "Person2", "Common", "á-baareŋ-a"],
- ["Singular", "Person3", "Masc", "á-baariŋ-a"],
- ["Singular", "Person3", "Fem", "á-baarin-na"],
- ["Plural", "Person1", "Common", "á-baarin-na"],
- ["Plural", "Person2", "Common", "á-baarin-ni"],
- ["Plural", "Person3", "Common", "á-baariŋ-i"]]
-},
-{
-"label": "boni_J-VSuff4AffImprtv-baarin",
-"note": "H82s",
-"common": {"conjClass": "Suffix4",
- "gender": "Common",
- "lexeme": "baarin",
- "person": "Person2",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "bááriŋ"], ["Plural", "baaréŋ-a"]]
-},
-{
-"label": "boni_J-VSuff4AffPerf-baarin",
-"note": "H82s",
-"common": {"conjClass": "Suffix4",
- "lexeme": "baarin",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-baariŋ-ə"],
- ["Singular", "Person2", "Common", "á-baarin-nə"],
- ["Singular", "Person3", "Masc", "á-baariŋ-ə"],
- ["Singular", "Person3", "Fem", "á-baarin-nə"],
- ["Plural", "Person1", "Common", "á-baarin-nə"],
- ["Plural", "Person2", "Common", "á-baarin-ne"],
- ["Plural", "Person3", "Common", "á-baariŋ-e"]]
-},
-{
-"label": "boni_J-VSuff4NegImperf-baarin",
-"note": "H82s",
-"common": {"conjClass": "Suffix4",
- "lexeme": "baarin",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "húú-baariŋ-o"],
- ["Singular", "Person2", "Common", "húú-baareŋ-o"],
- ["Singular", "Person3", "Masc", "húú-baariŋ-o"],
- ["Singular", "Person3", "Fem", "húú-baarin-no"],
- ["Plural", "Person1", "Common", "húú-baarin-no"],
- ["Plural", "Person2", "Common", "húú-baarin-ni"],
- ["Plural", "Person3", "Common", "húú-baariŋ-i"]]
-},
-{
-"label": "boni_J-VSuff4NegImprtv-baarin",
-"note": "H82s",
-"common": {"conjClass": "Suffix4",
- "gender": "Common",
- "lexeme": "baarin",
- "person": "Person2",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "token"], ["Singular", "ha-baaréŋ-ne"], ["Plural", "ha-baareŋ-níya"], ["Plural", "ha-baareŋ-náha"]]
-},
-{
-"label": "boni_J-VSuff4NegPerf-baarin",
-"note": "H82s",
-"common": {"conjClass": "Suffix4",
- "lexeme": "baarin",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an má-baariŋ-ne"],
- ["Singular", "Person2", "Common", "ad má-baariŋ-ne"],
- ["Singular", "Person3", "Masc", "us má-baariŋ-ne"],
- ["Singular", "Person3", "Fem", "ii má-baariŋ-ne"],
- ["Plural", "Person1", "Common", "un má-baariŋ-ne"],
- ["Plural", "Person2", "Common", "ado má-baariŋ-ne"],
- ["Plural", "Person3", "Common", "iyo má-baariŋ-ne"]]
-},
-{
-"label": "boni_J-VSuffHabAff-baarin",
-"note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
-"common": {"aspect": "Habitual",
- "conjClass": "SuffixClass",
- "lexeme": "baarin",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-baariŋ-ši-i"],
- ["Singular", "Person2", "Common", "á-baariŋ-še-d’ə"],
- ["Singular", "Person3", "Masc", "á-baariŋ-ši-i"],
- ["Singular", "Person3", "Fem", "á-baariŋ-ši-d’ə"],
- ["Plural", "Person1", "Common", "á-baariŋ-ši-nə"],
- ["Plural", "Person2", "Common", "á-baariŋ-ši-d’e"],
- ["Plural", "Person3", "Common", "á-baariŋ-ši-e"]]
-},
-{
-"label": "boni_J-VSuffHabAff-kariy",
-"note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
-"common": {"aspect": "Habitual",
- "conjClass": "SuffixClass",
- "lexeme": "kariy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-karíš-ši-i"],
- ["Singular", "Person2", "Common", "á-karíš-še-d’ə"],
- ["Singular", "Person3", "Masc", "á-karíš-ši-i"],
- ["Singular", "Person3", "Fem", "á-karíš-ši-d’ə"],
- ["Plural", "Person1", "Common", "á-karíš-ši-nə"],
- ["Plural", "Person2", "Common", "á-karíš-ši-d’ə"],
- ["Plural", "Person3", "Common", "á-karíš-ši-e"]]
-},
-{
-"label": "boni_J-VSuffHabAff-kor",
-"note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
-"common": {"aspect": "Habitual",
- "conjClass": "SuffixClass",
- "lexeme": "kor",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-kór-ši-i"],
- ["Singular", "Person2", "Common", "á-kór-še-d’ə"],
- ["Singular", "Person3", "Masc", "á-kór-ši-i"],
- ["Singular", "Person3", "Fem", "á-kór-ši-d’ə"],
- ["Plural", "Person1", "Common", "á-kór-ši-nə"],
- ["Plural", "Person2", "Common", "á-kór-ši-d’ə"],
- ["Plural", "Person3", "Common", "á-kór-ši-e"]]
-},
-{
-"label": "boni_J-VSuffHabAff-sood",
-"note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
-"common": {"aspect": "Habitual",
- "conjClass": "SuffixClass",
- "lexeme": "sood",
- "polarity": "Affirmative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "á-so’oš-ši-i"],
- ["Singular", "Person2", "Common", "á-so’oš-še-d’ə"],
- ["Singular", "Person3", "Masc", "á-so’oš-ši-i"],
- ["Singular", "Person3", "Fem", "á-so’oš-ši-d’ə"],
- ["Plural", "Person1", "Common", "á-so’oš-ši-nə"],
- ["Plural", "Person2", "Common", "á-so’oš-ši-d’e"],
- ["Plural", "Person3", "Common", "á-so’oš-ši-e"]]
-},
-{
-"label": "boni_J-VSuffHabNeg-kor",
-"note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
-"common": {"aspect": "Habitual",
- "conjClass": "SuffixClass",
- "lexeme": "kor",
- "polarity": "Negative",
- "pos": "Verb",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an húú-kór-šin-nə"],
- ["Singular", "Person2", "Common", "ad húú-kór-šin-ne"],
- ["Singular", "Person3", "Masc", "us húú-kór-šin-ne"],
- ["Singular", "Person3", "Fem", "ii húú-kór-šin-ne"],
- ["Plural", "Person1", "Common", "un húú-kór-šin-ne"],
- ["Plural", "Person2", "Common", "ado húú-kór-šin-ne"],
- ["Plural", "Person3", "Common", "iyo húú-kór-šin-ne"]]
-},
-{
-"label": "boni_J-VSuffProgAffImperf-kor",
-"note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
-"common": {"aspect": "Progressive",
- "conjClass": "SuffixClass",
- "lexeme": "kor",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "kor-ów heey-a"],
- ["Singular", "Person2", "Common", "kor-ów hees-sa"],
- ["Singular", "Person3", "Masc", "kor-ów heey-a"],
- ["Singular", "Person3", "Fem", "kor-ów hees-sa"],
- ["Plural", "Person1", "Common", "kor-ów heey-na"],
- ["Plural", "Person2", "Common", "kor-ów hees-si"],
- ["Plural", "Person3", "Common", "kor-ów heey-i"]]
-},
-{
-"label": "boni_J-VSuffProgAffPerf-kor",
-"note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
-"common": {"aspect": "Progressive",
- "conjClass": "SuffixClass",
- "lexeme": "kor",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "kor-ów heey"],
- ["Singular", "Person2", "Common", "kor-ów hees-se"],
- ["Singular", "Person3", "Masc", "kor-ów heey"],
- ["Singular", "Person3", "Fem", "kor-ów hees-se"],
- ["Plural", "Person1", "Common", "kor-ów heey-ne"],
- ["Plural", "Person2", "Common", "kor-ów hees-se"],
- ["Plural", "Person3", "Common", "kor-ów heey-e"]]
-},
-{
-"label": "boni_J-VSuffProgNegImperf-kor",
-"note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
-"common": {"aspect": "Progressive",
- "conjClass": "SuffixClass",
- "lexeme": "kor",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "kor-ów húú-heeyo"],
- ["Singular", "Person2", "Common", "kor-ów húú-hees-so"],
- ["Singular", "Person3", "Masc", "kor-ów húú-heey-o"],
- ["Singular", "Person3", "Fem", "kor-ów húú-hees-so"],
- ["Plural", "Person1", "Common", "kor-ów húú-heey-no"],
- ["Plural", "Person2", "Common", "kor-ów húú-hees-si"],
- ["Plural", "Person3", "Common", "kor-ów húú-heey-i"]]
-},
-{
-"label": "boni_J-VSuffProgNegPerf-kor",
-"note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
-"common": {"aspect": "Progressive",
- "conjClass": "SuffixClass",
- "lexeme": "kor",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an kor-ów mé-heey-ne"],
- ["Singular", "Person2", "Common", "ad kor-ów mé-heey-ne"],
- ["Singular", "Person3", "Masc", "us kor-ów mé-heey-ne"],
- ["Singular", "Person3", "Fem", "ii kor-ów mé-heey-ne"],
- ["Plural", "Person1", "Common", "un kor-ów mé-heey-ne"],
- ["Plural", "Person2", "Common", "ado kor-ów mé-heey-ne"],
- ["Plural", "Person3", "Common", "iyo kor-ów mé-heey-ne"]]
-},
-{
-"label": "boni_J-VSuffSubjAffImperf-kas",
-"note": "H82s2.15.5",
-"common": {"conjClass": "SuffixClass",
- "lexeme": "kas",
- "mood": "SubjunctivepdgmLex",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "kas-óò"],
- ["Singular", "Person2", "Common", "kay-ttóò"],
- ["Singular", "Person3", "Masc", "kas-óò"],
- ["Singular", "Person3", "Fem", "kay-ttóò"],
- ["Plural", "Person1", "Common", "kay-nóò"],
- ["Plural", "Person2", "Common", "kay-ttéè"],
- ["Plural", "Person3", "Common", "kas-éè"]]
-},
-{
-"label": "boni_J-VSuffSubjAffPerf-kas",
-"note": "H82s2.15.5",
-"common": {"conjClass": "SuffixClass",
- "lexeme": "kas",
- "mood": "SubjunctivepdgmLex",
- "polarity": "Affirmative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "kas-éè"],
- ["Singular", "Person2", "Common", "kay-ttéè"],
- ["Singular", "Person3", "Masc", "kas-éè"],
- ["Singular", "Person3", "Fem", "kay-ttéè"],
- ["Plural", "Person1", "Common", "kay-néè"],
- ["Plural", "Person2", "Common", "kay-ttéè"],
- ["Plural", "Person3", "Common", "kas-éè"]]
-},
-{
-"label": "boni_J-VSuffSubjNegPerf-kas",
-"note": "H82s2.15.5",
-"common": {"conjClass": "SuffixClass",
- "lexeme": "kas",
- "mood": "SubjunctivepdgmLex",
- "polarity": "Negative",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "an á-kay-néè"],
- ["Singular", "Person2", "Common", "ad á-kay-née "],
- ["Singular", "Person3", "Masc", "us á-kay-née"],
- ["Singular", "Person3", "Fem", "ii á-kay-née"],
- ["Plural", "Person1", "Common", "un á-kay-néè"],
- ["Plural", "Person2", "Common", "̀ado á-kay-née"],
- ["Plural", "Person3", "Common", "iyo á-kay-née"]]
-},
-{
-"label": "boni_J-PPoss",
-"note": "H82s",
-"common": {"formType": "Suffix",
- "pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "PossessiveSuff"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "-éè"],
- ["Singular", "Person2", "Common", "-áà"],
- ["Singular", "Person3", "Masc", "-íì"],
- ["Singular", "Person3", "Fem", "-éè"],
- ["Plural", "Person1", "Common", "-aani"],
- ["Plural", "Person2", "Common", "-iinî"],
- ["Plural", "Person3", "Common", "-oo(d’a)"]]
-},
-{
-"label": "boni_J-Pronoun",
-"note": "H82s2.14",
-"common": {"pos": "Pronoun"},
-"terms":  
-[["proClass", "number", "person", "gender", "token"],
- ["Focus", "Singular", "Person1", "Common", "an-é"],
- ["Focus", "Singular", "Person2", "Common", "ad-é"],
- ["Focus", "Singular", "Person3", "Masc", "use’é"],
- ["Focus", "Singular", "Person3", "Fem", "ii’é"],
- ["Focus", "Plural", "Person1", "Common", "un-é"],
- ["Focus", "Plural", "Person2", "Common", "adó"],
- ["Focus", "Plural", "Person3", "Common", "iyó"],
- ["Independent", "Singular", "Person1", "Common", "an(ə)"],
- ["Independent", "Singular", "Person2", "Common", "ad(ə)"],
- ["Independent", "Singular", "Person3", "Masc", "us(ə)"],
- ["Independent", "Singular", "Person3", "Fem", "ii"],
- ["Independent", "Plural", "Person1", "Common", "un(ə)"],
- ["Independent", "Plural", "Person2", "Common", "ado"],
- ["Independent", "Plural", "Person3", "Common", "iyo"],
- ["Object", "Singular", "Person1", "Common", "Common"],
- ["Object", "Singular", "Person2", "Common", "kú-"],
- ["Object", "Singular", "Person3", "Masc", "Common"],
- ["Object", "Singular", "Person3", "Fem", "Common"],
- ["Object", "Plural", "Person1", "Common", "nú-"],
- ["Object", "Plural", "Person2", "Common", "dáá-"],
- ["Object", "Plural", "Person3", "Common", "Common"],
- ["SubjPrefV", "Singular", "Person1", "Common", "Common"],
- ["SubjPrefV", "Singular", "Person2", "Common", "t…t"],
- ["SubjPrefV", "Singular", "Person3", "Masc", "j…"],
- ["SubjPrefV", "Singular", "Person3", "Fem", "t…t"],
- ["SubjPrefV", "Plural", "Person1", "Common", "n…n"],
- ["SubjPrefV", "Plural", "Person2", "Common", "t…t"],
- ["SubjPrefV", "Plural", "Person3", "Common", "j…"],
- ["SubjSuffV", "Singular", "Person1", "Common", "Common"],
- ["SubjSuffV", "Singular", "Person2", "Common", "-t"],
- ["SubjSuffV", "Singular", "Person3", "Masc", "Common"],
- ["SubjSuffV", "Singular", "Person3", "Fem", "-t"],
- ["SubjSuffV", "Plural", "Person1", "Common", "-n"],
- ["SubjSuffV", "Plural", "Person2", "Common", "-t"],
- ["SubjSuffV", "Plural", "Person3", "Common", "Common"]]
-},
-{
-"label": "boni_J-VAspect",
-"note": "H82s2.15.4",
-"common": {"formType": "Suffix",
- "pos": "Verb",
- "vmorphClass": "AspectSuff"},
-"terms":  
-[["polarity", "tam", "number", "token"],
- ["Affirmative", "Imperative", "Singular", "-e"],
- ["Affirmative", "Imperative", "Plural", "-a"],
- ["Affirmative", "Imperfect", "Singular", "-à"],
- ["Affirmative", "Imperfect", "Plural", "-ì"],
- ["Affirmative", "Perfect", "Singular", "Common"],
- ["Affirmative", "Perfect", "Plural", "-è"],
- ["Negative", "Imperative", "Singular", "-ne"],
- ["Negative", "Imperative", "Plural", "-náha (-níya)"],
- ["Negative", "Imperfect", "Singular", "-ò"],
- ["Negative", "Imperfect", "Plural", "-ì"],
- ["Negative", "Perfect", "Common", "-nè"]]
-},
-{
-"label": "boni_J-VClitics",
-"note": "H82s2.15.7",
-"common": {"pos": "Verb",
- "vmorphClass": "Clitics"},
-"terms":  
-[["cliticClass", "cliticType", "token-note", "token"],
- ["Ablative", "Proclitic", "", "kə́-"],
- ["Causative", "DervSuff", "= conjClass III", "-(i)iy-"],
- ["Comitative", "Proclitic", "", "l(ə)́-"],
- ["Focus", "Proclitic", "", "Common"],
- ["Medial", "DervSuff", "= conjClass II", "-əd’-"],
- ["Passive", "Proclitic", "", "l-"],
- ["Reflexive", "Proclitic", "", "s(ə)-"],
- ["Ventive", "Proclitic", "", "háá-"],
- ["Goal", "Proclitic", "", "Common"]]
-},
-{
-"label": "boni_J-VNegation",
-"note": "H82s2.15.3 :: These affixes involve both a prefix and a suffix.",
-"common": {"formType": "Affix",
- "pos": "Verb",
- "vmorphClass": "NegationAffix"},
-"terms":  
-[["tam", "number", "token"],
- ["Imperative", "Singular", "hà- -nè"],
- ["Imperative", "Plural", "hà- -náha (-níya)"],
- ["Imperfect", "Singular", "húú- -ò"],
- ["Imperfect", "Plural", "húú- -ì"],
- ["Perfect", "Common", "mə́- (húú- in Kijee) -nè"]]
-},
-{
-"label": "boni_J-VSubjAffImperf",
-"note": "H82s2.15.5",
-"common": {"mood": "Subjunctivepolarity",
- "pos": "Verb",
- "tam": "Imperfect",
- "vmorphClass": "SUBJMARKERIMPERF"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "-óò"],
- ["Singular", "Person2", "Common", "-tóò"],
- ["Singular", "Person3", "Masc", "-óò"],
- ["Singular", "Person3", "Fem", "-tóò"],
- ["Plural", "Person1", "Common", "-nóò"],
- ["Plural", "Person2", "Common", "-téè"],
- ["Plural", "Person3", "Common", "-éè"]]
-},
-{
-"label": "boni_J-VSubjAffPerf",
-"note": "H82s2.15.5",
-"common": {"mood": "Subjunctivepolarity",
- "pos": "Verb",
- "tam": "Perfect",
- "vmorphClass": "SUBJMARKERPERF"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "-éè"],
- ["Singular", "Person2", "Common", "-téè"],
- ["Singular", "Person3", "Masc", "-éè"],
- ["Singular", "Person3", "Fem", "-téè"],
- ["Plural", "Person1", "Common", "-néè"],
- ["Plural", "Person2", "Common", "-téè"],
- ["Plural", "Person3", "Common", "-éè"]]
-},
-{
-"label": "boni_J-VSuffSubjMarkers",
-"note": "H82s2.15.62 :: The suffix conjugation sub-classes are:I basic,II medial,III causative,IV nasal.",
-"common": {"formType": "Suffix",
- "pos": "Verb",
- "vmorphClass": "SubjMarkers"},
-"terms":  
-[["conjClass", "number", "person", "gender", "token"],
- ["SuffixClass", "Singular", "Person1", "Common", "Common"],
- ["SuffixClass", "Singular", "Person1", "Common", "Common"],
- ["SuffixClass", "Singular", "Person1", "Common", "-d’-"],
- ["SuffixClass", "Singular", "Person1", "Common", "Common"],
- ["SuffixClass", "Singular", "Person2", "Common", "-s-"],
- ["SuffixClass", "Singular", "Person2", "Common", "-t-"],
- ["SuffixClass", "Singular", "Person2", "Common", "-n-"],
- ["SuffixClass", "Singular", "Person2", "Common", "-tt-"],
- ["SuffixClass", "Singular", "Person3", "Masc", "Common"],
- ["SuffixClass", "Singular", "Person3", "Masc", "-d-"],
- ["SuffixClass", "Singular", "Person3", "Masc", "Common"],
- ["SuffixClass", "Singular", "Person3", "Masc", "-n-"],
- ["SuffixClass", "Singular", "Person3", "Fem", "-n-"],
- ["SuffixClass", "Singular", "Person3", "Fem", "-n-"],
- ["SuffixClass", "Singular", "Person3", "Fem", "-tt-"],
- ["SuffixClass", "Singular", "Person3", "Fem", "-t-"],
- ["SuffixClass", "Plural", "Person1", "Common", "-n-"],
- ["SuffixClass", "Plural", "Person1", "Common", "-s-"],
- ["SuffixClass", "Plural", "Person1", "Common", "-n-"],
- ["SuffixClass", "Plural", "Person1", "Common", "-nn-"],
- ["SuffixClass", "Plural", "Person2", "Common", "-n-"],
- ["SuffixClass", "Plural", "Person2", "Common", "Common"],
- ["SuffixClass", "Plural", "Person2", "Common", "-t-"],
- ["SuffixClass", "Plural", "Person2", "Common", "-tt-"],
- ["SuffixClass", "Plural", "Person3", "Common", "-d-"],
- ["SuffixClass", "Plural", "Person3", "Common", "Common"],
- ["SuffixClass", "Plural", "Person3", "Common", "Common"],
- ["SuffixClass", "Plural", "Person3", "Common", "Common"]]
-}]
-}
+  {
+    "label": "boj-Verb:morph-AspectSuff:",
+    "note": "H82s2.15.4",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "AspectSuff"
+    },
+    "terms": [
+      ["polarity" ,"tam" ,"number" ,"token"],
+      ["Affirmative" ,"Imperative" ,"Singular" ,"-e"],
+      ["Affirmative" ,"Imperative" ,"Plural" ,"-a"],
+      ["Affirmative" ,"Imperfect" ,"Singular" ,"-à"],
+      ["Affirmative" ,"Imperfect" ,"Plural" ,"-ì"],
+      ["Affirmative" ,"Perfect" ,"Singular" ,"Common"],
+      ["Affirmative" ,"Perfect" ,"Plural" ,"-è"],
+      ["Negative" ,"Imperative" ,"Singular" ,"-ne"],
+      ["Negative" ,"Imperative" ,"Plural" ,"-náha (-níya)"],
+      ["Negative" ,"Imperfect" ,"Singular" ,"-ò"],
+      ["Negative" ,"Imperfect" ,"Plural" ,"-ì"],
+      ["Negative" ,"Perfect" ,"Common" ,"-nè"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-Clitics:",
+    "note": "H82s2.15.7",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "Clitics"
+    },
+    "terms": [
+      ["cliticClass" ,"cliticType" ,"token-note" ,"token"],
+      ["Ablative" ,"Proclitic" ,"" ,"kə́-"],
+      ["Causative" ,"DervSuff" ,"= conjClass III" ,"-(i)iy-"],
+      ["Comitative" ,"Proclitic" ,"" ,"l(ə)́-"],
+      ["Focus" ,"Proclitic" ,"" ,"Common"],
+      ["Medial" ,"DervSuff" ,"= conjClass II" ,"-əd’-"],
+      ["Passive" ,"Proclitic" ,"" ,"l-"],
+      ["Reflexive" ,"Proclitic" ,"" ,"s(ə)-"],
+      ["Ventive" ,"Proclitic" ,"" ,"háá-"],
+      ["Goal" ,"Proclitic" ,"" ,"Common"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-NegationAffix:",
+    "note": "H82s2.15.3 :: These affixes involve both a prefix and a suffix.",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "NegationAffix"
+    },
+    "terms": [
+      ["tam" ,"number" ,"token"],
+      ["Imperative" ,"Singular" ,"hà- -nè"],
+      ["Imperative" ,"Plural" ,"hà- -náha (-níya)"],
+      ["Imperfect" ,"Singular" ,"húú- -ò"],
+      ["Imperfect" ,"Plural" ,"húú- -ì"],
+      ["Perfect" ,"Common" ,"mə́- (húú- in Kijee) -nè"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-SUBJMARKERIMPERF:ImperfectSubjunctivepolarity",
+    "note": "H82s2.15.5",
+    "common": {
+      "mood": "Subjunctivepolarity",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "morphClass": "SUBJMARKERIMPERF"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-óò"],
+      ["Singular" ,"Person2" ,"Common" ,"-tóò"],
+      ["Singular" ,"Person3" ,"Masc" ,"-óò"],
+      ["Singular" ,"Person3" ,"Fem" ,"-tóò"],
+      ["Plural" ,"Person1" ,"Common" ,"-nóò"],
+      ["Plural" ,"Person2" ,"Common" ,"-téè"],
+      ["Plural" ,"Person3" ,"Common" ,"-éè"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-SUBJMARKERPERF:PerfectSubjunctivepolarity",
+    "note": "H82s2.15.5",
+    "common": {
+      "mood": "Subjunctivepolarity",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "morphClass": "SUBJMARKERPERF"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-éè"],
+      ["Singular" ,"Person2" ,"Common" ,"-téè"],
+      ["Singular" ,"Person3" ,"Masc" ,"-éè"],
+      ["Singular" ,"Person3" ,"Fem" ,"-téè"],
+      ["Plural" ,"Person1" ,"Common" ,"-néè"],
+      ["Plural" ,"Person2" ,"Common" ,"-téè"],
+      ["Plural" ,"Person3" ,"Common" ,"-éè"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-SubjSuffMarkers:",
+    "note": "H82s2.15.62 :: The suffix conjugation sub-classes are:I basic,II medial,III causative,IV nasal.",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "SubjSuffMarkers"
+    },
+    "terms": [
+      ["conjClass" ,"number" ,"person" ,"gender" ,"token"],
+      ["SuffixClass" ,"Singular" ,"Person1" ,"Common" ,"Common"],
+      ["SuffixClass" ,"Singular" ,"Person1" ,"Common" ,"Common"],
+      ["SuffixClass" ,"Singular" ,"Person1" ,"Common" ,"-d’-"],
+      ["SuffixClass" ,"Singular" ,"Person1" ,"Common" ,"Common"],
+      ["SuffixClass" ,"Singular" ,"Person2" ,"Common" ,"-s-"],
+      ["SuffixClass" ,"Singular" ,"Person2" ,"Common" ,"-t-"],
+      ["SuffixClass" ,"Singular" ,"Person2" ,"Common" ,"-n-"],
+      ["SuffixClass" ,"Singular" ,"Person2" ,"Common" ,"-tt-"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Masc" ,"Common"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Masc" ,"-d-"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Masc" ,"Common"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Masc" ,"-n-"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Fem" ,"-n-"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Fem" ,"-n-"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Fem" ,"-tt-"],
+      ["SuffixClass" ,"Singular" ,"Person3" ,"Fem" ,"-t-"],
+      ["SuffixClass" ,"Plural" ,"Person1" ,"Common" ,"-n-"],
+      ["SuffixClass" ,"Plural" ,"Person1" ,"Common" ,"-s-"],
+      ["SuffixClass" ,"Plural" ,"Person1" ,"Common" ,"-n-"],
+      ["SuffixClass" ,"Plural" ,"Person1" ,"Common" ,"-nn-"],
+      ["SuffixClass" ,"Plural" ,"Person2" ,"Common" ,"-n-"],
+      ["SuffixClass" ,"Plural" ,"Person2" ,"Common" ,"Common"],
+      ["SuffixClass" ,"Plural" ,"Person2" ,"Common" ,"-t-"],
+      ["SuffixClass" ,"Plural" ,"Person2" ,"Common" ,"-tt-"],
+      ["SuffixClass" ,"Plural" ,"Person3" ,"Common" ,"-d-"],
+      ["SuffixClass" ,"Plural" ,"Person3" ,"Common" ,"Common"],
+      ["SuffixClass" ,"Plural" ,"Person3" ,"Common" ,"Common"],
+      ["SuffixClass" ,"Plural" ,"Person3" ,"Common" ,"Common"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-VNoun:Infinitive",
+    "note": "H82s",
+    "common": {
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "morphClass": "VNoun"
+    },
+    "terms": [
+      ["conjClass" ,"lexeme" ,"token"],
+      ["Suffix2" ,"obed" ,"ob-əd’-ó(w)"],
+      ["Suffix4" ,"baarin" ,"baariŋ-ów"],
+      ["Prefix" ,"aak" ,"ajik-tíí"],
+      ["Prefix" ,"ahang" ,"ahaŋ-óó"],
+      ["Prefix" ,"iraad" ,"iraat-tíí"],
+      ["Prefix" ,"iyaad" ,"iyaad-óó"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-VSTEMImperf:PrefixImperfect",
+    "note": "H82s2.15.61 ::  As paradigms show, prefix verb –iraar- is being replace by  largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "morphClass": "VSTEMImperf"
+    },
+    "terms": [
+      ["lexeme" ,"token"],
+      ["aak" ,"(ajik-/)a’ak"],
+      ["aal" ,"aal"],
+      ["ahang" ,"ahaŋ"],
+      ["ehe" ,"ehe/ihi"],
+      ["erah" ,"erah"],
+      ["iraad" ,"iraad/iraar"],
+      ["iyaad" ,"iyaad"],
+      ["iyaas" ,"iyaas"],
+      ["uwaad" ,"uwaad"]
+    ]
+  },
+  {
+    "label": "boj-Verb:morph-VSTEMPerf:PrefixPerfect",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "morphClass": "VSTEMPerf"
+    },
+    "terms": [
+      ["lexeme" ,"token"],
+      ["aak" ,"(ajik-/)i’ik"],
+      ["aal" ,"iil"],
+      ["ahang" ,"uhuŋ"],
+      ["erah" ,"eer"],
+      ["iyaad" ,"iid"],
+      ["iyaas" ,"iis"],
+      ["uwaad" ,"uud"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aak-ImperativeAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aak",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ájik-e ~ ájik [Kijee]"],
+      ["Plural" ,"Person2" ,"Common" ,"ajík-a"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aak-ImperativeNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aak",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘ajíŋ-ne ~ ha-‘ajiŋ-níya"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘ajiŋ-náha"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aak-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aak",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ajik-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-a’ak-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-a’ak-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-a’ak-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-a’ak-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-a’ak-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-a’ak-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aak-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aak",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘ajik-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-t-a’ak-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-j-a’ak-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-t-a’ak-o"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-n-a’ak-o"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-t-a’ak-i"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-j-a’ak-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aak-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aak",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ajik-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-i’k-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-i’k-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-i’k-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-i’k-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-i’k-e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-i’k-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aak-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aak",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an má-‘ajiŋ-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad má-‘ajiŋ-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us má-‘ajiŋ-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii má-ajiŋ-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un má-ajiŋ-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado má-ajiŋ-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo má-ajiŋ-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aal-ImperativeAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aal",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"firííso"],
+      ["Plural" ,"Person2" ,"Common" ,"firiis-íd"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aal-ImperativeNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aal",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-firiis-ín-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-firiis-in-náha ~ ha-firiis-in-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aal-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aal",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"a-ká-‘aal-a"],
+      ["Singular" ,"Person2" ,"Common" ,"a-ké-t-aal-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"a-kí-j-aal-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"a-ké-t-aal-a"],
+      ["Plural" ,"Person1" ,"Common" ,"a-ké-n-aal-a"],
+      ["Plural" ,"Person2" ,"Common" ,"a-ké-t-aal-i"],
+      ["Plural" ,"Person3" ,"Common" ,"a-kí-j-aal-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aal-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aal",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"k-úú-‘aal-o"],
+      ["Singular" ,"Person2" ,"Common" ,"k-úú-t-aal-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"k-úú-j-aal-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"k-úú-t-aal-a"],
+      ["Plural" ,"Person1" ,"Common" ,"k-úú-n-aal-a"],
+      ["Plural" ,"Person2" ,"Common" ,"k-úú-t-aal-a"],
+      ["Plural" ,"Person3" ,"Common" ,"k-úú-j-aal-a"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aal-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aal",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"a-kí-‘iil-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"a-kí-t-iil-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"a-kí-y-iil-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"a-kí-t-iil-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"a-kí-n-iil-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"a-kí-t-iil-e"],
+      ["Plural" ,"Person3" ,"Common" ,"a-kí-y-iil-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-aal-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "aal",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an k-úú-iil-ee-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad k-úú-iil-ee-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us k-úú-iil-ee-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii k-úú-iil-ee-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un k-úú-iil-ee-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado k-úú-iil-ee-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo k-úú-iil-ee-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-ahang-ImperativeAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "ahang",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"áhaŋ-e"],
+      ["Plural" ,"Person2" ,"Common" ,"aháŋ-a"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-ahang-ImperativeNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "ahang",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘aháŋ-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘ahaŋ-náha ~ ha-’ahaŋ-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-ahang-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "ahang",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ahaŋ-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-ahaŋ-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-ahaŋ-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-ahaŋ-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-ahaŋ-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-ahaŋ-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-ahaŋ-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-ahang-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "ahang",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘ahaŋ-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-t-ahaŋ-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-j-ahaŋ-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-t-ahaŋ-o"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-n-ahaŋ-o"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-t-ahaŋ-i"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-j-ahaŋ-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-ahang-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "ahang",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘uhuŋ-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-uhuŋ-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-uhuŋ-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-uhuŋ-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-uhuŋ-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-uhuŋ-e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-uhuŋ-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-ahang-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "ahang",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"má-‘ahaŋ-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"má-t-uhuŋ-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"má-j-uhuŋ-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"má-t-uhuŋ-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"má-n-uhuŋ-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"má-t-uhuŋ-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"má-j-uhuŋ-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-dheer-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "dheer",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-d’éér d’-ehe"],
+      ["Singular" ,"Person2" ,"Common" ,"á-d’éé t-ehe"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-d’éér y-ehe"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-d’éér t-ehe"],
+      ["Plural" ,"Person1" ,"Common" ,"á-d’éér n-ehe"],
+      ["Plural" ,"Person2" ,"Common" ,"á-d’éér t-ihi"],
+      ["Plural" ,"Person3" ,"Common" ,"á-d’éér y-ihi"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-dheer-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "dheer",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an d’eer-á mé-‘eya"],
+      ["Singular" ,"Person2" ,"Common" ,"ad d’eer-á mé-‘eya"],
+      ["Singular" ,"Person3" ,"Masc" ,"us d’eer-á mé-‘eya"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii d’eer-á mé-‘eya"],
+      ["Plural" ,"Person1" ,"Common" ,"un d’eer-á mé-‘eya"],
+      ["Plural" ,"Person2" ,"Common" ,"ado d’eer-á mé-‘eya"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo d’eer-á mé-‘eya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-dheer-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "dheer",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an d’eer-á hey"],
+      ["Singular" ,"Person2" ,"Common" ,"ad d’eer-á he-d’ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"us d’eer’á hey"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii d’eer-á he-d’ə"],
+      ["Plural" ,"Person1" ,"Common" ,"un d’eer-á hee-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"ado d’eer’á he-d’e"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo d’eer’á he-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-dheer-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "dheer",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an d’eer-á mé-hee-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad d’eer-á mé-hee-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us d’eer-á mé-hee-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii d’eer-á mé-hee-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un d’eer-á mé-hee-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado d’eer-á mé-hee-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo d’eer-á mé-hee-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-erah-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erah",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘erah-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-erah-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-y-erah-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-erah-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-erah-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-eri-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-y-eri-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-erah-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erah",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘er-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-t-er-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-y-er-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-t-er-o"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-n-er-o"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-t-er-i"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-y-er-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-erah-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erah",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘eer’-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-eer-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-y-eer-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-eer-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-eer-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-eer-e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-y-eer-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-erah-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "erah",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an mé-‘eraan-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad mé-‘eraan-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us mé-‘eraan-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii mé-‘eraan-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un mé-‘eraan-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado mé-‘eraan-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo mé-‘eraan-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iraad-ImperativeAffirmative",
+    "note": "H82s2.15.6 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iraad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"bóod"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-a"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iraad-ImperativeNegative",
+    "note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iraad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘iráán-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘iraan-náha ~ ha-‘iraan-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iraad-ImperfectAffirmative",
+    "note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iraad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘iraad/r-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-iraad/r-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-iraad/r-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-iraad/r-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-iraad/r-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-iraad/r-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-iraad/r-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iraad-ImperfectNegative",
+    "note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iraad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-bood-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-boot-to"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-bood-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-boot-to"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-boon-no"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-boot-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-bood-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iraad-PerfectAffirmative",
+    "note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iraad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-bood-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-boot-tə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-bood-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-boot-tə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-boon-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-boot-tə"],
+      ["Plural" ,"Person3" ,"Common" ,"á-bood-ə"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iraad-PerfectNegative",
+    "note": "H82s2.15.61 :: As paradigms show, prefix verb –iraar- is being replace by largely synomymous suffix verb bood-.",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iraad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an mí-iraan-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad mí-iraan-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us mí-iraan-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii mí-iraan-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un mí-iraan-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado mí-iraan-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo mí-iraan-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaad-ImperativeAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"káálə"],
+      ["Plural" ,"Person2" ,"Common" ,"kaal-’íya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaad-ImperativeNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha—‘iyáán-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘iyaan-náha ~ ha-‘iyaan-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaad-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘iyaad-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-iyaad-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-iyaad-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-iyaad-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-iyaad-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-iyaad-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-iyaad-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaad-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘iyaad-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-t-iyaad-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-j-iyaad-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-t-iyaad-o"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-n-iyaad-o"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-t-iyaad-i"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-j-iyaad-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaad-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘iid-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-iid-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-iid-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-iid-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-iid-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-iid-e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-iid-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaad-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an mí-‘iyaan-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad mí-‘iyaan-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us mí-‘iyaan-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii mí-‘iyaan-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un mí-‘iyaan-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado mí-‘iyaan-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo mí-‘iyaan-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaas-ImperativeAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaas",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"iyáàs-e ~ iyéès [Kijee]"],
+      ["Plural" ,"Person2" ,"Common" ,"iyáás-a ~ iyéés-a [Kijee]"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaas-ImperativeNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaas",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘iyéin-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘iyein-náha ~ ha-‘iyein-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaas-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaas",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘iyaas-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-iyaas-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-iyaas-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-iyaas-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-iyaas-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-iyaas-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-iyaas-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaas-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaas",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘iyaas-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-t-iyaas-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-j-iyaas-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-t-iyaas-o"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-n-iyaas-o"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-t-iyaas-i"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-j-iyaas-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaas-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaas",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘iis-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-iis-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-iis-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-iis-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-iis-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-iis-e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-iis-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-iyaas-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "iyaas",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an mí-‘iyein-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad mí-‘iyein-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us mí-‘iyein-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii mí-‘iyein-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un mí-‘iyein-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado mí-‘iyein-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo mí-‘iyein-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-uwaad-ImperativeAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "uwaad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"uwáad-e"],
+      ["Plural" ,"Person2" ,"Common" ,"uwáád-a ~ uwáad [Kijee]"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-uwaad-ImperativeNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "uwaad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘uwáán-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘uwaan-náha ~ ha-‘uwaan-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-uwaad-ImperfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "uwaad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘uwaad-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-uwaad-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-uwaad-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-uwaad-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-uwaad-a"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-uwaad-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-uwaad-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-uwaad-ImperfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "uwaad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘uwaad-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-t-uwaad-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-j-uwaad-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-t-uwaad-o"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-n-uwaad-o"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-t-uwaad-i"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-j-uwaad-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-uwaad-PerfectAffirmative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "uwaad",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘uud-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-t-uud-ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-j-uud-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-t-uud-ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-n-uud-ə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-t-uud-e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-j-uud-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbPrefix-uwaad-PerfectNegative",
+    "note": "H82s2.15.61",
+    "common": {
+      "conjClass": "Prefix",
+      "lexeme": "uwaad",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an mú-‘uwaan-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad mú-‘uwaan-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us mú-‘uwaan-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii mú-‘uwaan-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un mú-‘uwaan-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado mú-‘uwaan-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo mú-‘uwaan-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-ark-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "ark",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ark-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-‘aret-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-‘ark-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-‘aret-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-‘are-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-‘aret-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-‘ark-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-eeg-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "eeg",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-eeg-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-eek-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-eeg-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-eek-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-eeg-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-eek-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-ee-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-haawa-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "haawa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"a-háá-wa’-a"],
+      ["Singular" ,"Person2" ,"Common" ,"a-háá-wa’-ada"],
+      ["Singular" ,"Person3" ,"Masc" ,"a-háá-wa’-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"a-háá-wa’-ada"],
+      ["Plural" ,"Person1" ,"Common" ,"a-háá-wa’-ana"],
+      ["Plural" ,"Person2" ,"Common" ,"a-háá-wa’-adi"],
+      ["Plural" ,"Person3" ,"Common" ,"a-háá-wa’-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-kas-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "kas",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-kas-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-kay-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-kas-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-kay-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-kaay-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-kay-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-kas-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-kuf-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "kuf",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-kuf-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-kuf-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-kuf-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-kuf-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-kuf-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-kuf-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-kuf-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-maal-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "maal",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-ma’al-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-ma’aš-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-ma’al-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-ma’aš-a"],
+      ["Plural" ,"Person1" ,"Common" ,"á-ma’al-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-ma’aš-i"],
+      ["Plural" ,"Person3" ,"Common" ,"á-ma’al-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix1-ooy-PresentAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix1",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Present"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘oo-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-‘ooi-da"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-‘oo-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-‘ooi-da"],
+      ["Plural" ,"Person1" ,"Common" ,"á-‘ooi-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-‘ooi-di"],
+      ["Plural" ,"Person3" ,"Common" ,"á-‘oo-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-obed-ImperativeAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "obed",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"óbo"],
+      ["Plural" ,"ób-əd’-a"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-obed-ImperativeNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "obed",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-‘ób-ə-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘ob-ə-náha"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-‘ob-ə-níya"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-obed-ImperfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "obed",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ob-əd’-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-‘ob-ət-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-‘ob-əd-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-‘ob-ət-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-‘ob-ə-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-‘ob-ət-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-‘ob-əd-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-obed-ImperfectNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "obed",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-‘ob-əed’-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-‘ob-ət-to"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-‘ob-əd-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-‘ob-ət-to"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-‘ob-ə-no"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-‘ob-ət-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-‘ob-əd-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-obed-PerfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "obed",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-‘ob-əd’-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-‘ob-ət-tə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-‘ob-əd-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-‘ob-ət-tə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-‘ob-ə-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-‘ob-ət-te"],
+      ["Plural" ,"Person3" ,"Common" ,"á-‘ob-əd-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-obed-PerfectNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "obed",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an húú-‘ob-ə-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad húú-‘ob-ə-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us húú-‘ob-ə-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii húú-‘ob-ə-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un húú-‘ob-ə-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado húú-‘ob-ə-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo húú-‘ob-ə-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix2-sood-ImperfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix2",
+      "lexeme": "sood",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-so’od’-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-so’ot-ta"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-so’od-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-so’ot-ta"],
+      ["Plural" ,"Person1" ,"Common" ,"á-so’on-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-so’ot-ti"],
+      ["Plural" ,"Person3" ,"Common" ,"á-so’od-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix3-kariy-ImperfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix3",
+      "lexeme": "kariy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-kar-iy-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-kar-as-sa"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-kar-iy-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-kar-as-sa"],
+      ["Plural" ,"Person1" ,"Common" ,"á-kar-an-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-kar-is-si"],
+      ["Plural" ,"Person3" ,"Common" ,"á-kar-ii"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix3-siiy-",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix3",
+      "lexeme": "siiy",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["polarity" ,"tam" ,"number" ,"person" ,"gender" ,"token"],
+      ["Affirmative" ,"Imperative" ,"Singular" ,"Person2" ,"Common" ,"síi"],
+      ["Affirmative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"sííy-a"],
+      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"á-siiy-s"],
+      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"á-siis-sa"],
+      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"á-siiy-a"],
+      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"á-siis-sa"],
+      ["Affirmative" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"á-siiy-na"],
+      ["Affirmative" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"á-siis-si"],
+      ["Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"Common" ,"á-siiy"],
+      ["Affirmative" ,"Perfect" ,"Singular" ,"Person1" ,"Common" ,"á-sii"],
+      ["Affirmative" ,"Perfect" ,"Singular" ,"Person2" ,"Common" ,"á-siis-sə"],
+      ["Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"Masc" ,"á-sii"],
+      ["Affirmative" ,"Perfect" ,"Singular" ,"Person3" ,"Fem" ,"á-siis-sə"],
+      ["Affirmative" ,"Perfect" ,"Plural" ,"Person1" ,"Common" ,"á-siiy-nə"],
+      ["Affirmative" ,"Perfect" ,"Plural" ,"Person2" ,"Common" ,"á-siis-se"],
+      ["Affirmative" ,"Perfect" ,"Plural" ,"Person3" ,"Common" ,"á-sii"],
+      ["Negative" ,"Imperative" ,"Singular" ,"Person2" ,"Common" ,"ha-sííy-ne"],
+      ["Negative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"ha-sííy-náha"],
+      ["Negative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"ha-sííy-níya"],
+      ["Negative" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"húú-siiy-o"],
+      ["Negative" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"húú-siis-so"],
+      ["Negative" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"húú-siiy-o"],
+      ["Negative" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"húú-siis-so"],
+      ["Negative" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"húú-siiy-no"],
+      ["Negative" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"húú-siis-si"],
+      ["Negative" ,"Imperfect" ,"Plural" ,"Person3" ,"Common" ,"húú-siiy"],
+      ["Negative" ,"Perfect" ,"Singular" ,"Person1" ,"Common" ,"húú-siiy-ne"],
+      ["Negative" ,"Perfect" ,"Singular" ,"Person2" ,"Common" ,"húú-siiy-ne"],
+      ["Negative" ,"Perfect" ,"Singular" ,"Person3" ,"Masc" ,"húú-siiy-ne"],
+      ["Negative" ,"Perfect" ,"Singular" ,"Person3" ,"Fem" ,"húú-siiy-ne"],
+      ["Negative" ,"Perfect" ,"Plural" ,"Person1" ,"Common" ,"mí-siiy-ne"],
+      ["Negative" ,"Perfect" ,"Plural" ,"Person2" ,"Common" ,"mí-siiy-ne"],
+      ["Negative" ,"Perfect" ,"Plural" ,"Person3" ,"Common" ,"mí-siiy-ne"],
+      ["_NA" ,"Infinitive" ,"_NA" ,"_NA" ,"Common" ,"sííy-óó"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix4-baarin-ImperativeAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix4",
+      "lexeme": "baarin",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"bááriŋ"],
+      ["Plural" ,"Person2" ,"Common" ,"baaréŋ-a"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix4-baarin-ImperativeNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix4",
+      "lexeme": "baarin",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ha-baaréŋ-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-baareŋ-níya"],
+      ["Plural" ,"Person2" ,"Common" ,"ha-baareŋ-náha"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix4-baarin-ImperfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix4",
+      "lexeme": "baarin",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-baariŋ-a"],
+      ["Singular" ,"Person2" ,"Common" ,"á-baareŋ-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-baariŋ-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-baarin-na"],
+      ["Plural" ,"Person1" ,"Common" ,"á-baarin-na"],
+      ["Plural" ,"Person2" ,"Common" ,"á-baarin-ni"],
+      ["Plural" ,"Person3" ,"Common" ,"á-baariŋ-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix4-baarin-ImperfectNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix4",
+      "lexeme": "baarin",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"húú-baariŋ-o"],
+      ["Singular" ,"Person2" ,"Common" ,"húú-baareŋ-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"húú-baariŋ-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"húú-baarin-no"],
+      ["Plural" ,"Person1" ,"Common" ,"húú-baarin-no"],
+      ["Plural" ,"Person2" ,"Common" ,"húú-baarin-ni"],
+      ["Plural" ,"Person3" ,"Common" ,"húú-baariŋ-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix4-baarin-PerfectAffirmative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix4",
+      "lexeme": "baarin",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-baariŋ-ə"],
+      ["Singular" ,"Person2" ,"Common" ,"á-baarin-nə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-baariŋ-ə"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-baarin-nə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-baarin-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-baarin-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"á-baariŋ-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffix4-baarin-PerfectNegative",
+    "note": "H82s",
+    "common": {
+      "conjClass": "Suffix4",
+      "lexeme": "baarin",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an má-baariŋ-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad má-baariŋ-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us má-baariŋ-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii má-baariŋ-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un má-baariŋ-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado má-baariŋ-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo má-baariŋ-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-baarin-AffirmativeHabitual",
+    "note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
+    "common": {
+      "aspect": "Habitual",
+      "conjClass": "SuffixClass",
+      "lexeme": "baarin",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-baariŋ-ši-i"],
+      ["Singular" ,"Person2" ,"Common" ,"á-baariŋ-še-d’ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-baariŋ-ši-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-baariŋ-ši-d’ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-baariŋ-ši-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-baariŋ-ši-d’e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-baariŋ-ši-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kariy-AffirmativeHabitual",
+    "note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
+    "common": {
+      "aspect": "Habitual",
+      "conjClass": "SuffixClass",
+      "lexeme": "kariy",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-karíš-ši-i"],
+      ["Singular" ,"Person2" ,"Common" ,"á-karíš-še-d’ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-karíš-ši-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-karíš-ši-d’ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-karíš-ši-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-karíš-ši-d’ə"],
+      ["Plural" ,"Person3" ,"Common" ,"á-karíš-ši-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kas-ImperfectSubjunctivepdgmLexAffirmative",
+    "note": "H82s2.15.5",
+    "common": {
+      "conjClass": "SuffixClass",
+      "lexeme": "kas",
+      "mood": "SubjunctivepdgmLex",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kas-óò"],
+      ["Singular" ,"Person2" ,"Common" ,"kay-ttóò"],
+      ["Singular" ,"Person3" ,"Masc" ,"kas-óò"],
+      ["Singular" ,"Person3" ,"Fem" ,"kay-ttóò"],
+      ["Plural" ,"Person1" ,"Common" ,"kay-nóò"],
+      ["Plural" ,"Person2" ,"Common" ,"kay-ttéè"],
+      ["Plural" ,"Person3" ,"Common" ,"kas-éè"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kas-PerfectSubjunctivepdgmLexAffirmative",
+    "note": "H82s2.15.5",
+    "common": {
+      "conjClass": "SuffixClass",
+      "lexeme": "kas",
+      "mood": "SubjunctivepdgmLex",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kas-éè"],
+      ["Singular" ,"Person2" ,"Common" ,"kay-ttéè"],
+      ["Singular" ,"Person3" ,"Masc" ,"kas-éè"],
+      ["Singular" ,"Person3" ,"Fem" ,"kay-ttéè"],
+      ["Plural" ,"Person1" ,"Common" ,"kay-néè"],
+      ["Plural" ,"Person2" ,"Common" ,"kay-ttéè"],
+      ["Plural" ,"Person3" ,"Common" ,"kas-éè"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kas-PerfectSubjunctivepdgmLexNegative",
+    "note": "H82s2.15.5",
+    "common": {
+      "conjClass": "SuffixClass",
+      "lexeme": "kas",
+      "mood": "SubjunctivepdgmLex",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an á-kay-néè"],
+      ["Singular" ,"Person2" ,"Common" ,"ad á-kay-née "],
+      ["Singular" ,"Person3" ,"Masc" ,"us á-kay-née"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii á-kay-née"],
+      ["Plural" ,"Person1" ,"Common" ,"un á-kay-néè"],
+      ["Plural" ,"Person2" ,"Common" ,"̀ado á-kay-née"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo á-kay-née"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kor-AffirmativeHabitual",
+    "note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
+    "common": {
+      "aspect": "Habitual",
+      "conjClass": "SuffixClass",
+      "lexeme": "kor",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-kór-ši-i"],
+      ["Singular" ,"Person2" ,"Common" ,"á-kór-še-d’ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-kór-ši-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-kór-ši-d’ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-kór-ši-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-kór-ši-d’ə"],
+      ["Plural" ,"Person3" ,"Common" ,"á-kór-ši-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kor-ImperfectAffirmativeProgressive",
+    "note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
+    "common": {
+      "aspect": "Progressive",
+      "conjClass": "SuffixClass",
+      "lexeme": "kor",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kor-ów heey-a"],
+      ["Singular" ,"Person2" ,"Common" ,"kor-ów hees-sa"],
+      ["Singular" ,"Person3" ,"Masc" ,"kor-ów heey-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"kor-ów hees-sa"],
+      ["Plural" ,"Person1" ,"Common" ,"kor-ów heey-na"],
+      ["Plural" ,"Person2" ,"Common" ,"kor-ów hees-si"],
+      ["Plural" ,"Person3" ,"Common" ,"kor-ów heey-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kor-ImperfectNegativeProgressive",
+    "note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
+    "common": {
+      "aspect": "Progressive",
+      "conjClass": "SuffixClass",
+      "lexeme": "kor",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kor-ów húú-heeyo"],
+      ["Singular" ,"Person2" ,"Common" ,"kor-ów húú-hees-so"],
+      ["Singular" ,"Person3" ,"Masc" ,"kor-ów húú-heey-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"kor-ów húú-hees-so"],
+      ["Plural" ,"Person1" ,"Common" ,"kor-ów húú-heey-no"],
+      ["Plural" ,"Person2" ,"Common" ,"kor-ów húú-hees-si"],
+      ["Plural" ,"Person3" ,"Common" ,"kor-ów húú-heey-i"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kor-NegativeHabitual",
+    "note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
+    "common": {
+      "aspect": "Habitual",
+      "conjClass": "SuffixClass",
+      "lexeme": "kor",
+      "polarity": "Negative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an húú-kór-šin-nə"],
+      ["Singular" ,"Person2" ,"Common" ,"ad húú-kór-šin-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us húú-kór-šin-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii húú-kór-šin-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un húú-kór-šin-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado húú-kór-šin-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo húú-kór-šin-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kor-PerfectAffirmativeProgressive",
+    "note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
+    "common": {
+      "aspect": "Progressive",
+      "conjClass": "SuffixClass",
+      "lexeme": "kor",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"kor-ów heey"],
+      ["Singular" ,"Person2" ,"Common" ,"kor-ów hees-se"],
+      ["Singular" ,"Person3" ,"Masc" ,"kor-ów heey"],
+      ["Singular" ,"Person3" ,"Fem" ,"kor-ów hees-se"],
+      ["Plural" ,"Person1" ,"Common" ,"kor-ów heey-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"kor-ów hees-se"],
+      ["Plural" ,"Person3" ,"Common" ,"kor-ów heey-e"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-kor-PerfectNegativeProgressive",
+    "note": "H82s2.15.42.1 :: “The progressive consists of the verb in its infinitive form plus the auxiliary heey-.”",
+    "common": {
+      "aspect": "Progressive",
+      "conjClass": "SuffixClass",
+      "lexeme": "kor",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an kor-ów mé-heey-ne"],
+      ["Singular" ,"Person2" ,"Common" ,"ad kor-ów mé-heey-ne"],
+      ["Singular" ,"Person3" ,"Masc" ,"us kor-ów mé-heey-ne"],
+      ["Singular" ,"Person3" ,"Fem" ,"ii kor-ów mé-heey-ne"],
+      ["Plural" ,"Person1" ,"Common" ,"un kor-ów mé-heey-ne"],
+      ["Plural" ,"Person2" ,"Common" ,"ado kor-ów mé-heey-ne"],
+      ["Plural" ,"Person3" ,"Common" ,"iyo kor-ów mé-heey-ne"]
+    ]
+  },
+  {
+    "label": "boj-VerbSuffixClass-sood-AffirmativeHabitual",
+    "note": "H82s2.15.42.2 :: “There is no imperfect/perfect distinction in the habitual aspect.”",
+    "common": {
+      "aspect": "Habitual",
+      "conjClass": "SuffixClass",
+      "lexeme": "sood",
+      "polarity": "Affirmative",
+      "pos": "Verb"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"á-so’oš-ši-i"],
+      ["Singular" ,"Person2" ,"Common" ,"á-so’oš-še-d’ə"],
+      ["Singular" ,"Person3" ,"Masc" ,"á-so’oš-ši-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"á-so’oš-ši-d’ə"],
+      ["Plural" ,"Person1" ,"Common" ,"á-so’oš-ši-nə"],
+      ["Plural" ,"Person2" ,"Common" ,"á-so’oš-ši-d’e"],
+      ["Plural" ,"Person3" ,"Common" ,"á-so’oš-ši-e"]
+    ]
+  }
+]}
